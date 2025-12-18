@@ -14,8 +14,14 @@ Status: Luonnos
  
 | **Versio **| **Päivämäärä    **| **Tekijä**      |**Muutoskuvaus     **                           |
 |------------|-------------------|-----------------|------------------------------------------------|
-| 1.0        | 2025-12-17        |TAla & AnPekk    |                                                |
-
+| 0.1        | 2024-12-30        |AnPekk           | Luonnos vaihe                                  |
+| 0.2        | 2025-02-25        |AnPekk           |Tekstiosuuksia täydennetty                      |
+| 0.3        | 2025-05-30        |AnPekk           | Tekstiosuuksia täydennetty                     |
+| 0.4        | 2025-07-02        |AnPekk           | YIT, NCC ja Consoliksen kommentit huomioitu    |
+| 0.5        | 2025-09-12        |AnPekk           | Elementtityyppi-listausta päivitetty           |
+| 0.6        | 2025-10-22        |AnPekk           | Propertyjen nimet tarkistettu excelin mukaiseksi|
+| 0.7        | 2025-12-05        |AnPekk           | Pintakäsittely ja väribetonit-kentät muokattu  |
+| 1.0        | 2025-12-17        |AnPekk           | Github julkaisu                                |
 </details>
 
 <details> 
