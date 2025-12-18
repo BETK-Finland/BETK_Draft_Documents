@@ -44,6 +44,23 @@ Status: Luonnos
 | Arto Nieminen       | NCC Suomi Oy                   |
 </details>
 
+1. [Tausta](#1-tausta)
+2. [Soveltamisohjeen tarkoitus ja rajaukset](#2-soveltamisohjeen-tarkoitus-ja-rajaukset)
+3. [Rakentamiskohteen tietomallin tietosisällöt tarjousvaiheessa](#3-rakentamiskohteen-tietomallin-tietosisällöt-tarjousvaiheessa)
+   1. [Elementin tuotetiedot tarjousvaiheessa](#31-elementin-tuotetiedot-tarjousvaiheessa)
+      1. [Kokoonpanon tyyppi](#311-kokoonpanon-tyyppi)
+      2. [Elementtityyppi](#312-elementtityyppi)
+      3. [Raudoitus](#313-raudoitus)
+      4. [Pintakäsittely](#314-pintakäsittely)
+      5. [Vähähiilinen](#315-vähähiilinen)
+      6. [Tyyppielementti](#316-tyyppielementti)
+      7. [Työmaalla käännettävä elementti](#317-työmaalla-käännettävä-elementti)
+4. [Toimintaohjeita hankkeisiin](#5-toimintaohjeita-hankkeisiin)
+5. [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)
+6. [Viittaukset](#viittaukset)
+7. [Liite 1: Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa](#liite-1-esimerkkejä-raudoitustiedosta-betonielementti-tehtaan-tarjouslaskennassa)
+---
+
 ## 1 Tausta
 Tällä hetkellä rakennushankkeen tietomallit ovat yleinen osa hankkeen tarjouspyyntöjä ja niiden määrä- ja kustannuslaskentaa. Suunnittelijoiden tekemiä tietomalleja käyttävät ra-kennusliikkeet ja elementtitoimittajat mm. määrä- ja tarjouslaskennassa, hankkeen toteu-tuksen suunnittelussa ja aikatauluttamisessa jne. BEC2012-hankkeessa luodut vakioidut tietokentät, mallinnusohje ja mallinnustyökalut ovat alalla yleisesti käytössä.  BEC-ohjeistus ei kuitenkaan mahdollista koneluettavaa tiedonsiirtoa koska usea asia on BEC-ohjeistuksessa määritetty hankekohtaisesti sovittavaksi eikä tietokentille ole ohjeistettu sallittuja arvoja. Tiedot ovat saatavissa tietomalleista mutta edellyttää ihmisen taitoa lukea tietomallia ja samalla myös muita hankkeen suunnitelmadokumentteja. Esimerkkinä täl-laisesta käyttötapauksesta on esim. kuinka tunnistetaan tiililaattapintaiset SW-elementit hankkeen tietomallista ja muista elementeistä. Tällä hetkellä tunnistaminen ei onnistu au-tomaattisesti. Soveltamisohjeessa kuvattu ratkaisu elementtityyppien tunnistamiseen pohjautuu alalla yleisesti käytettyihin elementtityyppitunnuksiin, esim. V, R ja S jne.  Usein hankkeissa käytetään hankekohtaisesti sovittuna elementtityyppitunnuksessa myös pintakäsittelyä tai sijaintia tarkentavia numero- tai kirjainyhdistelyitä, kuten esim. V1-A. Nämä johtavat siihen, että elementtityyppejä ei voida tunnistaa koneluettavasti hankkeesta toiseen. 
 
