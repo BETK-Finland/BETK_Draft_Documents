@@ -720,9 +720,6 @@ Tieto työmaalla käännettävästä elementistä. Asennustyön hinnoittelua var
 </body>
 </html>
 
-## 4	Rakentamiskohteen informaatiomallin tuotetiedot
-Tähän toimitusketjun tuottamat tiedot jotka halutaan tuoda tietomalliin toteutusvaiheessa.   
-
 ## 5	Toimintaohjeita hankkeisiin  
 **Numerointi**   
 Tässä ohjeessa kuvattu elementtityyppien yksilöinti ja tunnistaminen ei vaikuta hankkeis-sa käytettyyn toteutusvaiheen elementtien numerointiin ja piirustusten nimeämiseen. Numerointi voidaan sopia hankekohtaisesti huomioiden mm. Tekla Strucrures-ohjelman numeroinnin ominaisuudet. Jos toteutusvaiheessa käytetään Tuoteyksilöinti ja -tunnistaminen ohjeessa [1] kuvattua tapaa elementtien yksilöintii ei ACN-numeron käytölle ole tarvetta.  
@@ -776,6 +773,4 @@ Lohko- ja kerrostiedosta erillinen ohje
 
 
 
-## Liite 1
-
-### Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa
+## Liite 1: Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa
