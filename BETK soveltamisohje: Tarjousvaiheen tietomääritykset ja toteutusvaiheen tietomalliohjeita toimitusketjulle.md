@@ -2,8 +2,8 @@
 
 **Tilauksesta suunniteltavat rakennustuotteet**  
 >Julkaisija: Rakennusteollisuus ry\
->Päivämäärä: 21.8.2025  
-Versio: 1.3  
+>Päivämäärä: 17.12.2025  
+Versio: 1.0
 Status: Luonnos
 
 
@@ -14,10 +14,8 @@ Status: Luonnos
  
 | **Versio **| **Päivämäärä    **| **Tekijä**      |**Muutoskuvaus     **                           |
 |------------|-------------------|-----------------|------------------------------------------------|
-| 0.1        | 2024-12-30        |TAla             | Asiakirjan luonnos                             |
-| 0.2        | 2025-02-25        |anpekk           | Tekstiosuuksia täydennetty                     |
-| 0.3        | 2025-01-09        |anpekk           | Tekstiosuuksia täydennetty                     |
-| 0.4        | 2025-06-17        |anpekk           | YIT, NCC ja Consoliksen kommentit huomioitu    |
+| 1.0        | 2025-12-17        |TAla & AnPekk    |                                                |
+
 </details>
 
 <details> 
