@@ -42,6 +42,7 @@ Status: Luonnos
 | Antti Taskinen      | Fira Oy                        |
 | Riku Laiho          | NCC Suomi Oy                   |
 | Arto Nieminen       | NCC Suomi Oy                   |
+| Paula Valkonen      | Suutarinen / SBS Betoni Oy     |
 </details>
 
 1. [Tausta](#1-tausta)
