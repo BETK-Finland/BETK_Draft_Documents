@@ -535,91 +535,84 @@ Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuore
      </tr>
     <tr>
       <td rowspan="9">(Enumerated options if selected)</td>
-      <td>01 Muottia vasten valettu pinta, harmaa</td>
+      <td>01 MUO-muottipinta</td>
     </tr>
        <tr>
-         <td>02 Valkoinen väribetonipinta</td>
+         <td>02 TIIP-Tiililaatta pinta (poltetut tiilet)</td>
          </tr>
       <tr>
-         <td>03 Tiililaattapinta (poltetut tiilet)</td>
+         <td>03 KALV-Valukalvon päälle valettu pesubetoni-pinta</td>
          </tr>
       <tr>
-         <td>04 Hienopesty pinta</td>
+         <td>04 MUK-Kuvioitua muottia vasten valettu pinta</td>
          </tr>
       <tr>
-         <td>05 Valukalvon päälle valettu pesubetonipinta</td>
+         <td>05 ER-Eristepinta</td>
          </tr>
       <tr>
-         <td>06 Musta väribetonipinta</td>
+         <td>06 SEM-Sementtiliiman poisto</td>
          </tr>
       <tr>
-         <td>07 Punainen väribetonipinta</td>
+         <td>07 PESH- Hienopesubetonipinta</td>
          </tr>
       <tr>
-         <td>08 Uritettu pinta</td>
-         </tr>
-      <tr>
-         <td>09 Muu pinta</td>
+         <td>08 MUU-Muu pinta</td>
          </tr>
       <tr>
       <td colspan="2">PK2</td>
       </tr>
-          <td rowspan="9">(Enumerated options if selected)</td>
-      <td>01 Muottia vasten valettu pinta, harmaa</td>
+             <tr>
+      <td rowspan="9">(Enumerated options if selected)</td>
+      <td>01 MUO-muottipinta</td>
     </tr>
        <tr>
-         <td>02 Valkoinen väribetonipinta</td>
+         <td>02 TIIP-Tiililaatta pinta (poltetut tiilet)</td>
          </tr>
       <tr>
-         <td>03 Tiililaattapinta (poltetut tiilet)</td>
+         <td>03 KALV-Valukalvon päälle valettu pesubetoni-pinta</td>
          </tr>
       <tr>
-         <td>04 Hienopesty pinta</td>
+         <td>04 MUK-Kuvioitua muottia vasten valettu pinta</td>
          </tr>
       <tr>
-         <td>05 Valukalvon päälle valettu pesubetonipinta</td>
+         <td>05 ER-Eristepinta</td>
          </tr>
       <tr>
-         <td>06 Musta väribetonipinta</td>
+         <td>06 SEM-Sementtiliiman poisto</td>
          </tr>
       <tr>
-         <td>07 Punainen väribetonipinta</td>
+         <td>07 PESH- Hienopesubetonipinta</td>
          </tr>
       <tr>
-         <td>08 Uritettu pinta</td>
+         <td>08 MUU-Muu pinta</td>
          </tr>
       <tr>
-         <td>09 Muu pinta</td>
-         </tr>
-       <tr>
       <td colspan="2">PK3 - 9 (jos tarvetta)</td>
-      </tr>
-          <td rowspan="9">(Enumerated options if selected)</td>
-      <td>01 Muottia vasten valettu pinta, harmaa</td>
+       </tr>
+          <tr>
+      <td rowspan="9">(Enumerated options if selected)</td>
+      <td>01 MUO-muottipinta</td>
     </tr>
        <tr>
-         <td>02 Valkoinen väribetonipinta</td>
+         <td>02 TIIP-Tiililaatta pinta (poltetut tiilet)</td>
          </tr>
       <tr>
-         <td>03 Tiililaattapinta (poltetut tiilet)</td>
+         <td>03 KALV-Valukalvon päälle valettu pesubetoni-pinta</td>
          </tr>
       <tr>
-         <td>04 Hienopesty pinta</td>
+         <td>04 MUK-Kuvioitua muottia vasten valettu pinta</td>
          </tr>
       <tr>
-         <td>05 Valukalvon päälle valettu pesubetonipinta</td>
+         <td>05 ER-Eristepinta</td>
          </tr>
       <tr>
-         <td>06 Musta väribetonipinta</td>
+         <td>06 SEM-Sementtiliiman poisto</td>
          </tr>
       <tr>
-         <td>07 Punainen väribetonipinta</td>
+         <td>07 PESH- Hienopesubetonipinta</td>
          </tr>
       <tr>
-         <td>08 Uritettu pinta</td>
-         </tr>
-      <tr>
-         <td>09 Muu pinta</td>
+         <td>08 MUU-Muu pinta</td>
          </tr>
     </tbody>
   </table>
