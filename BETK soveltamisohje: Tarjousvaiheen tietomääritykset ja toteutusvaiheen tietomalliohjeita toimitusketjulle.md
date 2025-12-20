@@ -56,10 +56,10 @@ Status: Luonnos
       3.1.5. [Vähähiilinen](#315-vähähiilinen)<br>
       3.1.6. [Tyyppielementti](#316-tyyppielementti)<br>
       3.1.7. [Työmaalla käännettävä elementti](#317-työmaalla-käännettävä-elementti)<br>
-5. [Toimintaohjeita hankkeisiin](#5-toimintaohjeita-hankkeisiin)
-6. [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)
-7. [Viittaukset](#viittaukset)
-8. [Liite 1: Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa](#liite-1-esimerkkejä-raudoitustiedosta-betonielementti-tehtaan-tarjouslaskennassa)
+4. [Toimintaohjeita hankkeisiin](#4-toimintaohjeita-hankkeisiin)
+5. [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)
+6. [Viittaukset](#viittaukset)
+7. [Liite 1: Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa](#liite-1-esimerkkejä-raudoitustiedosta-betonielementti-tehtaan-tarjouslaskennassa)
 ---
 
 ## 1 Tausta
