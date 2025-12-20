@@ -783,6 +783,7 @@ Lohko- ja kerrostiedosta erillinen ohje
 </table>
 </html>
 
+## Liite 1: Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa
 
 ## Viittaukset
 **[1]** GS1 (2022), Recommendation for the use of EPC and ISO RFID symbols   
@@ -791,4 +792,4 @@ Lohko- ja kerrostiedosta erillinen ohje
 
 
 
-## Liite 1: Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa
+
