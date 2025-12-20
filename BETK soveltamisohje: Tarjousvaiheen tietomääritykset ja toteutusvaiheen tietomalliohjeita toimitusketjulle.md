@@ -620,10 +620,45 @@ Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuore
 </body>
 </html>
 
-#### 3.1.5 Vähähiilinen
+#### 3.1.5 Väribetoni
+
+Väribetoni-kenttään merkitään väribetonin väri.
+
+<html>
+<body>
+  <table>
+     <thead>
+      <tr>
+        <th scope="row">Tietosisältötarve</th>
+        <td colspan="2">VÄRIBETONI</td>
+      </tr>
+      <tr>
+        <th scope="row">Rajaukset</th>
+        <td colspan="2">–</td>
+      </tr>
+      <tr>
+        <th scope="row">PropertySet</th>
+        <td colspan="2">BETK-Hankinta</td>
+      </tr>
+      <tr>
+        <th scope="row">Property</th>
+        <td colspan="2">Väribetoni</td>
+      </tr>
+          <th rowspan="9">Sallitut arvot<br>(String)</th>
+      <td>01 Harmaa, värjätty</td>
+      <td>02 MUS-Musta</td>
+      <td>03 VAL-Valkoinen</td>
+      <td>04 PUN-Punainen</td>
+      <td>05 SIN-Sininen</td>
+      <td>06 RUS-Ruskea</td>
+      <td>07 VIH-Vihreä</td>
+      <td>05 SIN-Sininen</td>
+      <td>08 KEL-Keltainen</td>
+      <td>Muu</td>      
+                        
 
 #### 3.1.6 Vähähiilinen
-Vähähiilinen-tiedon avulla mahdollista erotella tarjousvaiheessa vähähiiliseksi ajattelut tuotteet Kyllä/Ei-valinnalla.
+Vähähiilinen-tiedon avulla mahdollista erotella tarjousvaiheessa vähähiiliseksi ajattelut tuotteet Kyllä/Ei-valinnalla. Toteutussuunnittelussa elementeille määritellään tarkemmat GWP-arvot.
 
 ###### Taulukko 5. 
 
@@ -660,7 +695,7 @@ Vähähiilinen-tiedon avulla mahdollista erotella tarjousvaiheessa vähähiilise
 </html>
 
 #### 3.1.7 Tyyppielementti
-Kyllä/-Ei-tieto elementistä, joka on varusteltu tietomallissa toteutusta vastaavaksi tyyp-pielementiksi.
+Kyllä/-Ei-tieto elementistä, joka on varusteltu tietomallissa toteutusta vastaavaksi tyyp-pielementiksi. Tyyppielementti sisältää raudoitukset ja valutarvikkeet mallinnettuna. Tarjousvaiheessa valutarvikkeita ei ole yleensä mallinnettuna, joten tarjousvaiheessa tieto tarjousvaiheessa huomioitavista valutarvikkeista on kerrottava muussa tarjousaineistossa.
 
 ###### Taulukko 6. 
 
@@ -682,14 +717,14 @@ Kyllä/-Ei-tieto elementistä, joka on varusteltu tietomallissa toteutusta vasta
       </tr>
       <tr>
         <th scope="row">Property</th>
-        <td colspan="2">Tyyppielementti</td>
+        <td colspan="2">Onko tyyppielementti</td>
       </tr>
           <th rowspan="2">Sallitut arvot<br>(Boolean)</th>
       <td colspan="2">Ei</td>
      </tr>
     <tr>
       <td>Kyllä</td>
-      <td>Description (piirustustiedosto)</td>
+      <td>Description</td>
     </tr>
     </tbody>
   </table>
@@ -735,14 +770,14 @@ Tieto työmaalla käännettävästä elementistä. Asennustyön hinnoittelua var
 
 ## 4	Toimintaohjeita hankkeisiin  
 **Numerointi**   
-Tässä ohjeessa kuvattu elementtityyppien yksilöinti ja tunnistaminen ei vaikuta hankkeissa käytettyyn toteutusvaiheen elementtien numerointiin ja piirustusten nimeämiseen. Numerointi voidaan sopia hankekohtaisesti huomioiden mm. Tekla Strucrures-ohjelman numeroinnin ominaisuudet. Jos toteutusvaiheessa käytetään Tuoteyksilöinti ja -tunnistaminen ohjeessa [1] kuvattua tapaa elementtien yksilöintii ei ACN-numeron käytölle ole tarvetta.  
+Tässä ohjeessa kuvattu elementtityyppien yksilöinti ja tunnistaminen ei vaikuta hankkeissa käytettyyn toteutusvaiheen elementtien numerointiin ja piirustusten nimeämiseen. Numerointi voidaan sopia hankekohtaisesti huomioiden mm. Tekla Strucrures-ohjelman numeroinnin ominaisuudet. Jos toteutusvaiheessa käytetään Tuoteyksilöinti ja -tunnistaminen ohjeessa [^3] kuvattua tapaa elementtien yksilöintii ei ACN-numeron käytölle ole tarvetta.  
 
 **Sijaintieto**  
 Lohko- ja kerrostiedosta erillinen ohje  
 
 **Revisiointi käytännöt**  
 
-**Toimintaohje elementtien revisiointiin**  
+Toteutusvaiheessa tapahtuva revisiointi ja tiedonsiirto käyttäen Peppol-sanomia tarken-netaan myöhemmin.
 
 
 ## Lyhenteet ja terminologia
@@ -781,9 +816,6 @@ Lohko- ja kerrostiedosta erillinen ohje
 ## Liite 1: Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa
 
 ## Viittaukset
-**[1]** GS1 (2022), Recommendation for the use of EPC and ISO RFID symbols   
-
-**[2]** ISO/IEC 29160:2020, Information technology — Radio frequency identification. Available: https://www.iso.org  
 
 
 
