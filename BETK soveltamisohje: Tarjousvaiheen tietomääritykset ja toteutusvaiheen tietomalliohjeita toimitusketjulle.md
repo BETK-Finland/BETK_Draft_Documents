@@ -932,6 +932,111 @@ Toteutusvaiheessa tapahtuva revisiointi ja tiedonsiirto käyttäen Peppol-sanomi
   </tbody>
 </table>
 
+```
+rakennetyyppi: "V"
+kuvaus: "Betonirakenteiden paksuudet, lujuudet ja raudoitukset kerrosluvun mukaan"
+
+kerrokset:
+
+  1.krs_20%:
+    paksuus_mm: 250
+    betonilujuus: C35/45
+    paatera: "#10-k200 MP"
+    lisaraudoitus_vaaka: null
+    haat_elementti: T10-k200
+    reunaraudoitus_ymp: 2T12
+    pilariosat:
+      pt: null
+      uh: null
+    palkkiosat:
+      pt: "2+2T16"
+      uh: "T10-k200"
+
+  2.krs_50%:
+    paksuus_mm: "200 / 240 / 250"
+    betonilujuus: C35/45
+    paatera: "#10-k150 MP"
+    lisaraudoitus_vaaka: "4+4T16 (VSP)"
+    haat_elementti: T10-k150
+    reunaraudoitus_ymp: 2T12
+    pilariosat:
+      pt: "4+4T16"
+      uh: "T10-k125"
+    palkkiosat:
+      pt: "2+2T20"
+      uh: "T10-k100"
+
+  3-4.krs:
+    paksuus_mm: "200 / 240 / 250"
+    betonilujuus: C35/45
+    paatera: "#10-k150 MP"
+    lisaraudoitus_vaaka: null
+    haat_elementti: T10-k150
+    reunaraudoitus_ymp: 2T12
+    pilariosat:
+      pt: "4+4T16"
+      uh: "T10-k150"
+    palkkiosat:
+      pt: "2+2T20"
+      uh: "T10-k100"
+
+  5.krs:
+    paksuus_mm: "200 / 220 / 250"
+    betonilujuus: C35/45
+    paatera: "#10-k150 MP"
+    lisaraudoitus_vaaka: null
+    haat_elementti: T10-k150
+    reunaraudoitus_ymp: 2T12
+    pilariosat:
+      pt: "4+4T16"
+      uh: "T10-k150"
+    palkkiosat:
+      pt: "2+2T16"
+      uh: "T10-k100"
+
+  6-9.krs:
+    paksuus_mm: "200 / 220 / 250"
+    betonilujuus: C35/45
+    paatera: "#8-k150 MP"
+    lisaraudoitus_vaaka: null
+    haat_elementti: T8-k150
+    reunaraudoitus_ymp: 2T12
+    pilariosat:
+      pt: "4+4T16"
+      uh: "T10-k150"
+    palkkiosat:
+      pt: "2+2T16"
+      uh: "T10-k100"
+
+  10-14.krs:
+    paksuus_mm: "200 / 220 / 250"
+    betonilujuus: C35/45
+    paatera: "ei verkoraud."
+    lisaraudoitus_vaaka: null
+    haat_elementti: null
+    reunaraudoitus_ymp: 2T10
+    pilariosat:
+      pt: "4+4T10"
+      uh: "T8-k200"
+    palkkiosat:
+      pt: "2+2T16"
+      uh: "T10-k150"
+
+  15-16.krs:
+    paksuus_mm: "200 / 220 / 250"
+    betonilujuus: C35/45
+    paatera: "ei verkoraud."
+    lisaraudoitus_vaaka: null
+    haat_elementti: null
+    reunaraudoitus_ymp: 2T10
+    pilariosat:
+      pt: "2+2T10"
+      uh: "T8-k200"
+    palkkiosat:
+      pt: "2+2T12"
+      uh: "T10-k200"
+
+```
 
 ---
 
@@ -953,259 +1058,197 @@ Toteutusvaiheessa tapahtuva revisiointi ja tiedonsiirto käyttäen Peppol-sanomi
   <tbody>
     <tr>
       <td>Paksuus (SK), mm</td>
-      <td>–</td>
-      <td>250</td>
-      <td>250</td>
-      <td>200</td>
-      <td>200</td>
-      <td>180</td>
-      <td>180</td>
-      <td>180</td>
+      <td>–</td><td>250</td><td>250</td><td>200</td><td>200</td><td>180</td><td>180</td><td>180</td>
     </tr>
     <tr>
       <td>Paksuus (UK), mm</td>
-      <td>–</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0 / 135</td>
-      <td>0 / 135</td>
-      <td>0 / 135</td>
-      <td>0 / 135</td>
-      <td>135</td>
+      <td>–</td><td>0</td><td>0</td><td>0 / 135</td><td>0 / 135</td><td>0 / 135</td><td>0 / 135</td><td>135</td>
     </tr>
     <tr>
       <td>Bet. lujuus (SK)</td>
-      <td>–</td>
-      <td>C35/45</td>
-      <td>C35/45</td>
-      <td>C35/45</td>
-      <td>C35/45</td>
-      <td>C35/45</td>
-      <td>C35/45</td>
-      <td>C35/45</td>
+      <td>–</td><td>C35/45</td><td>C35/45</td><td>C35/45</td><td>C35/45</td><td>C35/45</td><td>C35/45</td><td>C35/45</td>
     </tr>
     <tr>
       <td>Bet. lujuus (UK)</td>
-      <td>–</td>
-      <td>–</td>
-      <td>–</td>
-      <td>C30/37 säänkest.</td>
-      <td>C30/37 säänkest.</td>
-      <td>C30/37 säänkest.</td>
-      <td>C30/37 säänkest.</td>
-      <td>C30/37 säänkest.</td>
+      <td>–</td><td>–</td><td>–</td><td>C30/37 säänkest.</td><td>C30/37 säänkest.</td><td>C30/37 säänkest.</td><td>C30/37 säänkest.</td><td>C30/37 säänkest.</td>
     </tr>
     <tr>
       <td>Reunaraudoitus ymp. (SK)</td>
-      <td>–</td>
-      <td>2T12</td>
-      <td>2T12</td>
-      <td>2T12</td>
-      <td>2T12</td>
-      <td>2T12</td>
-      <td>2T10</td>
-      <td>2T12</td>
+      <td>–</td><td>2T12</td><td>2T12</td><td>2T12</td><td>2T12</td><td>2T12</td><td>2T10</td><td>2T12</td>
     </tr>
     <tr>
       <td>Reunaraudoitus ymp. (UK)</td>
-      <td>–</td>
-      <td>–</td>
-      <td>–</td>
-      <td>1E7</td>
-      <td>1E7</td>
-      <td>1E7</td>
-      <td>1E7</td>
-      <td>1E7</td>
+      <td>–</td><td>–</td><td>–</td><td>1E7</td><td>1E7</td><td>1E7</td><td>1E7</td><td>1E7</td>
     </tr>
     <tr>
       <td>Pääteräs (SK)</td>
-      <td>–</td>
-      <td>#10-K150 MP</td>
-      <td>#10-K150 MP</td>
-      <td>#8-K150 MP</td>
-      <td>#8-K150 MP</td>
-      <td>#8-K200 MP (50%)</td>
-      <td>#8-K200 MP</td>
-      <td>#8-K200 MP</td>
+      <td>–</td><td>#10-K150 MP</td><td>#10-K150 MP</td><td>#8-K150 MP</td><td>#8-K150 MP</td><td>#8-K200 MP (50%)</td><td>#8-K200 MP</td><td>#8-K200 MP</td>
     </tr>
     <tr>
       <td>Pääteräs (UK)</td>
-      <td>–</td>
-      <td>–</td>
-      <td>–</td>
-      <td>#E5-150</td>
-      <td>#E5-150</td>
-      <td>#E5-150</td>
-      <td>#E5-150</td>
-      <td>#E5-150</td>
+      <td>–</td><td>–</td><td>–</td><td>#E5-150</td><td>#E5-150</td><td>#E5-150</td><td>#E5-150</td><td>#E5-150</td>
     </tr>
     <tr>
       <td>Haat elem. ymp.</td>
-      <td>–</td>
-      <td>T10-K150</td>
-      <td>T10-K150</td>
-      <td>T8-K150</td>
-      <td>T8-K150</td>
-      <td>T8-K200</td>
-      <td>–</td>
-      <td>T8-K200</td>
+      <td>–</td><td>T10-K150</td><td>T10-K150</td><td>T8-K150</td><td>T8-K150</td><td>T8-K200</td><td>–</td><td>T8-K200</td>
     </tr>
     <tr>
       <td>Pilariosat &gt;980 mm (PT)</td>
-      <td>–</td>
-      <td>2×8T20</td>
-      <td>2×8T16</td>
-      <td>2×6T20</td>
-      <td>2×6T16</td>
-      <td>2×6T12</td>
-      <td>2×4T10</td>
-      <td>–</td>
+      <td>–</td><td>2×8T20</td><td>2×8T16</td><td>2×6T20</td><td>2×6T16</td><td>2×6T12</td><td>2×4T10</td><td>–</td>
     </tr>
     <tr>
       <td>Pilariosat &gt;980 mm (UH)</td>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <td>–</td><td>T10-K150</td><td>T10-K150</td><td>T8-K150</td><td>T8-K150</td><td>T8-K150</td><td>T8-K150</td><td>–</td>
+    </tr>
+    <tr>
+      <td>Palkkiosat, ikkuna – yläosa (PT)</td>
+      <td>–</td><td>2×2T20</td><td>2×2T16</td><td>2×2T16</td><td>2×2T16</td><td>2×2T16</td><td>2×2T12</td><td>–</td>
+    </tr>
+    <tr>
+      <td>Palkkiosat, ikkuna – yläosa (UH)</td>
+      <td>–</td><td>T10-K100</td><td>T10-K100</td><td>T10-K100</td><td>T10-K125</td><td>T10-K150</td><td>T10-K150</td><td>–</td>
+    </tr>
+    <tr>
+      <td>Palkkiosat, ikkuna – alaosa (PT)</td>
+      <td>–</td><td>2×2T16</td><td>2×2T16</td><td>2×2T16</td><td>2×2T16</td><td>2×2T16</td><td>2×2T12</td><td>–</td>
+    </tr>
+    <tr>
+      <td>Palkkiosat, ikkuna – alaosa (UH)</td>
+      <td>–</td><td>T10-K150</td><td>T10-K200</td><td>T10-K200</td><td>T10-K200</td><td>T10-K200</td><td>T10-K200</td><td>–</td>
+    </tr>
+  </tbody>
+</table>
 
 ```
-rakennetyyppi: S, SK (ei parv)
-kuvaus: Betonirakenteiden paksuudet, lujuudet ja raudoitukset kerrosluvun mukaan
+rakennetyyppi: "S, SK (ei parv)"
+kuvaus: "Betonirakenteiden paksuudet, lujuudet ja raudoitukset kerrosluvun mukaan"
 
 kerrokset:
+
   1.krs:
-    paksuus_sk_mm: null
-    paksuus_uk_mm: null
-    betonilujuus_sk: null
-    betonilujuus_uk: null
-    reunaraudoitus_sk: null
-    reunaraudoitus_uk: null
-    paatera_sk: null
-    paatera_uk: null
+    paksuus:
+      sk_mm: null
+      uk_mm: null
+    betonilujuus:
+      sk: null
+      uk: null
+    reunaraudoitus:
+      sk: null
+      uk: null
+    paatera:
+      sk: null
+      uk: null
     haat_elementti: null
-    pilarit_yli_980mm: null
-    palkit_ylapohja: null
-    palkit_ikkuna: null
-    ylaosa: null
-    alaosa: null
+    pilariosat_yli_980mm:
+      pt: null
+      uh: null
+    palkkiosat_ikkuna:
+      ylaosa:
+        pt: null
+        uh: null
+      alaosa:
+        pt: null
+        uh: null
 
   2.krs:
-    paksuus_sk_mm: 250
-    paksuus_uk_mm: 0
-    betonilujuus_sk: C35/45
-    betonilujuus_uk: null
-    reunaraudoitus_sk: 2T12
-    reunaraudoitus_uk: null
-    paatera_sk: "#10-K150 MP"
-    paatera_uk: null
+    paksuus:
+      sk_mm: 250
+      uk_mm: 0
+    betonilujuus:
+      sk: C35/45
+      uk: null
+    reunaraudoitus:
+      sk: 2T12
+      uk: null
+    paatera:
+      sk: "#10-K150 MP"
+      uk: null
     haat_elementti: T10-K150
-    pilarit_yli_980mm: 2x8T20
-    palkit_ylapohja: T10-K150
-    palkit_ikkuna: 2x2T20
-    ylaosa: T10K100
-    alaosa: T10K150
+    pilariosat_yli_980mm:
+      pt: "2x8T20"
+      uh: "T10-K150"
+    palkkiosat_ikkuna:
+      ylaosa:
+        pt: "2x2T20"
+        uh: "T10-K100"
+      alaosa:
+        pt: "2x2T16"
+        uh: "T10-K150"
 
   3-4.krs:
-    paksuus_sk_mm: 250
-    paksuus_uk_mm: 0
-    betonilujuus_sk: C35/45
-    betonilujuus_uk: null
-    reunaraudoitus_sk: 2T12
-    reunaraudoitus_uk: null
-    paatera_sk: "#10-K150 MP"
-    paatera_uk: null
+    paksuus:
+      sk_mm: 250
+      uk_mm: 0
+    betonilujuus:
+      sk: C35/45
+      uk: null
+    reunaraudoitus:
+      sk: 2T12
+      uk: null
+    paatera:
+      sk: "#10-K150 MP"
+      uk: null
     haat_elementti: T10-K150
-    pilarit_yli_980mm: 2x8T16
-    palkit_ylapohja: T10-K150
-    palkit_ikkuna: 2x2T16
-    ylaosa: T10K100
-    alaosa: T10K200
+    pilariosat_yli_980mm:
+      pt: "2x8T16"
+      uh: "T10-K150"
+    palkkiosat_ikkuna:
+      ylaosa:
+        pt: "2x2T16"
+        uh: "T10-K100"
+      alaosa:
+        pt: "2x2T16"
+        uh: "T10-K200"
 
   5.krs:
-    paksuus_sk_mm: 200
-    paksuus_uk_mm: "0/135"
-    betonilujuus_sk: C35/45
-    betonilujuus_uk: "C30/37 säänkest."
-    reunaraudoitus_sk: 2T12
-    reunaraudoitus_uk: 1E7
-    paatera_sk: "#8-K150 MP"
-    paatera_uk: "#E5-150"
+    paksuus:
+      sk_mm: 200
+      uk_mm: "0/135"
+    betonilujuus:
+      sk: C35/45
+      uk: "C30/37 säänkest."
+    reunaraudoitus:
+      sk: 2T12
+      uk: 1E7
+    paatera:
+      sk: "#8-K150 MP"
+      uk: "#E5-150"
     haat_elementti: T8-K150
-    pilarit_yli_980mm: 2x6T20
-    palkit_ylapohja: T8-K150
-    palkit_ikkuna: 2x2T16
-    ylaosa: T10K100
-    alaosa: T10K200
+    pilariosat_yli_980mm:
+      pt: "2x6T20"
+      uh: "T8-K150"
+    palkkiosat_ikkuna:
+      ylaosa:
+        pt: "2x2T16"
+        uh: "T10-K100"
+      alaosa:
+        pt: "2x2T16"
+        uh: "T10-K200"
 
   6-9.krs:
-    paksuus_sk_mm: 200
-    paksuus_uk_mm: "0/135"
-    betonilujuus_sk: C35/45
-    betonilujuus_uk: "C30/37 säänkest."
-    reunaraudoitus_sk: 2T12
-    reunaraudoitus_uk: 1E7
-    paatera_sk: "#8-K150 MP"
-    paatera_uk: "#E5-150"
+    paksuus:
+      sk_mm: 200
+      uk_mm: "0/135"
+    betonilujuus:
+      sk: C35/45
+      uk: "C30/37 säänkest."
+    reunaraudoitus:
+      sk: 2T12
+      uk: 1E7
+    paatera:
+      sk: "#8-K150 MP"
+      uk: "#E5-150"
     haat_elementti: T8-K150
-    pilarit_yli_980mm: 2x6T16
-    palkit_ylapohja: T8-K150
-    palkit_ikkuna: 2x2T16
-    ylaosa: T10K125
-    alaosa: T10K200
+    pilariosat_yli_980mm:
+      pt: "2x6T16"
+      uh: "T8-K150"
+    palkkiosat_ikkuna:
+      ylaosa:
+        pt: "2x2T16"
+        uh: "T10-K125"
+      alaosa:
+        pt: "2x2T16"
 
-  10-14.krs:
-    paksuus_sk_mm: 180
-    paksuus_uk_mm: "0/135"
-    betonilujuus_sk: C35/45
-    betonilujuus_uk: "C30/37 säänkest."
-    reunaraudoitus_sk: 2T12
-    reunaraudoitus_uk: 1E7
-    paatera_sk: "#8-K200 MP (50%)"
-    paatera_uk: "#E5-150"
-    haat_elementti: T8-K200
-    pilarit_yli_980mm: 2x6T12
-    palkit_ylapohja: T8-K150
-    palkit_ikkuna: 2x2T16
-    ylaosa: T10K150
-    alaosa: T10K200
-
-  15-16.krs:
-    paksuus_sk_mm: 180
-    paksuus_uk_mm: "0/135"
-    betonilujuus_sk: C35/45
-    betonilujuus_uk: "C30/37 säänkest."
-    reunaraudoitus_sk: 2T10
-    reunaraudoitus_uk: 1E7
-    paatera_sk: "#8-K200 MP"
-    paatera_uk: "#E5-150"
-    haat_elementti: null
-    pilarit_yli_980mm: 2x4T10
-    palkit_ylapohja: T8-K150
-    palkit_ikkuna: 2x2T12
-    ylaosa: T10K150
-    alaosa: T10K200
-
-  vesikatto:
-    paksuus_sk_mm: 180
-    paksuus_uk_mm: 135
-    betonilujuus_sk: C35/45
-    betonilujuus_uk: "C30/37 säänkest."
-    reunaraudoitus_sk: 2T12
-    reunaraudoitus_uk: 1E7
-    paatera_sk: "#8-K200 MP"
-    paatera_uk: "#E5-150"
-    haat_elementti: T8-K200
 
 ```
 
