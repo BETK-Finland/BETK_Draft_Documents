@@ -791,7 +791,7 @@ Toteutusvaiheessa tapahtuva revisiointi ja tiedonsiirto käyttäen Peppol-sanomi
         </tr>
         <tr>
            <td>BIM</td>
-          <td>Rakennuskohteen tietomalli tai tietomallinnus, lyhenne englanninkielisestä käsitteestä Building Information Modeling <sup>[1]</sup></td>
+          <td>Rakennuskohteen tietomalli tai tietomallinnus, lyhenne englanninkielisestä käsitteestä Building Information Modeling.</td>
         </tr>
         <tr>
           <td>IFC</td>
