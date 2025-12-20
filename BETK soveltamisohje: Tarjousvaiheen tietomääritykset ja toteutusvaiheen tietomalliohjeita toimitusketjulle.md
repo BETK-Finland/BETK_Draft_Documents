@@ -1036,6 +1036,7 @@ kerrokset:
       pt: "2+2T12"
       uh: "T10-k200"
 
+
 ```
 
 ---
@@ -1248,6 +1249,73 @@ kerrokset:
         uh: "T10-K125"
       alaosa:
         pt: "2x2T16"
+        uh: "T10-K200"
+
+  10-14.krs:
+    paksuus:
+      sk_mm: 180
+      uk_mm: "0/135"
+    betonilujuus:
+      sk: C35/45
+      uk: "C30/37 säänkest."
+    reunaraudoitus:
+      sk: 2T12
+      uk: 1E7
+    paatera:
+      sk: "#8-K200 MP (50%)"
+      uk: "#E5-150"
+    haat_elementti: T8-K200
+    pilariosat_yli_980mm:
+      pt: "2x6T12"
+      uh: "T8-K150"
+    palkkiosat_ikkuna:
+      ylaosa:
+        pt: "2x2T16"
+        uh: "T10-K150"
+      alaosa:
+        pt: "2x2T16"
+        uh: "T10-K200"
+
+  15-16.krs:
+    paksuus:
+      sk_mm: 180
+      uk_mm: "0/135"
+    betonilujuus:
+      sk: C35/45
+      uk: "C30/37 säänkest."
+    reunaraudoitus:
+      sk: 2T10
+      uk: 1E7
+    paatera:
+      sk: "#8-K200 MP"
+      uk: "#E5-150"
+    haat_elementti: null
+    pilariosat_yli_980mm:
+      pt: "2x4T10"
+      uh: "T8-K150"
+    palkkiosat_ikkuna:
+      ylaosa:
+        pt: "2x2T12"
+        uh: "T10-K150"
+      alaosa:
+        pt: "2x2T12"
+        uh: "T10-K200"
+
+  vesikatto:
+    paksuus:
+      sk_mm: 180
+      uk_mm: 135
+    betonilujuus:
+      sk: C35/45
+      uk: "C30/37 säänkest."
+    reunaraudoitus:
+      sk: 2T12
+      uk: 1E7
+    paatera:
+      sk: "#8-K200 MP"
+      uk: "#E5-150"
+    haat_elementti: T8-K200
+
 
 
 ```
