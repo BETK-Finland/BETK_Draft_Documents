@@ -861,7 +861,7 @@ Toteutusvaiheessa tapahtuva revisiointi ja tiedonsiirto käyttäen Peppol-sanomi
     </tr>
     <tr>
       <td>Lisäraudoitus, vaaka</td>
-      <td>4+4T16 (VSP)</td>
+      <td>-</td>
       <td>4+4T16 (VSP)</td>
       <td>–</td>
       <td>–</td>
