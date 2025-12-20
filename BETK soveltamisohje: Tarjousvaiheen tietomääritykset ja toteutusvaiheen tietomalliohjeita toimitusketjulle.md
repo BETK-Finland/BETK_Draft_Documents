@@ -933,6 +933,152 @@ Toteutusvaiheessa tapahtuva revisiointi ja tiedonsiirto käyttäen Peppol-sanomi
 </table>
 
 
+---
+
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>S, SK (ei parv)</th>
+      <th>1.krs</th>
+      <th>2.krs</th>
+      <th>3–4.krs</th>
+      <th>5.krs</th>
+      <th>6–9.krs</th>
+      <th>10–14.krs</th>
+      <th>15–16.krs</th>
+      <th>Vesikatto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Paksuus (SK), mm</td>
+      <td>–</td>
+      <td>250</td>
+      <td>250</td>
+      <td>200</td>
+      <td>200</td>
+      <td>180</td>
+      <td>180</td>
+      <td>180</td>
+    </tr>
+    <tr>
+      <td>Paksuus (UK), mm</td>
+      <td>–</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0 / 135</td>
+      <td>0 / 135</td>
+      <td>0 / 135</td>
+      <td>0 / 135</td>
+      <td>135</td>
+    </tr>
+    <tr>
+      <td>Bet. lujuus (SK)</td>
+      <td>–</td>
+      <td>C35/45</td>
+      <td>C35/45</td>
+      <td>C35/45</td>
+      <td>C35/45</td>
+      <td>C35/45</td>
+      <td>C35/45</td>
+      <td>C35/45</td>
+    </tr>
+    <tr>
+      <td>Bet. lujuus (UK)</td>
+      <td>–</td>
+      <td>–</td>
+      <td>–</td>
+      <td>C30/37 säänkest.</td>
+      <td>C30/37 säänkest.</td>
+      <td>C30/37 säänkest.</td>
+      <td>C30/37 säänkest.</td>
+      <td>C30/37 säänkest.</td>
+    </tr>
+    <tr>
+      <td>Reunaraudoitus ymp. (SK)</td>
+      <td>–</td>
+      <td>2T12</td>
+      <td>2T12</td>
+      <td>2T12</td>
+      <td>2T12</td>
+      <td>2T12</td>
+      <td>2T10</td>
+      <td>2T12</td>
+    </tr>
+    <tr>
+      <td>Reunaraudoitus ymp. (UK)</td>
+      <td>–</td>
+      <td>–</td>
+      <td>–</td>
+      <td>1E7</td>
+      <td>1E7</td>
+      <td>1E7</td>
+      <td>1E7</td>
+      <td>1E7</td>
+    </tr>
+    <tr>
+      <td>Pääteräs (SK)</td>
+      <td>–</td>
+      <td>#10-K150 MP</td>
+      <td>#10-K150 MP</td>
+      <td>#8-K150 MP</td>
+      <td>#8-K150 MP</td>
+      <td>#8-K200 MP (50%)</td>
+      <td>#8-K200 MP</td>
+      <td>#8-K200 MP</td>
+    </tr>
+    <tr>
+      <td>Pääteräs (UK)</td>
+      <td>–</td>
+      <td>–</td>
+      <td>–</td>
+      <td>#E5-150</td>
+      <td>#E5-150</td>
+      <td>#E5-150</td>
+      <td>#E5-150</td>
+      <td>#E5-150</td>
+    </tr>
+    <tr>
+      <td>Haat elem. ymp.</td>
+      <td>–</td>
+      <td>T10-K150</td>
+      <td>T10-K150</td>
+      <td>T8-K150</td>
+      <td>T8-K150</td>
+      <td>T8-K200</td>
+      <td>–</td>
+      <td>T8-K200</td>
+    </tr>
+    <tr>
+      <td>Pilariosat &gt;980 mm (PT)</td>
+      <td>–</td>
+      <td>2×8T20</td>
+      <td>2×8T16</td>
+      <td>2×6T20</td>
+      <td>2×6T16</td>
+      <td>2×6T12</td>
+      <td>2×4T10</td>
+      <td>–</td>
+    </tr>
+    <tr>
+      <td>Pilariosat &gt;980 mm (UH)</td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 rakennetyyppi: S, SK (ei parv)
 kuvaus: Betonirakenteiden paksuudet, lujuudet ja raudoitukset kerrosluvun mukaan
