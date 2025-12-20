@@ -172,262 +172,262 @@ Elementin tyyppi, kuvaus (Sokkelipalkki jne)
             <td>Anturaelementti</td>
         </tr>
         <tr>
-            <td>PH</td>
+            <td><code>PH</code></td>
             <td>Pilariholkkielementti</td>
         </tr>
       <tr>
-            <td>AN</td>
+            <td><code>AN</code></td>
             <td>Sokkelielementti (ei-kantava)</td>
         </tr>
      <tr>
-            <td>AS</td>
+            <td><code>AS</code></td>
             <td>Sokkelielementti (kantava)</td>
         </tr>
       <tr>
-            <td>AS</td>
+            <td><code>AS</code></td>
             <td>Sokkelielementti (kantava)</td>
         </tr>
       <tr>
-       <td>AK</td>
+       <td><code>AK</code></td>
        <td>Sokkelipalkki</td>
       </tr>
     <tr>
-     <td>AR</td>
+     <td><code>AR</code></td>
      <td>Sokkeliruutuelementti (maanpaine)</td>
     </tr>
     <tr>
-     <td>AV</td>
+     <td><code>AV</code></td>
      <td>Sokkelielementti (yksi kuori)</td>
     </tr>
     <tr>
-     <td>MP</td>
+     <td><code>MP</code></td>
      <td>Maanpaineseinäelementti</td>
     </tr>
     <tr>
-     <td>TKE</td>
+     <td><code>TKE</code></td>
      <td>Tukimuurielementti</td>
     </tr>
     <tr>
-     <td>MUU</td>
+     <td><code>MUU</code></td>
      <td>Muu perustuselementti</td>
     </tr>
     <tr>
-     <td>P</td>
+     <td><code>P</code></td>
      <td>Pilari</td>
     </tr>
     <tr>
-     <td>MUU</td>
+     <td><code>MUU</code></td>
      <td>Muu pilarielementti</td>
     </tr>
     <tr>
-     <td>V</td>
+     <td><code>V</code></td>
      <td>Väliseinä</td>
     </tr>
     <tr>
-     <td>VSP</td>
+     <td><code>VSP</code></td>
      <td>Väliseinä (seinämäinen palkki)</td>
     </tr>
     <tr>
-     <td>S</td>
+     <td><code>S</code></td>
      <td>Ruutuelementti (kantava)</td>
     </tr>
     <tr>
-     <td>R</td>
+     <td><code>R</code></td>
      <td>Ruutuelementti (ei-kantava)</td>
     </tr>
     <tr>
-     <td>SK</td>
+     <td><code>SK</code></td>
      <td>Sisäkuorielementti (kantava)</td>
     </tr>
     <tr>
-     <td>RK</td>
+     <td><code>RK</code></td>
      <td>Sisäkuorielementti (ei-kantava)</td>
     </tr>
     <tr>
-     <td>SKE</td>
+     <td><code>SKE</code></td>
      <td>Sisäkuorielementti (kantava, tehdaseriste)</td>
     </tr>
     <tr>
-     <td>RKE</td>
+     <td><code>RKE</code></td>
      <td>Sisäkuorielementti (ei kantava, tehdaseriste)</td>
     </tr>
     <tr>
-     <td>SKRO</td>
+     <td><code>SKRO</code></td>
      <td>Ohutrapattu elementti (kantava)</td>
     </tr>
     <tr>
-     <td>RKRO</td>
+     <td><code>RKRO</code></td>
      <td>Ohutrapattu elementti (ei-kantava)</td>
     </tr>
     <tr>
-     <td>SKRP</td>
+     <td><code>SKRP</code></td>
      <td>Paksurapattu elementti (kantava)</td>
     </tr>
     <tr>
-     <td>RKRP</td><td>Paksurapattu elementti (ei-kantava)</td>
+     <td><code>RKRP</code></td><td>Paksurapattu elementti (ei-kantava)</td>
     </tr>
     <tr>
-     <td>NK</td>
+     <td><code>NK</code></td>
      <td>Nauhaelementti (kantava)</td>
     </tr>
     <tr>
-     <td>N</td>
+     <td><code>N</code></td>
      <td>Nauhaelementti (ei-kantava)</td>
     </tr>
     <tr>
-     <td>KE</td>
+     <td><code>KE</code></td>
      <td>Kuorielementti</td>
     </tr>
     <tr>
-     <td>MUU</td>
+     <td><code>MUU</code></td>
      <td>Muu seinäelementti</td>
     </tr>
     <tr>
-     <td>K</td>
+     <td><code>K</code></td>
      <td>Palkkielementti (teräsbetoni)</td>
     </tr>
     <tr>
-     <td>I</td>
+     <td><code>I</code></td>
      <td>Jännebetonipalkki (I-profiili)</td>
     </tr>
     <tr>
-     <td>HI</td>
+     <td><code>HI</code></td>
      <td>Jännebetonipalkki (HI-profiili)</td>
     </tr>
     <tr>
-     <td>JK</td>
+     <td><code>JK</code></td>
      <td>Jännebetonipalkki (muut profiilit)</td>
     </tr>
     <tr>
-     <td>JR</td>
+     <td><code>JR</code></td>
      <td>Jäykistesauva</td>
     </tr>
     <tr>
-     <td>MUU</td>
+     <td><code>MUU</code></td>
      <td>Muu palkkielementti</td>
     </tr>
     <tr>
-     <td>L</td>
+     <td><code>L</code></td>
      <td>Laattaelementti (massiivilaatta, välipohja)</td>
     </tr>
     <tr>
-     <td>EL</td>
+     <td><code>EL</code></td>
      <td>Alapohjalaatta (massivilaatta, eristetty)</td>
     </tr>
     <tr>
-     <td>JL</td>
+     <td><code>JL</code></td>
      <td>Jännitetty laattaelementti</td>
     </tr>
     <tr>
-     <td>O</td>
+     <td><code>O</code></td>
      <td>Ontelolaatta</td>
     </tr>
     <tr>
-     <td>KL</td>
+     <td><code>KL</code></td>
      <td>Kuorilaatta</td>
     </tr>
     <tr>
-     <td>SL</td>
+     <td><code>SL</code></td>
      <td>Luja-Superlaatta</td>
     </tr>
     <tr>
-     <td>TT</td>
+     <td><code>TT</code></td>
      <td>TT-laatta</td>
     </tr>
     <tr>
-     <td>TEK</td>
+     <td><code>TEK</code></td>
      <td>TEK-laatta</td>
     </tr>
     <tr>
-     <td>STT</td>
+     <td><code>STT</code></td>
      <td>SuperTT-laatta</td>
     </tr>
     <tr>
-     <td>HTT</td>
+     <td><code>HTT</code></td>
      <td>HTT-laatta</td>
     </tr>
     <tr>
-     <td>RL</td>
+     <td><code>RL</code></td>
      <td>Ripalaatta</td>
     </tr>
     <tr>
-     <td>MUU</td>
+     <td><code>MUU</code></td>
      <td>Muu laattaelementti</td>
     </tr>
     <tr>
-     <td>C</td>
+     <td><code>C</code></td>
      <td>Parveke-elementti</td>
     </tr>
     <tr>
-     <td>CL</td>
+     <td><code>CL</code></td>
      <td>Parvekelaatta-elementti</td>
     </tr>
     <tr>
-     <td>CP</td>
+     <td><code>CP</code></td>
      <td>Parvekepilari</td>
     </tr>
     <tr>
-     <td>JCL</td>
+     <td><code>JCL</code></td>
      <td>Jännitetty parvekelaattaelementti</td>
     </tr>
     <tr>
-     <td>UCL</td>
+     <td><code>UCL</code></td>
      <td>Ulokeparvekelaatta</td>
     </tr>
     <tr>
-     <td>M</td>
+     <td><code>M</code></td>
      <td>Parvekepieli-elementti</td>
     </tr>
     <tr>
-     <td>Z</td>
+     <td><code>Z</code></td>
      <td>Parvekekaide-elementti</td>
     </tr>
     <tr>
-     <td>CX</td>
+     <td><code>CX</code></td>
      <td>Parvekekattoelementti</td>
     </tr>
     <tr>
-     <td>JCX</td>
+     <td><code>JCX</code></td>
      <td>Jännitetty parvekkeen kattoelementti</td>
     </tr>
     <tr>
-     <td>MUU</td>
+     <td><code>MUU</code></td>
      <td>Muu parveke-elementti</td>
     </tr>
     <tr>
-     <td>T</td>
+     <td><code>T</code></td>
      <td>Porraselementti</td>
     </tr>
     <tr>
-     <td>MUU</td>
+     <td><code>MUU</code></td>
      <td>Muu porraselementti</td>
     </tr>
     <tr>
-     <td>HK</td>
+     <td><code>HK</code></td>
      <td>Hissikuiluelementti</td>
     </tr>
     <tr>
-     <td>HKA</td>
+     <td><code>HKA</code></td>
      <td>Hissikuilun pohjaelementti</td>
     </tr>
     <tr>
-     <td>HKL</td>
+     <td><code>HKL</code></td>
      <td>Hissikuilun kattolaatta</td>
     </tr>
     <tr>
-     <td>HKY</td>
+     <td><code>HKY</code></td>
      <td>Hissikuilun yläpään elementti</td>
     </tr>
     <tr>
-     <td>MUU</td>
+     <td><code>MUU</code></td>
      <td>Muu hissikuilun elementti</td>
     </tr>
     <tr>
-     <td>H</td>
-     <td>Hormielementti</td>
+     <td><code>H</code></td>
+     <td>Hormielementti</code></td>
     </tr>
     <tr>
-     <td>MUU</td>
+     <td><code>MUU</code></td>
      <td>Muu erikoiselementti</td>
     </tr>
     <tr><td>Ei asetettu</td><td>Ei  asetettu</td></tr>
