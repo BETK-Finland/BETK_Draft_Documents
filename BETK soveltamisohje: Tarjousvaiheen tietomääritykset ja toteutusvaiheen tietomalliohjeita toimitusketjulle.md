@@ -47,19 +47,19 @@ Status: Luonnos
 
 1. [Tausta](#1-tausta)
 2. [Soveltamisohjeen tarkoitus ja rajaukset](#2-soveltamisohjeen-tarkoitus-ja-rajaukset)
-3. [Rakentamiskohteen tietomallin tietosisällöt tarjousvaiheessa](#3-rakentamiskohteen-tietomallin-tietosisällöt-tarjousvaiheessa)
-   1. [Elementin tuotetiedot tarjousvaiheessa](#31-elementin-tuotetiedot-tarjousvaiheessa)
-      1. [Kokoonpanon tyyppi](#311-kokoonpanon-tyyppi)
-      2. [Elementtityyppi](#312-elementtityyppi)
-      3. [Raudoitus](#313-raudoitus)
-      4. [Pintakäsittely](#314-pintakäsittely)
-      5. [Vähähiilinen](#315-vähähiilinen)
-      6. [Tyyppielementti](#316-tyyppielementti)
-      7. [Työmaalla käännettävä elementti](#317-työmaalla-käännettävä-elementti)
-4. [Toimintaohjeita hankkeisiin](#5-toimintaohjeita-hankkeisiin)
-5. [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)
-6. [Viittaukset](#viittaukset)
-7. [Liite 1: Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa](#liite-1-esimerkkejä-raudoitustiedosta-betonielementti-tehtaan-tarjouslaskennassa)
+3. [Rakentamiskohteen tietomallin tietosisällöt tarjousvaiheessa](#3-rakentamiskohteen-tietomallin-tietosisällöt-tarjousvaiheessa)<br>
+   3.1. [Elementin tuotetiedot tarjousvaiheessa](#31-elementin-tuotetiedot-tarjousvaiheessa)<br>
+      3.1.1. [Kokoonpanon tyyppi](#311-kokoonpanon-tyyppi)<br>
+      3.1.2. [Elementtityyppi](#312-elementtityyppi)<br>
+      3.1.3. [Raudoitus](#313-raudoitus)<br>
+      3.1.4. [Pintakäsittely](#314-pintakäsittely)<br>
+      3.1.5. [Vähähiilinen](#315-vähähiilinen)<br>
+      3.1.6. [Tyyppielementti](#316-tyyppielementti)<br>
+      3.1.7. [Työmaalla käännettävä elementti](#317-työmaalla-käännettävä-elementti)<br>
+5. [Toimintaohjeita hankkeisiin](#5-toimintaohjeita-hankkeisiin)
+6. [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)
+7. [Viittaukset](#viittaukset)
+8. [Liite 1: Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa](#liite-1-esimerkkejä-raudoitustiedosta-betonielementti-tehtaan-tarjouslaskennassa)
 ---
 
 ## 1 Tausta
@@ -738,7 +738,7 @@ Tieto työmaalla käännettävästä elementistä. Asennustyön hinnoittelua var
 </body>
 </html>
 
-## 5	Toimintaohjeita hankkeisiin  
+## 4	Toimintaohjeita hankkeisiin  
 **Numerointi**   
 Tässä ohjeessa kuvattu elementtityyppien yksilöinti ja tunnistaminen ei vaikuta hankkeis-sa käytettyyn toteutusvaiheen elementtien numerointiin ja piirustusten nimeämiseen. Numerointi voidaan sopia hankekohtaisesti huomioiden mm. Tekla Strucrures-ohjelman numeroinnin ominaisuudet. Jos toteutusvaiheessa käytetään Tuoteyksilöinti ja -tunnistaminen ohjeessa [1] kuvattua tapaa elementtien yksilöintii ei ACN-numeron käytölle ole tarvetta.  
 
