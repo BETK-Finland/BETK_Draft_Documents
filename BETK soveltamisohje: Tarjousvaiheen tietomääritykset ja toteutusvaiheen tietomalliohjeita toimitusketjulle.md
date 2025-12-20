@@ -57,9 +57,9 @@ Status: Luonnos
       3.1.6. [Tyyppielementti](#316-tyyppielementti)<br>
       3.1.7. [Työmaalla käännettävä elementti](#317-työmaalla-käännettävä-elementti)<br>
 4. [Toimintaohjeita hankkeisiin](#4toimintaohjeita-hankkeisiin)
-5. [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)
-6. [Viittaukset](#viittaukset)
-7. [Liite 1: Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa](#liite-1-esimerkkejä-raudoitustiedosta-betonielementti-tehtaan-tarjouslaskennassa)
+5. [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)<br>
+   [Liite 1: Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa](#liite-1-esimerkkejä-raudoitustiedosta-betonielementti-tehtaan-tarjouslaskennassa)<br>
+   [Viittaukset](#viittaukset)
 ---
 
 ## 1 Tausta
@@ -76,7 +76,7 @@ Tämä soveltamisohje on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toim
 •	Soveltamisohje GS1 EPCIS (tapahtumatieto) käytöstä [syksyllä tehdään] [3]
 
 •	Keskustelupaperi sijaintitiedoista rakennushankkeessa. [4]
-
+[^1]: moi
 
 ## 2 Soveltamisohjeen tarkoitus ja rajaukset
 Soveltamisohje keskittyy suunnittelijan tuottaman tietomallin sisällön vakiointiin tarjousvaiheessa. Samalla BEC2012-tietokenttien nimeämistä on tarkennettu ja IFC-malliin kirjoitettavia ominaisuuksia määritetty elementtityyppikohtaiseksi tiedonsiirron laadun parantamiseksi ja samalla on tietokenttien nimeämisessä pyritty huomioimaan mahdollisesti tulevaisuudessa kehitettävää muiden rakenneosien ja materiaalien tunnistamista ja vakiointia. Tiedonsiirron vakiointia on myös kehitetty lisäämällä sallittujen arvojen listauksia tietokenttiin joissa se mahdollista tehdä. Tietokentissä on huomioitu myös tietomallin rikastamista toteutusvaiheessa toimitusketjulta tulevilla tiedoilla.  Soveltamisohjetta täydentävät erillinen taulukko tietokentistä joissa mm. elementtien mittatiedot ja esimerkkitietomalli. Tätä soveltamisohjetta täydentää myös erillinen ohje elementtien yksilöinnistä toimitusketjussa  [1] ja esimerkki malli IFC-muodossa. Tätä soveltamisohjetta voidaan päivittää myöhemmin standardoinnin edetessä. Tämä soveltamisohje ei ota kantaa muuhun tarjouspyyntö aineistoon. 
