@@ -93,36 +93,6 @@ Tarjousvaiheessa tietomallissa käytettävät tietokentät elementtityyppien tun
 #### 3.1.1 Kokoonpanon tyyppi
 Betonielementtien erottamiseen tietomallin muista objekteista voi käyttää Kokoonpanon-tyyppi kenttää. 
 
-```
-tietosisalto:
-  nimi: KOKOONPANON TYYPPI
-  rajaukset: "-"
-  property_set: BETK
-  property: Tyyppielementti
-  sallitut_arvot:
-    - BETONIELEMENTTI
-    - PAIKALLAVALU
-    - PUUKOKOONPANO
-    - TERÄSKOKOONPANO
-    - EI ASETETTU
-
-# BETK – Tietosisältömäärittely
-# Kokoonpanon tyyppi
-
-# Tietosisältötarve: KOKOONPANON TYYPPI
-# PropertySet: BETK
-# Property: Tyyppielementti
-
-allowed_values = [
-  "BETONIELEMENTTI",
-  "PAIKALLAVALU",
-  "PUUKOKOONPANO",
-  "TERÄSKOKOONPANO",
-  "EI ASETETTU"
-]
-
-```
-
 ###### Taulukko 1.
 
 <html>
