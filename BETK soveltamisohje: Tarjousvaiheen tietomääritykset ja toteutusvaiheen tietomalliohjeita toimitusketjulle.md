@@ -101,33 +101,33 @@ Betonielementtien erottamiseen tietomallin muista objekteista voi käyttää kok
      <thead>
       <tr>
         <th scope="row">Tietosisältötarve</th>
-        <td>KOKOONPANON TYYPPI</td>
+        <td><code>KOKOONPANON TYYPPI</code></td>
       </tr>
       <tr>
         <th scope="row">Rajaukset</th>
-        <td>–</td>
+        <td><code>–</code></td>
       </tr>
       <tr>
         <th scope="row">PropertySet</th>
-        <td>BETK</td>
+        <td><code>BETK</code></td>
       </tr>
       <tr>
         <th scope="row">Property<br>Attribute</th>
-        <td>Tyyppielementti</td>
+        <td><code>Tyyppielementti</code></td>
       </tr>
           <th rowspan="5">Sallitut arvot</th>
-      <td>BETONIELEMENTTI</td>
+      <td><code>BETONIELEMENTTI</code></td>
      </tr>
     <tr>
-      <td>PAIKALLAVALU</td>
+      <td><code>PAIKALLAVALU</code></td>
      <tr>
-      <td>PUUKOKOONPANO</td>
+      <td><code>PUUKOKOONPANO</code></td>
       </tr>
       <tr>
-      <td>TERÄSKOKOONPANO</td>
+      <td><code>TERÄSKOKOONPANO</code></td>
        </tr>
       <tr>
-      <td>EI ASETETTU</td>
+      <td><code>EI ASETETTU</code></td>
     </tr>
     </tbody>
   </table>
