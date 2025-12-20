@@ -932,6 +932,9 @@ Toteutusvaiheessa tapahtuva revisiointi ja tiedonsiirto käyttäen Peppol-sanomi
   </tbody>
 </table>
 
+<details> 
+<Summary>Yaml versio</Summary>
+
 ```
 rakennetyyppi: "V"
 kuvaus: "Betonirakenteiden paksuudet, lujuudet ja raudoitukset kerrosluvun mukaan"
@@ -1038,6 +1041,7 @@ kerrokset:
 
 
 ```
+</details> 
 
 ---
 
@@ -1119,6 +1123,9 @@ kerrokset:
     </tr>
   </tbody>
 </table>
+
+<details> 
+<Summary>Yaml versio</Summary>
 
 ```
 rakennetyyppi: "S, SK (ei parv)"
@@ -1316,10 +1323,8 @@ kerrokset:
       uk: "#E5-150"
     haat_elementti: T8-K200
 
-
-
 ```
-
+</details> 
 
 ## Viittaukset
 
