@@ -464,10 +464,6 @@ Raudoitustietokentästä valitaan elementtityypin raudoitustyyppitieto. Descript
       <td>R1</td>
       <td>Description</td>
      </tr>
-    <tr>
-        <td>R1</td>
-      <td>Description</td>
-     </tr>
         <tr>
         <td>R2</td>
       <td>Description</td>
