@@ -815,6 +815,127 @@ Toteutusvaiheessa tapahtuva revisiointi ja tiedonsiirto käyttäen Peppol-sanomi
 
 ## Liite 1: Esimerkkejä raudoitustiedosta betonielementti tehtaan tarjouslaskennassa
 
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>V</th>
+      <th>1.krs 20%</th>
+      <th>2.krs 50%</th>
+      <th>3–4.krs</th>
+      <th>5.krs</th>
+      <th>6–9.krs</th>
+      <th>10–14.krs</th>
+      <th>15–16.krs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Paksuus (mm)</td>
+      <td>250</td>
+      <td>200 / 240 / 250</td>
+      <td>200 / 240 / 250</td>
+      <td>200 / 220 / 250</td>
+      <td>200 / 220 / 250</td>
+      <td>200 / 220 / 250</td>
+      <td>200 / 220 / 250</td>
+    </tr>
+    <tr>
+      <td>Bet. lujuus</td>
+      <td>C35/45</td>
+      <td>C35/45</td>
+      <td>C35/45</td>
+      <td>C35/45</td>
+      <td>C35/45</td>
+      <td>C35/45</td>
+      <td>C35/45</td>
+    </tr>
+    <tr>
+      <td>Pääteräs</td>
+      <td>#10-k200 MP</td>
+      <td>#10-k150 MP</td>
+      <td>#10-k150 MP</td>
+      <td>#10-k150 MP</td>
+      <td>#8-k150 MP</td>
+      <td>ei verkoraud.</td>
+      <td>ei verkoraud.</td>
+    </tr>
+    <tr>
+      <td>Lisäraudoitus, vaaka</td>
+      <td>4+4T16 (VSP)</td>
+      <td>4+4T16 (VSP)</td>
+      <td>–</td>
+      <td>–</td>
+      <td>–</td>
+      <td>–</td>
+      <td>–</td>
+    </tr>
+    <tr>
+      <td>Haat elem. ymp.</td>
+      <td>T10-k200</td>
+      <td>T10-k150</td>
+      <td>T10-k150</td>
+      <td>T10-k150</td>
+      <td>T8-k150</td>
+      <td>–</td>
+      <td>–</td>
+    </tr>
+    <tr>
+      <td>Reunaraud. ymp.</td>
+      <td>2T12</td>
+      <td>2T12</td>
+      <td>2T12</td>
+      <td>2T12</td>
+      <td>2T12</td>
+      <td>2T10</td>
+      <td>2T10</td>
+    </tr>
+    <tr>
+      <td>Pilariosat PT</td>
+      <td>–</td>
+      <td>4+4T16</td>
+      <td>4+4T16</td>
+      <td>4+4T16</td>
+      <td>4+4T16</td>
+      <td>4+4T10</td>
+      <td>2+2T10</td>
+    </tr>
+    <tr>
+      <td>Pilariosat UH</td>
+      <td>–</td>
+      <td>T10-k125</td>
+      <td>T10-k150</td>
+      <td>T10-k150</td>
+      <td>T10-k150</td>
+      <td>T8-k200</td>
+      <td>T8-k200</td>
+    </tr>
+    <tr>
+      <td>Palkkiosat PT</td>
+      <td>2+2T16</td>
+      <td>2+2T20</td>
+      <td>2+2T20</td>
+      <td>2+2T16</td>
+      <td>2+2T16</td>
+      <td>2+2T16</td>
+      <td>2+2T12</td>
+    </tr>
+    <tr>
+      <td>Palkkiosat UH</td>
+      <td>T10-k200</td>
+      <td>T10-k100</td>
+      <td>T10-k100</td>
+      <td>T10-k100</td>
+      <td>T10-k100</td>
+      <td>T10-k150</td>
+      <td>T10-k200</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
 ## Viittaukset
 
 
