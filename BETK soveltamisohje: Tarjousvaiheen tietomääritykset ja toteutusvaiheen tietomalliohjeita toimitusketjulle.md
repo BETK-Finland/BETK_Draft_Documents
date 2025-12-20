@@ -86,12 +86,12 @@ Tämä soveltamisohje on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toim
 Soveltamisohje keskittyy suunnittelijan tuottaman tietomallin sisällön vakiointiin tarjousvaiheessa. Samalla BEC2012-tietokenttien nimeämistä on tarkennettu ja IFC-malliin kirjoitettavia ominaisuuksia määritetty elementtityyppikohtaiseksi tiedonsiirron laadun parantamiseksi ja samalla on tietokenttien nimeämisessä pyritty huomioimaan mahdollisesti tulevaisuudessa kehitettävää muiden rakenneosien ja materiaalien tunnistamista ja vakiointia. Tiedonsiirron vakiointia on myös kehitetty lisäämällä sallittujen arvojen listauksia tietokenttiin, joissa se mahdollista ja järkevää tehdä. Tietokentissä on huomioitu myös tietomallin rikastamista toteutusvaiheessa toimitusketjulta tulevilla tiedoilla.  Soveltamisohjetta täydentävät erillinen taulukko tietokentistä[^4] joissa mm. elementtien mittatiedot ja esimerkkitietomalli[^5]. Tätä soveltamisohjetta täydentää myös erillinen ohje elementtien yksilöinnistä toimitusketjussa[^3] ja esimerkki malli IFC-muodossa[^5]. Tätä soveltamisohjetta voidaan päivittää myöhemmin standardoinnin edetessä. Tämä soveltamisohje ei ota kantaa muuhun tarjouspyyntö aineistoon. 
 
 ## 3 Rakentamiskohteen tietomallin tietosisällöt tarjousvaiheessa
-Tarjousvaiheessa tietomallissa käytettävät tietokentät elementtityyppien tunnistamiseen on kuvattu alla olevissa taulukoissa. Taulukoiden arvojen lisäksi hankintavaiheessa tarvittavat mitta- ja pinta-alojen tietokentät kuvattu erillisessä excel-taulukossa [2]. Excel-taulukossa on myös muita toteutusvaiheessa tarvittavia tietokenttiä sallittuine arvoineen
+Tarjousvaiheessa tietomallissa käytettävät tietokentät elementtityyppien tunnistamiseen on kuvattu alla olevissa taulukoissa. Taulukoiden arvojen lisäksi hankintavaiheessa tarvittavat mitta- ja pinta-alojen tietokentät kuvattu erillisessä excel-taulukossa [^4]. Excel-taulukossa on myös muita toteutusvaiheessa tarvittavia tietokenttiä sallittuine arvoineen
 
 ### 3.1 Elementin tuotetiedot tarjousvaiheessa
 
 #### 3.1.1 Kokoonpanon tyyppi
-Betonielementtien erottamiseen tietomallin muista objekteista voi käyttää Kokoonpanon-tyyppi kenttää. 
+Betonielementtien erottamiseen tietomallin muista objekteista voi käyttää kokoonpanon tyyppi kenttää. 
 
 ###### Taulukko 1.
 
