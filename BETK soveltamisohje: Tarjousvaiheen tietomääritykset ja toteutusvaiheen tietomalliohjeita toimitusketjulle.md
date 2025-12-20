@@ -534,7 +534,7 @@ Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuore
       <td colspan="2">PK1</td>
      </tr>
     <tr>
-      <td rowspan="9">(Enumerated options if selected)</td>
+      <td rowspan="8">(Enumerated options if selected)</td>
       <td>01 MUO-muottipinta</td>
     </tr>
        <tr>
@@ -562,7 +562,7 @@ Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuore
       <td colspan="2">PK2</td>
       </tr>
              <tr>
-      <td rowspan="9">(Enumerated options if selected)</td>
+      <td rowspan="8">(Enumerated options if selected)</td>
       <td>01 MUO-muottipinta</td>
     </tr>
        <tr>
@@ -590,7 +590,7 @@ Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuore
       <td colspan="2">PK3 - 9 (jos tarvetta)</td>
        </tr>
           <tr>
-      <td rowspan="9">(Enumerated options if selected)</td>
+      <td rowspan="8">(Enumerated options if selected)</td>
       <td>01 MUO-muottipinta</td>
     </tr>
        <tr>
@@ -620,6 +620,8 @@ Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuore
 </html>
 
 #### 3.1.5 Vähähiilinen
+
+#### 3.1.6 Vähähiilinen
 Vähähiilinen-tiedon avulla mahdollista erotella tarjousvaiheessa vähähiiliseksi ajattelut tuotteet Kyllä/Ei-valinnalla.
 
 ###### Taulukko 5. 
@@ -656,7 +658,7 @@ Vähähiilinen-tiedon avulla mahdollista erotella tarjousvaiheessa vähähiilise
 </body>
 </html>
 
-#### 3.1.6 Tyyppielementti
+#### 3.1.7 Tyyppielementti
 Kyllä/-Ei-tieto elementistä, joka on varusteltu tietomallissa toteutusta vastaavaksi tyyp-pielementiksi.
 
 ###### Taulukko 6. 
@@ -693,7 +695,7 @@ Kyllä/-Ei-tieto elementistä, joka on varusteltu tietomallissa toteutusta vasta
 </body>
 </html>
       
-#### 3.1.7	Työmaalla käännettävä elementti
+#### 3.1.8	Työmaalla käännettävä elementti
 Tieto työmaalla käännettävästä elementistä. Asennustyön hinnoittelua varten tarvittava tieto. Jos ei ole tietoa asennustavasta niin kenttä jätetään tyhjäksi.
 
 ###### Taulukko 7. 
