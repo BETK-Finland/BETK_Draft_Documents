@@ -933,7 +933,135 @@ Toteutusvaiheessa tapahtuva revisiointi ja tiedonsiirto käyttäen Peppol-sanomi
 </table>
 
 
+```
+rakennetyyppi: S, SK (ei parv)
+kuvaus: Betonirakenteiden paksuudet, lujuudet ja raudoitukset kerrosluvun mukaan
 
+kerrokset:
+  1.krs:
+    paksuus_sk_mm: null
+    paksuus_uk_mm: null
+    betonilujuus_sk: null
+    betonilujuus_uk: null
+    reunaraudoitus_sk: null
+    reunaraudoitus_uk: null
+    paatera_sk: null
+    paatera_uk: null
+    haat_elementti: null
+    pilarit_yli_980mm: null
+    palkit_ylapohja: null
+    palkit_ikkuna: null
+    ylaosa: null
+    alaosa: null
+
+  2.krs:
+    paksuus_sk_mm: 250
+    paksuus_uk_mm: 0
+    betonilujuus_sk: C35/45
+    betonilujuus_uk: null
+    reunaraudoitus_sk: 2T12
+    reunaraudoitus_uk: null
+    paatera_sk: "#10-K150 MP"
+    paatera_uk: null
+    haat_elementti: T10-K150
+    pilarit_yli_980mm: 2x8T20
+    palkit_ylapohja: T10-K150
+    palkit_ikkuna: 2x2T20
+    ylaosa: T10K100
+    alaosa: T10K150
+
+  3-4.krs:
+    paksuus_sk_mm: 250
+    paksuus_uk_mm: 0
+    betonilujuus_sk: C35/45
+    betonilujuus_uk: null
+    reunaraudoitus_sk: 2T12
+    reunaraudoitus_uk: null
+    paatera_sk: "#10-K150 MP"
+    paatera_uk: null
+    haat_elementti: T10-K150
+    pilarit_yli_980mm: 2x8T16
+    palkit_ylapohja: T10-K150
+    palkit_ikkuna: 2x2T16
+    ylaosa: T10K100
+    alaosa: T10K200
+
+  5.krs:
+    paksuus_sk_mm: 200
+    paksuus_uk_mm: "0/135"
+    betonilujuus_sk: C35/45
+    betonilujuus_uk: "C30/37 säänkest."
+    reunaraudoitus_sk: 2T12
+    reunaraudoitus_uk: 1E7
+    paatera_sk: "#8-K150 MP"
+    paatera_uk: "#E5-150"
+    haat_elementti: T8-K150
+    pilarit_yli_980mm: 2x6T20
+    palkit_ylapohja: T8-K150
+    palkit_ikkuna: 2x2T16
+    ylaosa: T10K100
+    alaosa: T10K200
+
+  6-9.krs:
+    paksuus_sk_mm: 200
+    paksuus_uk_mm: "0/135"
+    betonilujuus_sk: C35/45
+    betonilujuus_uk: "C30/37 säänkest."
+    reunaraudoitus_sk: 2T12
+    reunaraudoitus_uk: 1E7
+    paatera_sk: "#8-K150 MP"
+    paatera_uk: "#E5-150"
+    haat_elementti: T8-K150
+    pilarit_yli_980mm: 2x6T16
+    palkit_ylapohja: T8-K150
+    palkit_ikkuna: 2x2T16
+    ylaosa: T10K125
+    alaosa: T10K200
+
+  10-14.krs:
+    paksuus_sk_mm: 180
+    paksuus_uk_mm: "0/135"
+    betonilujuus_sk: C35/45
+    betonilujuus_uk: "C30/37 säänkest."
+    reunaraudoitus_sk: 2T12
+    reunaraudoitus_uk: 1E7
+    paatera_sk: "#8-K200 MP (50%)"
+    paatera_uk: "#E5-150"
+    haat_elementti: T8-K200
+    pilarit_yli_980mm: 2x6T12
+    palkit_ylapohja: T8-K150
+    palkit_ikkuna: 2x2T16
+    ylaosa: T10K150
+    alaosa: T10K200
+
+  15-16.krs:
+    paksuus_sk_mm: 180
+    paksuus_uk_mm: "0/135"
+    betonilujuus_sk: C35/45
+    betonilujuus_uk: "C30/37 säänkest."
+    reunaraudoitus_sk: 2T10
+    reunaraudoitus_uk: 1E7
+    paatera_sk: "#8-K200 MP"
+    paatera_uk: "#E5-150"
+    haat_elementti: null
+    pilarit_yli_980mm: 2x4T10
+    palkit_ylapohja: T8-K150
+    palkit_ikkuna: 2x2T12
+    ylaosa: T10K150
+    alaosa: T10K200
+
+  vesikatto:
+    paksuus_sk_mm: 180
+    paksuus_uk_mm: 135
+    betonilujuus_sk: C35/45
+    betonilujuus_uk: "C30/37 säänkest."
+    reunaraudoitus_sk: 2T12
+    reunaraudoitus_uk: 1E7
+    paatera_sk: "#8-K200 MP"
+    paatera_uk: "#E5-150"
+    haat_elementti: T8-K200
+
+```
 
 
 ## Viittaukset
