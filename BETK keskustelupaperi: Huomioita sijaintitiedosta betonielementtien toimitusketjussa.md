@@ -1,4 +1,4 @@
-# BETK keskustelupaperi: Sijaintitieto betonielementtien toimitusketjussa
+# BETK keskustelupaperi: Huomioita sijaintitiedosta betonielementtien toimitusketjussa
 
 
 **Sijaintitieto suunnittelijan tietomallista toimitukseen**  
