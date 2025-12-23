@@ -827,71 +827,78 @@ For possible expansion of this list, [see short list in Sweden first.](https://s
    </tr>
    <tr>
      <td>Kerros</td>
-     <td></td>
+     <td>Floor</td>
      <td>1</td>
      <td> - </td>
      <td> - </td>
    </tr>
    <tr>
      <td>Asennuslohko</td>
-     <td></td>
+     <td>Building block</td>
      <td>1</td>
      <td> - </td>
      <td> - </td>
    </tr>
     <tr>
      <td>Suunnittelijan lohko</td>
-     <td></td>
-     <td></td>
-     <td> - </td>
-     <td> - </td>
-   </tr>
-    <tr>
-     <td>Rappu</td>
-     <td></td>
+     <td>Designers building block</td>
      <td>1</td>
      <td> - </td>
      <td> - </td>
    </tr>
     <tr>
-     <td>Purkupaikka</td>
-     <td></td>
+     <td>Rappu</td>
+     <td>Stairwell</td>
      <td>A1</td>
      <td> - </td>
      <td> - </td>
    </tr>
     <tr>
+     <td>Purkupaikka</td>
+     <td> - </td>
+     <td>GLN (Miten kerrotaan, että on kyse GLN:stä?)</td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+    <tr>
      <td>Suunniteltu tehtaan valupäivä</td>
-     <td></td>
-     <td></td>
+     <td>Planned factory casting date</td>
+     <td>2025-01-15</td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+     <tr>
+     <td>Suunniteltu toimituspäivä</td>
+     <td>Planned delivery date</td>
+     <td>2025-01-16</td>
      <td> - </td>
      <td> - </td>
    </tr>
     <tr>
      <td>MTO - Variation Number</td>
-     <td></td>
-     <td></td>
+     <td> - </td>
+     <td>Esimerkki tähän</td>
      <td> - </td>
      <td> - </td>
    </tr>
     <tr>
      <td>Data carrier</td>
-     <td></td>
-     <td></td>
+     <td>Data carrier</td>
+     <td>124567243564423565523</td>
      <td> - </td>
      <td> - </td>
    </tr>
     <tr>
      <td>CO2 ekvivalentti</td>
-     <td></td>
-     <td></td>
-     <td> - </td>
-     <td> - </td>
+     <td>CO2 equivalent</td>
+     <td>22.8</td>
+     <td>1</td>
+     <td>TNE</td>
    </tr>
      <tr>
      <td>Kokoonpanon tyyppi</td>
-     <td></td>
-     <td></td>
+     <td>Assembly type</td>
+     <td>BETONIELEMENTTI, PAIKALLAVALU, TERÄSKOKOONPANO, PUUKOKOONPANO, MUU KOKOONPANO</td>
      <td> - </td>
      <td> - </td>
    </tr>
