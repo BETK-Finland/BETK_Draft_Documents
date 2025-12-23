@@ -3,7 +3,7 @@
 
 **Sijaintitieto suunnittelijan tietomallista toimitukseen**  
 >Julkaisija: Rakennusteollisuus ry\
->Luonnos: 9.11.2025
+>Luonnos: 23.12.2025
 
 <details>
 <summary>Asiakirjan tiedot </summary>
@@ -11,8 +11,8 @@
 | Selite                | Arvo                                                                |
 |-----------------------|---------------------------------------------------------------------|
 | Asiakirjan nimi       | BETK soveltamisohje: Sijaintieto betonielementtien toimitusketjussa |
-| Asiakirjan päivämäärä | 9.11.2025                                                            |
-| Asiakirjan versio     | 0.4                                                                 |
+| Asiakirjan päivämäärä | 23.12.2025                                                          |
+| Asiakirjan versio     | 1.0                                                                 |
 | Asiakirjan status     | Luonnos                                                             |
 
 </details>
@@ -48,6 +48,7 @@
 | 0.2     | 30.5.2025   | anpekk  | Tekstiosuuksia täydennetty |
 | 0.3     | 3.7.2025    | anpekk  | Tekstiosuuksia täydennetty |
 | 0.4     | 9.11.2025   | TeAla   | Tekstiosuuksia täydennetty |
+| 1.0     | 23.12.2025  | TeAla   | Github-julkaisu			   |
 
  </details>
 
