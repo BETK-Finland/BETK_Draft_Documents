@@ -82,8 +82,8 @@ Sijaintitiedon haaste ei rajoitu pelkästään tietomallien sisäiseen rakentees
 
 Tämän vuoksi sijaintitiedon tarkastelussa on huomioitava sekä fyysinen, ihmisluettava ulottuvuus että digitaalinen, koneluettava ulottuvuus. Tiedon tulee olla tulkittavissa työmaalla esimerkiksi kollietiketeissä ja asennusohjeissa, mutta samalla sen on oltava rakenteellisessa muodossa, jotta se voidaan siirtää sähköisesti järjestelmien välillä ilman manuaalista uudelleenkirjausta. Tässä kokonaisuudessa betonielementtien sijaintitieto tunnistetaan keskeiseksi kehityskohteeksi, joka yhdistää tietomallit, tuoteyksilöinnin, toimitukset ja asennusprosessit toisiinsa.
 
+<img width="2602" height="1945" alt="Kerrosten nimeäminen" src="https://github.com/user-attachments/assets/6a8460de-d368-4afd-932e-bee9b8927ab5" /><br> Kuva 1. Esimerkki yhdistelmämallin kerrostiedoista
 
-<img width="524" height="433" alt="image" src="https://github.com/user-attachments/assets/a07ce81f-f492-496f-8bf3-df2607f6af1a" /><br> Kuva 1. Esimerkki yhdistelmämallin kerrostiedoista
 
  ---
 
