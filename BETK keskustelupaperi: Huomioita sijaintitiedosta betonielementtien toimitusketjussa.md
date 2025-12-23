@@ -57,7 +57,7 @@
 
 
 1. [Tausta](#1-tausta)  
-2. [Kirjoituksen tarkoitus ja rajaukset](#2kirjoituksen-tarkoitus-ja-rajaukset)  
+2. [Keskustelupaperin tarkoitus ja rajaukset](#2Keskustelupaperin-tarkoitus-ja-rajaukset)  
 3. [Sijaintieto tietomallissa](#3sijaintieto-tietomallissa)  
  3.1 [Koordinaatistot](#31koordinaatistot)  
  3.2 [Sijaintitiedot tietomallissa](#32sijaintitiedot-tietomallissa)  
@@ -86,7 +86,7 @@ Ohjetta täydentävät muut BETK-hankkeen soveltamisohjeet:
 
 ---
 
-## 2	Kirjoituksen tarkoitus ja rajaukset
+## 2	Keskustelupaperin tarkoitus ja rajaukset
 Tämä dokumentti on BETK-työryhmän keskustelupaperi, jonka tarkoituksena on jäsentää betonielementtien toimitusketjun kannalta keskeisiä sijaintitietoon liittyviä havaintoja, ongelmia ja kehityssuuntia. Paperi ei ole normi, standardi tai valmis ohje, vaan lähtökohta yhteiselle ymmärrykselle ja jatkokehitykselle.
 
 Keskustelupaperi kytkeytyy Rakennusteollisuus RT:n käynnissä olevaan tuotetiedon ja toimitusketjujen digitalisaatiotyöhön, jossa tavoitteena on siirtyä manuaalisesta ja rakenteettomasta tiedonvaihdosta kohti rakenteellista, koneluettavaa ja toimitusketjun eri osapuolia palvelevaa tiedonhallintaa. Tässä kokonaisuudessa sijaintitieto muodostaa kriittisen rajapinnan tietomallien, fyysisten tuotteiden tunnistamisen sekä toimitus- ja tapahtumatiedon välillä.
