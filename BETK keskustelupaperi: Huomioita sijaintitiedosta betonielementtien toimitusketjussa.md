@@ -187,13 +187,15 @@ Spatial containment – hierarkkinen tilarakenne ilman omaa geometriaa (esimerki
 
 Spatial composition – geometrisesti kuvattu tilallinen koostumus, kuten IfcSpatialZone, joka kokoaa yhteen samankaltaisia tiloja tai toiminnallisia alueita.<br>
 
-<img width="4450" height="2223" alt="2025-11-07_Kuva1" src="https://github.com/user-attachments/assets/ce41cd97-a614-42a7-a3a7-2a58f3e410b6" /><br> Kuva x. Rakennuksen tilayksiköt (Domer & Bernadello, 2023)
+<img width="4450" height="2223" alt="2025-11-07_Kuva1" src="https://github.com/user-attachments/assets/ce41cd97-a614-42a7-a3a7-2a58f3e410b6" /><br> Kuva x. Rakennuksen tilayksiköt (Domer & Bernadello, 2023)[^1]
 
 Rakennuksen tilahierarkia seuraa tyypillisesti rakennuksen suunnittelun ja rakentamisen logiikkaa: IfcProject toimii ylimpänä kontekstina, jonka alla sijaitsevat IfcSite, IfcBuilding, IfcBuildingStorey ja IfcSpace. Näin muodostetaan yhtenäinen tietorakenne rakentamiskohteen informaatiomalliin (BIM), jonka avulla eri suunnittelualojen ja toimitusketjun toimijat voivat viitata samoihin tilallisiin ja paikallisiin konteksteihin mallissa (BIM).<br>
 
 Lisäksi IFC tukee koostettuja elementtejä (assemblies), joiden avulla voidaan yhdistää useita rakennusosia (esim. palkki- ja runkorakenteita) yhdeksi loogiseksi kokonaisuudeksi IfcElementAssembly-luokan kautta. Sijainti- ja tilatietojen yhteys varmistetaan relaatioiden, kuten IfcRelContainedInSpatialStructure ja IfcRelAggregates, avulla, jolloin kohteiden keskinäiset suhteet säilyvät yksiselitteisinä tietomallissa.<br>
 
 Sijaintitiedon standardoitu rakenne on keskeinen edellytys digitaalisten toimitusketjujen hallinnalle, koska se mahdollistaa sekä fyysisten tuotteiden että niihin liittyvien tapahtumien (esim. toimitukset, asennukset) liittämisen samaan kontekstiin. Yhtenäinen sijaintimäärittely tukee myös linkitetyn datan sovelluksia, joissa rakennustuotteiden yksilöivä tunniste voidaan yhdistää rakennuksen tilalliseen ja koordinaattipohjaiseen rakenteeseen.<br>
+
+
 
 ---
 
@@ -247,7 +249,7 @@ BEAst Label muodostaa teknisen rajapinnan fyysisen etiketin ja sähköisen tiedo
 ## Viittaukset
 
 ​ 
-[xx] Domer & Bernadello, 2023, Interoperability: An introduction to IFC and buildingSmart standards integrating infrastructure modeling
+[^1]:Domer & Bernadello, 2023, Interoperability: An introduction to IFC and buildingSmart standards integrating infrastructure modeling
 ​ 
 
 ​ 
