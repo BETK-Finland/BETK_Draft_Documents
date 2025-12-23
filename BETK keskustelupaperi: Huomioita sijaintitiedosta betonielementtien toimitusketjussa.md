@@ -78,9 +78,9 @@ Tällä hetkellä rakennushankkeen tietomallit ovat yleinen osa hankkeen tarjous
 <img width="524" height="433" alt="image" src="https://github.com/user-attachments/assets/a07ce81f-f492-496f-8bf3-df2607f6af1a" /><br> Kuva 1. Esimerkki yhdistelmämallin kerrostiedoista
 
  
-​Tämä soveltamisohje on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toimitusketjun digitali-soinnin kehityshanketta, BETK-työryhmän toimesta. Kehityshankkeen ensisijainen tavoite on edistää rakennusalan tuotteiden toimitusketjun hallinnan menetelmien siirtymistä manuaalisesta ja raken-teettomasta tiedonvaihdosta täysin rakenteelliseen ja koneluettavaan tiedonvaihtoon. 
+​Tämä keskustelupaperi on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toimitusketjun digitali-soinnin kehityshanketta, BETK-työryhmän toimesta. Kehityshankkeen ensisijainen tavoite on edistää rakennusalan tuotteiden toimitusketjun hallinnan menetelmien siirtymistä manuaalisesta ja raken-teettomasta tiedonvaihdosta täysin rakenteelliseen ja koneluettavaan tiedonvaihtoon. 
 Ohjetta täydentävät muut BETK-hankkeen soveltamisohjeet:
-•	BETK Soveltamisohje_Tuoteyksilöinti ja -tunnistaminen[1]
+•	BETK Soveltamisohje_Tuoteyksilöinti ja -tunnistaminen[^1]
 •	Excel-taulukko muuttujista [2]
 •	Soveltamisohje GS1 EPCIS (tapahtumatieto) käytöstä [syksyllä tehdään] [3]
 
