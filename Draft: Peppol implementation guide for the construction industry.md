@@ -791,7 +791,7 @@ For possible expansion of this list, [see short list in Sweden first.](https://s
 
 | Cbc:Name                                  | Cbc:Value (Example)                                                                                        | Description                                           | Description (Finnish)          |
 |-------------------------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|--------------------------------|
-|                                           |                                                                                                            | $\color{red}{\textsf{Building block name}}$           | Rakennuslohkon nimi            |
+|                                           |                                                                              | $\color{red}{\textsf{Building block name}}$           | Rakennuslohkon nimi            |
 |                                           |                                                                                                            | $\color{red}{\textsf{Floor name}}$                    | Kerroksen nimi                 |
 |                                           |                                                                                                            | $\color{red}{\textsf{Installation block 1}}$          | Asennuslohko 1                 |
 |                                           |                                                                                                            | $\color{red}{\textsf{Installation block 2}}$          | Asennuslohko 2                 |
@@ -805,6 +805,105 @@ For possible expansion of this list, [see short list in Sweden first.](https://s
 |                                           |                                                                                                            | Co2 / ESG                                             | Hiilidioksidiekvivalentti      |
 |                                           | `BETONILEMENTTI` <br> `PAIKALLAVALU` <br> `TERÄSKOKOONPANO` <br> `PUUKOKOONPANO` <br> `MUU KOKOONPANO`     | $\color{red}{\textsf{Assembly type}}$                 | Kokoonpanon tyyppi             |
 |                                           |  `True` / `False`                                                                                          |                                                       | Kääntökivi                     |
+
+
+
+<html>
+<table border="1" cellspacing="5" cellpadding="5">
+  <body>
+   <tr>
+    <td>cbc:Name (Finnish)</td>
+    <td>cbc:Name (English)</td>
+    <td>cbc:Value (Example)</td>
+    <td>cbc:ValueQuantity</td>
+    <td> @UntiCode</td>
+   </tr>
+   <tr>
+     <td>Rakennus</td>
+     <td>Building</td>
+     <td>A</td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+   <tr>
+     <td>Kerros</td>
+     <td></td>
+     <td>1</td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+   <tr>
+     <td>Asennuslohko</td>
+     <td></td>
+     <td>1</td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+    <tr>
+     <td>Suunnittelijan lohko</td>
+     <td></td>
+     <td></td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+    <tr>
+     <td>Rappu</td>
+     <td></td>
+     <td>1</td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+    <tr>
+     <td>Purkupaikka</td>
+     <td></td>
+     <td>A1</td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+    <tr>
+     <td>Suunniteltu tehtaan valupäivä</td>
+     <td></td>
+     <td></td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+    <tr>
+     <td>MTO - Variation Number</td>
+     <td></td>
+     <td></td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+    <tr>
+     <td>Data carrier</td>
+     <td></td>
+     <td></td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+    <tr>
+     <td>CO2 ekvivalentti</td>
+     <td></td>
+     <td></td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+     <tr>
+     <td>Kokoonpanon tyyppi</td>
+     <td></td>
+     <td></td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+     <tr>
+     <td>Kääntökivi</td>
+     <td> - </td>
+     <td>True / False</td>
+     <td> - </td>
+     <td> - </td>
+   </tr>
+ </table>
+</html>
 
 
 
