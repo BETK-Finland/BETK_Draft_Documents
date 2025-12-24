@@ -238,16 +238,13 @@ Standardi käyttää applikointitunnistetta (AI) 90 erotuksena STE/STILL-kuljetu
 
 BEAst Label muodostaa teknisen rajapinnan fyysisen etiketin ja sähköisen tiedonhallinnan välillä. Sen avulla toimitusketjun tiedot voidaan esittää yhteismitallisesti eri järjestelmissä ja varmistaa, että tunnistetiedot säilyvät yhdenmukaisina koko materiaalivirran läpi rakennuslogistiikassa.
 
-<img width="604" height="424" alt="image" src="https://github.com/user-attachments/assets/b90691a3-730f-44a7-90c6-ce82dc2bd869" />
-<img width="604" height="534" alt="image" src="https://github.com/user-attachments/assets/704fb214-00fd-411d-b887-c8a49bd8aabf" />
+<img width="1399" height="2282" alt="Kuva10" src="https://github.com/user-attachments/assets/66236156-7eb4-4c99-8b3b-fd0acc05e628" />
+
+<img width="1326" height="2177" alt="Kuva11" src="https://github.com/user-attachments/assets/4c3906e6-dd32-40a7-bd5a-80f446fd814f" />
 
 
-<img width="279" height="666" alt="image" src="https://github.com/user-attachments/assets/52b9f808-d6ea-4cc7-83f9-c24459ba6f73" />
-<img width="279" height="666" alt="image" src="https://github.com/user-attachments/assets/25af1586-4fbc-43cd-9e1d-cbaf84181947" />
-<img width="575" height="253" alt="image" src="https://github.com/user-attachments/assets/3a194c20-fdad-4b97-8124-8c8ed8524ff1" />
 
 
-<img width="1024" height="677" alt="image" src="https://github.com/user-attachments/assets/f708114e-c008-441c-ab6c-5c0b5dffc214" />
 
 (BEAst Label)[https://beast.se/standarder/beast-label/#]
 (BEAst Label-manual)[https://beast.se/wp-content/uploads/2018/10/BEAst-Label_Manual_v1-03.pdf]
