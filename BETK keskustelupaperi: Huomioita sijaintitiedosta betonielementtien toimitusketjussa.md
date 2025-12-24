@@ -56,19 +56,19 @@
 ## Sisällysluettelo
 
 
-1. [Tausta](#1-tausta)  
-2. [Keskustelupaperin tarkoitus ja rajaukset](#2Keskustelupaperin-tarkoitus-ja-rajaukset)  
-3. [Sijaintieto tietomallissa](#3sijaintieto-tietomallissa)  
- 3.1 [Koordinaatistot](#31koordinaatistot)
-  3.1.1 [Asiakkaan koordinaatisto](#311asiakkaan-koordinaatisto)
-  3.1.2 [Projektin koordinaatisto](#312projektin-koordinaatisto)
-  3.1.3 [Suunnittelijan koordinaatisto](#313suunnittelijan-koordinaatisto) 
- 3.2 [Sijaintitiedot tietomallissa](#32sijaintitiedot-tietomallissa)  
-  3.2.1 [Kerrostiedot IFC-mallissa](#321kerrostiedot-ifc-mallissa)  
-  3.2.2 [Lohkotiedot IFC-mallissa](#322lohkotiedot-ifc-mallissa)  
-5. [Sijaintitietojen esittäminen tietomalleissa](#4sijaintitietojen-esittäminen-tietomalleissa)  
+1. [Tausta](#1-tausta)<br>
+2. [Keskustelupaperin tarkoitus ja rajaukset](#2Keskustelupaperin-tarkoitus-ja-rajaukset)<br>
+3. [Sijaintieto tietomallissa](#3sijaintieto-tietomallissa)<br>
+ 3.1 [Koordinaatistot](#31koordinaatistot)<br>
+  3.1.1 [Asiakkaan koordinaatisto](#311asiakkaan-koordinaatisto)<br>
+  3.1.2 [Projektin koordinaatisto](#312projektin-koordinaatisto)<br>
+  3.1.3 [Suunnittelijan koordinaatisto](#313suunnittelijan-koordinaatisto)<br>
+ 3.2 [Sijaintitiedot tietomallissa](#32sijaintitiedot-tietomallissa)<br> 
+  3.2.1 [Kerrostiedot IFC-mallissa](#321kerrostiedot-ifc-mallissa)<br>
+  3.2.2 [Lohkotiedot IFC-mallissa](#322lohkotiedot-ifc-mallissa)<br>
+5. [Sijaintitietojen esittäminen tietomalleissa](#4sijaintitietojen-esittäminen-tietomalleissa)<br>
 6. [Toimitusketjun näkökulma: BEAst Label -esimerkki Ruotsista](#5sijaintitiedot-toimituksissa-case-ruotsi)<br>
-   [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)  <br>
+   [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)<br>
    [Viittaukset](#viittaukset)<br>
 
 ---
