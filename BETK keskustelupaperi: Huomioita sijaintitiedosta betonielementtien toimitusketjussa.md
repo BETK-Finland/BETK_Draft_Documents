@@ -99,14 +99,21 @@ Esimerkiksi rakennesuunnittelijalle lohkoa usein rajaavat rakenteelliset liikunt
 ---
 
 ## 3	Sijaintieto tietomallissa
-### 3.1	Koordinaatistot. 
+### 3.1	Koordinaatistot
 Rakennushankkeen koordinaatistoista käydään keskustelua jokaisessa hankkeessa. Alla selventävät kuvat siitä minkälaisia koordinaatistoja hankkeissa on tarpeen määrittää erilaisia käyttötapauksia varten. Projektin koordinaatisto tulee dokumentoida usein arkkitehdin toimesta.
+
+<img width="416" height="335" alt="Asiakkaan koordinaatisto" src="https://github.com/user-attachments/assets/57adfd92-120f-4033-b764-86a7b755fa25" />
+
  
 <img width="546" height="152" alt="Kuva1" src="https://github.com/user-attachments/assets/651382d9-9f78-4ab6-a8e5-3145df93b140" /><br> Kuva 2.Asiakkaan koordinaatisto
 
 
 Projektin koordinaatisto
+
+
+ <img width="530" height="335" alt="Projektin koordinaatisto" src="https://github.com/user-attachments/assets/204114d4-ebea-410f-a53f-c6dc935941b8" />
  
+
 <img width="525" height="133" alt="Kuva2" src="https://github.com/user-attachments/assets/12fe7a3c-94d8-4c5a-b30a-535467c64058" /><br> Kuva 3.Projektin koordinaatisto
 
 
@@ -114,6 +121,9 @@ Projektin koordinaatisto
 
 
 Suunnittelijan koordinaatisto
+
+
+<img width="384" height="335" alt="Suunnittelijan koordinaatisto" src="https://github.com/user-attachments/assets/acc2c361-8c3e-411d-bea7-6158deb8d653" />
 
 <img width="556" height="141" alt="Kuva3" src="https://github.com/user-attachments/assets/129b6e6c-2ce8-4197-9d20-d96498473716" />
 <br> Kuva 4.Suunnittelijan koordinaatisto<br>
