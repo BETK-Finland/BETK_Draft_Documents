@@ -178,11 +178,23 @@ Asennuslohkotieto tietomallista
 Asennuslohkotieto tietomalliin
 Asennussijainnit Peppol
 
+```yaml
+Sijaintitiedot Peppol sanomissa:
+<Rakennus>
+<RAK-lohko>
+<Kerros>
+<Asennuslohko 1>
+<Asennuslohko 2>
+<Asennuslohko 3>
+<Rappu>
+<Tila>
+<Tehtaan valupäivä>
+<Toimituspäivä>
+<Toimitusaika>
+<Vaihtoehtoiset toimitusajat>
+
 ```
-peppol
-```
- 
-<img width="511" height="531" alt="image" src="https://github.com/user-attachments/assets/a7507ad8-d45e-4eda-97de-235de943ae75" /><br> Kuva 11. 
+Koodi 1. 
 
 ---
 
