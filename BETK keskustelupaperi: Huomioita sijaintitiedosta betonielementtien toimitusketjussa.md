@@ -107,20 +107,20 @@ Rakennushankkeissa käytettävistä koordinaatistoista käydään keskustelua k�
 
 Rakennushankkeissa on tyypillisesti käytössä kolme toisiaan täydentävää koordinaatistotyyppiä: asiakkaan koordinaatisto, projektin koordinaatisto ja suunnittelijan koordinaatisto.
 
-**Asiakkaan koordinaatisto**
+#### Asiakkaan koordinaatisto
 
 Asiakkaan koordinaatisto perustuu tyypillisesti kaupungin tai kunnan käyttämään koordinaatistojärjestelmään. Asiakkaan koordinaatisto palvelee asiakkaan tarpeita ja mahdollistaa esimerkiksi suunnitelmien liittämisen laajempaan virtuaaliseen malliin. Projektin aikana rakennusvalvonta tai muu viranomainen voi edellyttää asiakkaan koordinaatiston käyttämistä.
 
 
 <img width="416" height="335" alt="Asiakkaan koordinaatisto" src="https://github.com/user-attachments/assets/57adfd92-120f-4033-b764-86a7b755fa25" /> <br> Kuva 2. Asiakkaan koordinaatisto
 
-**Projektin koordinaatisto**
+#### Projektin koordinaatisto
 
 Projektin koordinaatisto on hankkeen osapuolten kesken sovittu koordinaatisto, jossa aineistoa siirretään projektin aikana. Projektin koordinaatisto palvelee tiedonsiirtoa eri suunnittelualojen ja eri suunnitteluvaiheiden välillä. Sen avulla eri suunnitteluajojen mallit voidaan yhdistää toisiinsa esimerkiksi suunnitelmien ristiriidattomuuden tarkastelua varten.
 
  <img width="530" height="335" alt="Projektin koordinaatisto" src="https://github.com/user-attachments/assets/204114d4-ebea-410f-a53f-c6dc935941b8" /><br> Kuva 3.Projektin koordinaatisto
  
-**Suunnittelijan koordinaatisto**
+#### Suunnittelijan koordinaatisto
 
 Suunnittelijan koordinaatisto on suunnittelijan omassa suunnittelutyössä käyttämä koordinaatisto. Se palvelee ensisijaisesti suunnittelijan työn sujuvuutta. Käytännössä suunnittelijan voi olla tarpeen asettaa origo tiettyyn pisteeseen tai kääntää kohdetta, jotta mallinnus ja näkymien käsittely on tarkoituksenmukaista.
 
