@@ -116,8 +116,9 @@ Projektin koordinaatisto
 
 
 Suunnittelijan koordinaatisto
+
 <img width="556" height="141" alt="Kuva3" src="https://github.com/user-attachments/assets/129b6e6c-2ce8-4197-9d20-d96498473716" />
-<br> Kuva 4.Suunnittelijan koordinaatisto
+<br> Kuva 4.Suunnittelijan koordinaatisto<br>
 
 
  
