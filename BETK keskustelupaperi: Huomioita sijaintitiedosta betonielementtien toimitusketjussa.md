@@ -102,33 +102,37 @@ Esimerkiksi rakennesuunnittelijalle lohkoa usein rajaavat rakenteelliset liikunt
 ### 3.1	Koordinaatistot. 
 Rakennushankkeen koordinaatistoista käydään keskustelua jokaisessa hankkeessa. Alla selventävät kuvat siitä minkälaisia koordinaatistoja hankkeissa on tarpeen määrittää erilaisia käyttötapauksia varten. Projektin koordinaatisto tulee dokumentoida usein arkkitehdin toimesta.
  
-<img width="853" height="238" alt="image" src="https://github.com/user-attachments/assets/63b72224-b3f7-4e24-9a10-1512d224a4b2" /><br> Kuva 2.Asiakkaan koordinaatisto
+<img width="546" height="152" alt="Kuva1" src="https://github.com/user-attachments/assets/651382d9-9f78-4ab6-a8e5-3145df93b140" />
+<br> Kuva 2.Asiakkaan koordinaatisto
 
 
 Projektin koordinaatisto
  
-<img width="820" height="208" alt="image" src="https://github.com/user-attachments/assets/844f3dbd-1425-4381-a7e7-37c272ae714a" /><br> Kuva 3.Projektin koordinaatisto
+<img width="525" height="133" alt="Kuva2" src="https://github.com/user-attachments/assets/12fe7a3c-94d8-4c5a-b30a-535467c64058" />
+<br> Kuva 3.Projektin koordinaatisto
 
 
 
 
 
 Suunnittelijan koordinaatisto
-
-<img width="869" height="221" alt="image" src="https://github.com/user-attachments/assets/e3cb40e8-4f02-45c7-8c60-ae0b0603c0ea" /><br> Kuva 4.Suunnittelijan koordinaatisto
+<img width="556" height="141" alt="Kuva3" src="https://github.com/user-attachments/assets/129b6e6c-2ce8-4197-9d20-d96498473716" />
+<br> Kuva 4.Suunnittelijan koordinaatisto
 
 
  
 Rava3Pro-hankkeessa on ollut esillä vaatimuksia hankkeen tietomallien koordinaatti-tiedolle, mutta tätä ohjetta kirjotettaessa selkeitä vaatimuksia ei vielä ole tiedossa. BETK-hankkeessa on käyty keskustelua koordinaattitiedon mahdollisuuksista ja haasteista.  BETK-hankkeessa luotu ja soveltamisohjeessa **[1]** kuvattu tapa yksilöidä elementti käyttäen GS1 GTIN-standardia mahdollistaa elementin tunnistamisen käyttäen RFID-teknologiaa. RFID-lukutapahtumissa on mahdollista saada mm. lukutapahtumista sijaintitietoa ja tietoa on mahdollista välittää toimitusketjun välillä Peppol-sanomilla. Koordinaattitiedon välittäminen tarjoaa erilaisia mahdollisuuksia mutta edellyttää alalta laajempaa vakiointia. BETK-hankkeessa tietomallin tietokenttiin lisättiin betonielementin  painopisteen koordinaatit. Tämän toteuttaminen ei edellytä laajempaa vakiointia ja on esimerkkinä tulevaisuuden ratkaisuille ja käyttötapauksille. 
 
-<img width="1004" height="258" alt="image" src="https://github.com/user-attachments/assets/5d92f857-183c-47ba-9935-a630dc00974f" /><br>Kuva 5. Kuorielementin painopisteen koordinaatit
+<img width="642" height="211" alt="Kuva4" src="https://github.com/user-attachments/assets/a6dacf51-5744-4673-9c8b-0c5f8f0d53d5" />
+<br>Kuva 5. Kuorielementin painopisteen koordinaatit
 
 ### 3.2	Sijaintitiedot tietomallissa
 #### 3.2.1	Kerrostiedot IFC-mallissa
 IFC-mallissa rakenneosat kuuluvat tiettyyn rakennukseen (IfcBuilding), lohkoon (osittainen IfcBuilding) ja kerrokseen (IfcBuildingStorey). Rakennuksen lohko ei ole IFC-formaatissa vastaava käsite kuin rakennus ja kerros. IFC-formaatti mahdollistaa hierarkisuuden siten että, rakennus voi koostua useasta rakennuksesta, jotka voivat sisältää osittaisia rakennuksia, jotka ovat on tarkoitettu raken-nuksen lohkojen määrittelyyn. Useat eri suunnittelualojen mallinnusohjelmat perustuvat siihen, että mallia tehdään rakennuksittain ja kerroksittain. Nämä sijaintitiedot ovat tärkeitä asennusta ja valmistusta suunniteltaessa ja toteutuksessa. Ja usein myös jo tarjouslaskentavaiheessa kustannusten jaot-telua varten on tietomallien lohkojako tarpeellinen. 
 Kerrostiedossa on havaittu haasteeksi mm. kerrostiedon puuttuminen, väärin syötetty kerrostiedot ja monenlaiset kirjoitustavat ja -virheet. 
 
-<img width="308" height="384" alt="image" src="https://github.com/user-attachments/assets/0c04801c-1b8e-4946-a941-4d19218d149f" /><br> Kuva 6. Esimerkki kuinka välilyönnit lisäävät kerroksia hankkeen tietomalliin
+<img width="197" height="246" alt="Kuva5" src="https://github.com/user-attachments/assets/4b8df90e-22ef-445d-ba3f-3e6135d2d7e0" />
+<br> Kuva 6. Esimerkki kuinka välilyönnit lisäävät kerroksia hankkeen tietomalliin
 
 Ohjeita tietojen lisäämiseen hankkeissa:
 •	Rakennesuunnittelija lisää sovitun lohko- ja kerrosjaon tietomalliin. 
@@ -140,30 +144,26 @@ Ohjeita tietojen lisäämiseen hankkeissa:
 •	Rakenteellinen pintalaatta nimetään saman kerrokseen kuin sen alapuoliset rakenteet. 
 •	Yläpohjassa esim. ylimmän ontelolaattatason yläpuoliset vesikattorakenteet nimetään erik-seen omaksi kerrokseksi, esim. YLÄPOHJA. 
  
-<img width="601" height="248" alt="image" src="https://github.com/user-attachments/assets/2ebf0f95-cd28-482b-ac64-19a99e008c11" /><br>Kuva 7. Esimerkki kerrosten nimeämisestä
+<img width="385" height="159" alt="Kuva6" src="https://github.com/user-attachments/assets/7d6217e4-ef5a-44cf-adb9-c6b1322c298c" />
+<br>Kuva 7. Esimerkki kerrosten nimeämisestä
 	
 #### 3.2.2	Lohkotiedot IFC-mallissa
 Rakennuksen lohkojakoon vaikuttavat mm. palo-osastointi, toiminnot, runkojärjestelmä, tekniikka, maapinnan olosuhteen ja perustukset, työvaiheiden limitys, tontin koko ja muoto ja jne jne. Eli vai-kuttavia asioita on paljon ja lohkotietojen käyttötapaukset vaihtelevat hankkeen aikana. Alla muu-tamia esimerkkejä erityyppisistä rakennuksista.
 Logistiikka-halli, joka jaettu lohkoihin A ja B ja niiden alla useampi asennuslohko A1, A2, B1 ja  B2 jne. 
 
- <img width="1004" height="452" alt="image" src="https://github.com/user-attachments/assets/f2d8ac55-0850-47a1-95fc-ba43b43d8ca9" /><br> Kuva 8. Logistiikka-halli lohkojako esimerkki
-
-
-
-
-
-
-
+<img width="642" height="289" alt="Kuva7" src="https://github.com/user-attachments/assets/01b3ef00-47f5-41a8-ac34-afaf78d2c2e6" />
+<br> Kuva 8. Logistiikka-halli lohkojako esimerkki
 
 
 Asuinkerrostalo jossa liikuntasaumajaon kohdalta jaottelu lohkoihin A ja B ja niiden sisällä rappujen mukainen jaottelu. 
 
- <img width="911" height="407" alt="image" src="https://github.com/user-attachments/assets/71cb8876-9845-46fe-aa5e-4767749cd3c8" /><br> Kuva 9. Asuinkerrostalon lohkojako esimerkki
+<img width="583" height="260" alt="Kuva8" src="https://github.com/user-attachments/assets/13bfacc9-db06-435f-9720-62275f2f1c8f" />
+<br> Kuva 9. Asuinkerrostalon lohkojako esimerkki
 
 Pistetalo jossa ei ole tarpeen lohkojakoa tehdä. Rappu-tiedon lisäksi asennuslohkon muodostaa yksittäinen huoneisto ja sen sisältämät elementit.
 
- 
-<img width="658" height="595" alt="image" src="https://github.com/user-attachments/assets/f086b082-df95-44dd-9895-17c9f3121da8" /><br> Kuva 10. Pistetalo esimerkki
+<img width="421" height="381" alt="Kuva9" src="https://github.com/user-attachments/assets/c1822aeb-8444-499b-a0b8-5cc13a73ec1d" />
+<br> Kuva 10. Pistetalo esimerkki
 
 
 Ohjeita tietojen lisäämiseen hankkeissa:
