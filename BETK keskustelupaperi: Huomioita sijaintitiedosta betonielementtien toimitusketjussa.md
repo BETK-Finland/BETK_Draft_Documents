@@ -64,7 +64,7 @@
   3.2.1 [Kerrostiedot IFC-mallissa](#321kerrostiedot-ifc-mallissa)  
   3.2.2 [Lohkotiedot IFC-mallissa](#322lohkotiedot-ifc-mallissa)  
 4. [Sijaintitietojen esittäminen tietomalleissa](#4sijaintitietojen-esittäminen-tietomalleissa)  
-5. [Sijaintitiedot toimituksissa (case Ruotsi)](#5sijaintitiedot-toimituksissa-case-ruotsi)<br>
+5. [Toimitusketjun näkökulma: BEAst Label -esimerkki Ruotsista](#5sijaintitiedot-toimituksissa-case-ruotsi)<br>
    [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)  <br>
    [Viittaukset](#viittaukset)<br>
 
@@ -224,7 +224,7 @@ Sijaintitiedon standardoitu rakenne on keskeinen edellytys digitaalisten toimitu
 
 ---
 
-## 5 Sijaintitiedot toimituksissa (case Ruotsi)
+## 5 Toimitusketjun näkökulma: BEAst Label -esimerkki Ruotsista
 
 Ruotsalaisen rakennusteollisuuden tarpeisiin kehitetty BEAst Label on rakennusalan toimitusketjujen tueksi laadittu kollietikettistandardi, jonka tarkoituksena on yhdenmukaistaa tavaroiden ja materiaalien merkintä ja tunnistettavuus toimitusprosessin eri vaiheissa. Standardin tekninen tehtävä on mahdollistaa rakennusmateriaalien yksiselitteinen tunnistus, paikannus ja ohjattu käsittely työmaalla sekä tukea sähköistä tiedonvaihtoa toimitusketjun osapuolten välillä. BEAst Label perustuu GS1-järjestelmään ja sen SSCC-tunnuksiin (Serial Shipping Container Code) sekä hyödyntää GS1-128-, DataMatrix- ja QR-viivakoodeja, joita käytetään muun muassa kolli-ID:n, GPS-koordinaattien ja yhteystietojen koneelliseen lukuun.<br>
 
