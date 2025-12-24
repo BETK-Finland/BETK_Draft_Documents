@@ -100,28 +100,28 @@ Esimerkiksi rakennesuunnittelijalle lohkoa usein rajaavat rakenteelliset liikunt
 
 ## 3	Sijaintieto tietomallissa
 ### 3.1	Koordinaatistot
-Rakennushankkeen koordinaatistoista käydään keskustelua jokaisessa hankkeessa. Alla selventävät kuvat siitä minkälaisia koordinaatistoja hankkeissa on tarpeen määrittää erilaisia käyttötapauksia varten. Projektin koordinaatisto tulee dokumentoida usein arkkitehdin toimesta.
+Rakennushankkeissa käytettävistä koordinaatistoista käydään keskustelua käytännössä jokaisessa hankkeessa. Koordinaatistojen määrittely on tarpeen, koska hankkeen eri osapuolilla ja eri käyttötapauksilla on toisistaan poikkeavia vaatimuksia sijaintitiedolle. Tietomallien näkökulmasta keskeistä on, että projektin koordinaatisto on sovittu ja dokumentoitu, usein arkkitehdin toimesta, jotta aineistoa voidaan siirtää ja yhdistää luotettavasti hankkeen aikana.
+
+Rakennushankkeissa on tyypillisesti käytössä kolme toisiaan täydentävää koordinaatistotyyppiä: asiakkaan koordinaatisto, projektin koordinaatisto ja suunnittelijan koordinaatisto.
 
 **Asiakkaan koordinaatisto**
 
-Tyypillisesti kaupungin tai kunnan koordinaatisto 
-Asiakkaan koordinaatisto palvelee asiakkaan tarpeita. Se mahdollistaa esimerkiksi suunnitelmien liittämisen laajempaan virtuaaliseen malliin. Projektin aikana esimerkiksi rakennusvalvonta voi edellyttää asiakkaan koordinaatiston käyttämistä. 
+Asiakkaan koordinaatisto perustuu tyypillisesti kaupungin tai kunnan käyttämään koordinaatistojärjestelmään. Asiakkaan koordinaatisto palvelee asiakkaan tarpeita ja mahdollistaa esimerkiksi suunnitelmien liittämisen laajempaan virtuaaliseen malliin. Projektin aikana rakennusvalvonta tai muu viranomainen voi edellyttää asiakkaan koordinaatiston käyttämistä.
 
 
 <img width="416" height="335" alt="Asiakkaan koordinaatisto" src="https://github.com/user-attachments/assets/57adfd92-120f-4033-b764-86a7b755fa25" /> <br> Kuva 2. Asiakkaan koordinaatisto
 
 **Projektin koordinaatisto**
 
-Projektin puitteissa sovittu koordinaatisto jossa aineistoa siirretään projektin aikana Projektin koordinaatisto palvelee projektin aikana tapahtuvaa tiedonsiirtoa. Eri suunnitteluajojen mallit pitää voida yhdistää esimerkiksi suunnitelmien ristiriidattomuuden varmistamista varten.
+Projektin koordinaatisto on hankkeen osapuolten kesken sovittu koordinaatisto, jossa aineistoa siirretään projektin aikana. Projektin koordinaatisto palvelee tiedonsiirtoa eri suunnittelualojen ja eri suunnitteluvaiheiden välillä. Sen avulla eri suunnitteluajojen mallit voidaan yhdistää toisiinsa esimerkiksi suunnitelmien ristiriidattomuuden tarkastelua varten.
 
  <img width="530" height="335" alt="Projektin koordinaatisto" src="https://github.com/user-attachments/assets/204114d4-ebea-410f-a53f-c6dc935941b8" /><br> Kuva 3.Projektin koordinaatisto
  
 **Suunnittelijan koordinaatisto**
 
-Suunnittelija omassa suunnittelutyössään käyttämä koordinaatisto 
-Suunnittelijan koordinaatisto palvelee suunnittelijan tarpeita. Suunnittelijan oman työn sujuvuuden kannalta on usein tarpeen 
-asettaa origo tiettyyn pisteeseen tai kääntää kohdetta. Jos tämä ei suunnittelijan ohjelmistossa ole mahdollista esimerkiksi näkymiä 
-asettamalla, on suunnittelijan mielekästä käyttää omassa työssään projektin koordinaatistosta poikkeavaa koordinaatistoa.
+Suunnittelijan koordinaatisto on suunnittelijan omassa suunnittelutyössä käyttämä koordinaatisto. Se palvelee ensisijaisesti suunnittelijan työn sujuvuutta. Käytännössä suunnittelijan voi olla tarpeen asettaa origo tiettyyn pisteeseen tai kääntää kohdetta, jotta mallinnus ja näkymien käsittely on tarkoituksenmukaista.
+
+Mikäli suunnittelijan ohjelmistossa ei ole mahdollista toteuttaa näitä ratkaisuja esimerkiksi näkymien avulla, voi suunnittelija käyttää projektin koordinaatistosta poikkeavaa koordinaatistoa omassa työssään.
 
 
 <img width="384" height="335" alt="Suunnittelijan koordinaatisto" src="https://github.com/user-attachments/assets/acc2c361-8c3e-411d-bea7-6158deb8d653" /><br> Kuva 4.Suunnittelijan koordinaatisto<br>
