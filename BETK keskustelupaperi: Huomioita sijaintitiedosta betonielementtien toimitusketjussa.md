@@ -195,9 +195,9 @@ Koodi 1.
 ---
 
 ## 4	Sijaintitietojen esittäminen tietomalleissa
-Rakennettujen kohteiden tietomalleissa sijaintitieto muodostaa keskeisen osan tuotetiedon ja prosessitiedon yhteentoimivuutta. IFC-standardin (*Industry Foundation Classes*) rakenteessa sijainti ja tilallinen organisointi määritellään kahden toisiaan täydentävän periaatteen kautta: ***placement*** (sijoittaminen) ja ***spatial organization*** (tilallinen rakenne).<br>
+Rakennettujen kohteiden tietomalleissa sijaintitieto muodostaa keskeisen osan tuotetiedon ja prosessitiedon yhteentoimivuutta. IFC-standardin (*Industry Foundation Classes*) rakenteessa sijainti ja tilallinen organisointi määritellään kahden toisiaan täydentävän periaatteen kautta: ```placement``` (sijoittaminen) ja ```spatial organization``` (tilallinen rakenne).<br>
 
-**Placement** kuvaa kohteen paikan suhteessa koordinaattijärjestelmään, toiseen objektiin tai paikalliseen referenssiin. IFC:n määritelmissä tämä toteutetaan luokan ```IfcObjectPlacement``` kautta, joka voi olla absoluuttinen (maailmankoordinatisto), suhteellinen (toiseen tuotteeseen) tai rajoitettu (esimerkiksi verkkoon tai lineaariseen kohteeseen sidottu). Paikallinen sijoitus määritellään ```IfcLocalPlacement```-luokalla, ja suuremmassa mittakaavassa georeferointi yhdistää mallin maantieteelliseen sijaintiin. Koordinaattiverkot (*IfcGrid*) mahdollistavat kohteiden sijoittamisen eri geometristen asetelmien mukaan, kuten suorakulmaisina, radiaalisina tai kolmiomaisina rakenteina.<br>
+**Placement** kuvaa kohteen paikan suhteessa koordinaattijärjestelmään, toiseen objektiin tai paikalliseen referenssiin. IFC:n määritelmissä tämä toteutetaan luokan ```IfcObjectPlacement``` kautta, joka voi olla absoluuttinen (maailmankoordinatisto), suhteellinen (toiseen tuotteeseen) tai rajoitettu (esimerkiksi verkkoon tai lineaariseen kohteeseen sidottu). Paikallinen sijoitus määritellään ```IfcLocalPlacement```-luokalla, ja suuremmassa mittakaavassa georeferointi yhdistää mallin maantieteelliseen sijaintiin. Koordinaattiverkot (```IfcGrid```) mahdollistavat kohteiden sijoittamisen eri geometristen asetelmien mukaan, kuten suorakulmaisina, radiaalisina tai kolmiomaisina rakenteina.<br>
 
 <img width="4163" height="1220" alt="Kuva13" src="https://github.com/user-attachments/assets/2a6df68b-4abe-4de2-8ec6-94be281ed721" /><br> Kuva x. Koordinaattiverkot (Domer & Bernadello, 2023)
 
@@ -206,7 +206,7 @@ Rakennettujen kohteiden tietomalleissa sijaintitieto muodostaa keskeisen osan tu
 
 **Spatial containment** – hierarkkinen tilarakenne ilman omaa geometriaa (esimerkiksi ```Site``` – ```Building``` – ```Storey``` – ```Space```), jota kuvataan luokalla ```IfcSpatialStructureElement```.<br>
 
-**Spatial composition** – geometrisesti kuvattu tilallinen koostumus, kuten IfcSpatialZone, joka kokoaa yhteen samankaltaisia tiloja tai toiminnallisia alueita.<br>
+**Spatial composition** – geometrisesti kuvattu tilallinen koostumus, kuten ```IfcSpatialZone```, joka kokoaa yhteen samankaltaisia tiloja tai toiminnallisia alueita.<br>
 
 <img width="4450" height="2223" alt="Kuva12" src="https://github.com/user-attachments/assets/b5baed5d-4741-4d37-af71-6ab5e02f665f" />
 
