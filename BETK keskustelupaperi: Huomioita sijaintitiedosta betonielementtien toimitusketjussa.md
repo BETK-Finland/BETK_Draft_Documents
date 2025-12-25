@@ -200,7 +200,7 @@ Lohkojakotieto oltava aina vaikka vain yksi rappu talossa?
 
 ---
 
-## Toimialan näkökulma – koordinaatistosta kohti toimitusketjun sijaintitietoa
+## 4 Toimialan näkökulma – koordinaatistosta kohti toimitusketjun sijaintitietoa
 
 Rakennusalan viimeaikaisissa kehityshankkeissa on tunnistettu, että tietomallien koordinaattitiedon nykyinen käyttö painottuu vahvasti suunnittelun ja viranomaisprosessien tarpeisiin, kun taas toimitusketjun operatiiviset käyttötapaukset jäävät heikosti tuetuiksi. Hankkeissa, kuten Rava3Pro- ja BETK-kokonaisuuksissa, koordinaattitietoon liittyviä vaatimuksia on täsmennetty erityisesti IFC-mallien validoinnin ja viranomaiskäytön näkökulmasta. Tästä huolimatta alalla ei ole vielä muodostunut yhtenäisiä ja laajasti sovellettuja käytäntöjä, joilla koordinaattipohjainen sijaintitieto kytkeytyisi systemaattisesti fyysisiin tuotteisiin ja toimitusketjun tapahtumiin.
 
@@ -213,6 +213,8 @@ Koordinaattitiedon välittäminen toimitusketjussa tarjoaa merkittäviä mahdoll
 <img width="642" height="211" alt="Kuva4" src="https://github.com/user-attachments/assets/a6dacf51-5744-4673-9c8b-0c5f8f0d53d5" /><br>Kuva 5. Kuorielementin painopisteen koordinaatit
 
 Tämä lähestymistapa osoittaa, että toimitusketjun sijaintitiedon kehittäminen ei välttämättä edellytä laajoja muutoksia IFC-standardin rakenteisiin tai raskaita semanttisia laajennuksia. Sen sijaan vaikuttavia käyttötapauksia voidaan avata lisäämällä rajattuja, mutta merkityksellisiä sijaintiattribuutteja, jotka voidaan liittää yksilöityihin tuotteisiin ja välittää eteenpäin tapahtumatiedon yhteydessä. Näin sijaintitieto toimii linkkinä tietomallien, fyysisten tuotteiden ja toimitusketjun operatiivisten prosessien välillä.
+
+--
 
 ### 4.1 Sijaintitietojen välitys sähköisissä hankinta-toimitus sanomissa
 
@@ -238,8 +240,9 @@ Sijaintitiedot Peppol sanomissa:
 ```
 **Koodi 1. ** esimerkki sijaintitietojen välittämisestä sähköisissä hankinta-toimitus sanomissa
 
-### 4.2 Toimitusketjun näkökulma: BEAst Label -esimerkki Ruotsista
+---
 
+### 4.2 Toimitusketjun näkökulma: BEAst Label -esimerkki Ruotsista
 Ruotsalaisen rakennusteollisuuden tarpeisiin kehitetty BEAst Label on rakennusalan toimitusketjujen tueksi laadittu kollietikettistandardi, jonka tarkoituksena on yhdenmukaistaa tavaroiden ja materiaalien merkintä ja tunnistettavuus toimitusprosessin eri vaiheissa. Standardin tekninen tehtävä on mahdollistaa rakennusmateriaalien yksiselitteinen tunnistus, paikannus ja ohjattu käsittely työmaalla sekä tukea sähköistä tiedonvaihtoa toimitusketjun osapuolten välillä. BEAst Label perustuu GS1-järjestelmään ja sen SSCC-tunnuksiin (Serial Shipping Container Code) sekä hyödyntää GS1-128-, DataMatrix- ja QR-viivakoodeja, joita käytetään muun muassa kolli-ID:n, GPS-koordinaattien ja yhteystietojen koneelliseen lukuun.<br>
 
 Standardin ydinperiaate on, että fyysinen etiketti ja sähköinen tiedonvaihto muodostavat yhdenmukaisen tietorakenteen. Etikettien tiedot tuotetaan automaattisesti BEAst Supply Material -standardin mukaisesta sähköisestä tilausviestistä (EDI), jossa määritellään toimituksen kohdetiedot kuten rakennus, porrashuone, kerros, huone ja purkupaikka. Tämän rakenteen ansiosta toimittajat voivat tulostaa kollikohtaiset etiketit samansisältöisinä eri toimituksissa ilman manuaalista tietojen syöttöä.<br>
