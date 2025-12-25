@@ -127,9 +127,6 @@ Sijaintitiedon mallintamisen standardoitu rakenne on keskeinen edellytys digitaa
 
 ---
 
-
-
-
 ### 3.1	Koordinaatistot
 Rakennushankkeissa käytettävistä koordinaatistoista käydään keskustelua käytännössä jokaisessa hankkeessa. Koordinaatistojen määrittely on tarpeen, koska hankkeen eri osapuolilla ja eri käyttötapauksilla on toisistaan poikkeavia vaatimuksia sijaintitiedolle. Tietomallien näkökulmasta keskeistä on, että projektin koordinaatisto on sovittu ja dokumentoitu, usein arkkitehdin toimesta, jotta aineistoa voidaan siirtää ja yhdistää luotettavasti hankkeen aikana.
 
@@ -158,23 +155,25 @@ Mikäli suunnittelijan ohjelmistossa ei ole mahdollista toteuttaa näitä ratkai
 <img width="384" height="335" alt="Suunnittelijan koordinaatisto" src="https://github.com/user-attachments/assets/acc2c361-8c3e-411d-bea7-6158deb8d653" /><br> Kuva 4.Suunnittelijan koordinaatisto<br>
 
 ### 3.2	Kerrostiedot IFC-mallissa
-IFC-mallissa rakenneosat kuuluvat tiettyyn rakennukseen (IfcBuilding), lohkoon (osittainen IfcBuilding) ja kerrokseen (IfcBuildingStorey). Rakennuksen lohko ei ole IFC-formaatissa vastaava käsite kuin rakennus ja kerros. IFC-formaatti mahdollistaa hierarkisuuden siten että, rakennus voi koostua useasta rakennuksesta, jotka voivat sisältää osittaisia rakennuksia, jotka ovat on tarkoitettu raken-nuksen lohkojen määrittelyyn. Useat eri suunnittelualojen mallinnusohjelmat perustuvat siihen, että mallia tehdään rakennuksittain ja kerroksittain. Nämä sijaintitiedot ovat tärkeitä asennusta ja valmistusta suunniteltaessa ja toteutuksessa. Ja usein myös jo tarjouslaskentavaiheessa kustannusten jaot-telua varten on tietomallien lohkojako tarpeellinen. 
+IFC-mallissa rakenneosat kuuluvat tiettyyn rakennukseen (```IfcBuilding```), lohkoon (osittainen ```IfcBuilding```) ja kerrokseen (```IfcBuildingStorey```). Rakennuksen lohko ei ole IFC-formaatissa vastaava käsite kuin rakennus ja kerros. IFC-formaatti mahdollistaa hierarkisuuden siten että, rakennus voi koostua useasta rakennuksesta, jotka voivat sisältää osittaisia rakennuksia, jotka ovat on tarkoitettu raken-nuksen lohkojen määrittelyyn. Useat eri suunnittelualojen mallinnusohjelmat perustuvat siihen, että mallia tehdään rakennuksittain ja kerroksittain. Nämä sijaintitiedot ovat tärkeitä asennusta ja valmistusta suunniteltaessa ja toteutuksessa. Ja usein myös jo tarjouslaskentavaiheessa kustannusten jaot-telua varten on tietomallien lohkojako tarpeellinen. 
 Kerrostiedossa on havaittu haasteeksi mm. kerrostiedon puuttuminen, väärin syötetty kerrostiedot ja monenlaiset kirjoitustavat ja -virheet. 
 
 <img width="197" height="246" alt="Kuva5" src="https://github.com/user-attachments/assets/4b8df90e-22ef-445d-ba3f-3e6135d2d7e0" /><br> Kuva 6. Esimerkki kuinka välilyönnit lisäävät kerroksia hankkeen tietomalliin
 
-Ohjeita tietojen lisäämiseen hankkeissa:
-•	Rakennesuunnittelija lisää sovitun lohko- ja kerrosjaon tietomalliin. 
-•	Lohko- ja kerrostiedot tarkistetaan ennen tietomallitoimituksia.
-•	Kerrostieto kirjoitetaan ilman ”.krs” tai muita tiedonsiirtoa sotkevia selitetekstejä, vain nu-meroita. Kerrostieto on IFC-mallissa kerrostietonimisessä tietokentässä (IfcBuildingStorey) jo-ten arvo ei tarvitse selittävää tekstiä siitä, että tiedolla tarkoitetaan kerrosta.
-•	Kerroksen muodostavat kantavat ja ei-kantavat seinät ja pilarit niiden yläpuolinen välipohja. Usean kerrosten läpi menevät rakenteet (esim. pilarit) alimpaan kerrokseen, jossa ne asenne-taan.
-•	Rakennemallissa kerroksina myös ”POHJARAKENTEET, PERUSTUKSET, ALAPOHJA, KELLARI”. Eli paalut ja anturarakenteet, sokkelit ja alapohjan rakenteet. 
-•	Kerrokset nimet aina isolla kirjaimella, jotta ei tule eri tavalla kirjoitettuna. Esim. Kellari vs KELLARI. 
-•	Rakenteellinen pintalaatta nimetään saman kerrokseen kuin sen alapuoliset rakenteet. 
-•	Yläpohjassa esim. ylimmän ontelolaattatason yläpuoliset vesikattorakenteet nimetään erik-seen omaksi kerrokseksi, esim. YLÄPOHJA. 
+Ohjeita tietojen lisäämiseen hankkeissa:<br>
+	•	Rakennesuunnittelija lisää sovitun lohko- ja kerrosjaon tietomalliin.<br>
+	•	Lohko- ja kerrostiedot tarkistetaan ennen tietomallitoimituksia.<br>
+	•	Kerrostieto kirjoitetaan ilman ”.krs” tai muita tiedonsiirtoa sotkevia selitetekstejä, vain nu-meroita. Kerrostieto on IFC-mallissa kerrostietonimisessä tietokentässä (IfcBuildingStorey) jo-ten arvo ei tarvitse selittävää tekstiä siitä, että tiedolla tarkoitetaan kerrosta.<br>
+	•	Kerroksen muodostavat kantavat ja ei-kantavat seinät ja pilarit niiden yläpuolinen välipohja. Usean kerrosten läpi menevät rakenteet (esim. pilarit) alimpaan kerrokseen, jossa ne asennetaan.<br>
+	•	Rakennemallissa kerroksina myös ”POHJARAKENTEET, PERUSTUKSET, ALAPOHJA, KELLARI”. Eli paalut ja anturarakenteet, sokkelit ja alapohjan rakenteet.<br>
+	•	Kerrokset nimet aina isolla kirjaimella, jotta ei tule eri tavalla kirjoitettuna. Esim. Kellari vs KELLARI.<br> 
+	•	Rakenteellinen pintalaatta nimetään saman kerrokseen kuin sen alapuoliset rakenteet.<br>
+	•	Yläpohjassa esim. ylimmän ontelolaattatason yläpuoliset vesikattorakenteet nimetään erik-seen omaksi kerrokseksi, esim. YLÄPOHJA.<br>
  
 <img width="385" height="159" alt="Kuva6" src="https://github.com/user-attachments/assets/7d6217e4-ef5a-44cf-adb9-c6b1322c298c" /><br>Kuva 7. Esimerkki kerrosten nimeämisestä
-	
+
+---
+
 #### 3.3 Lohkotiedot IFC-mallissa
 Rakennuksen lohkojakoon vaikuttavat mm. palo-osastointi, toiminnot, runkojärjestelmä, tekniikka, maapinnan olosuhteen ja perustukset, työvaiheiden limitys, tontin koko ja muoto ja jne jne. Eli vai-kuttavia asioita on paljon ja lohkotietojen käyttötapaukset vaihtelevat hankkeen aikana. Alla muu-tamia esimerkkejä erityyppisistä rakennuksista.
 Logistiikka-halli, joka jaettu lohkoihin A ja B ja niiden alla useampi asennuslohko A1, A2, B1 ja  B2 jne. 
