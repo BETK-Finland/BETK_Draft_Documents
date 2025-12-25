@@ -250,9 +250,7 @@ Standardi käyttää applikointitunnistetta (AI) 90 erotuksena STE/STILL-kuljetu
 
 BEAst Label muodostaa teknisen rajapinnan fyysisen etiketin ja sähköisen tiedonhallinnan välillä. Sen avulla toimitusketjun tiedot voidaan esittää yhteismitallisesti eri järjestelmissä ja varmistaa, että tunnistetiedot säilyvät yhdenmukaisina koko materiaalivirran läpi rakennuslogistiikassa.
 
-<img width="500" alt="Kuva10" src="https://github.com/user-attachments/assets/66236156-7eb4-4c99-8b3b-fd0acc05e628" />
-
-<img width="500" alt="Kuva11" src="https://github.com/user-attachments/assets/4c3906e6-dd32-40a7-bd5a-80f446fd814f" />
+<img width="2693" height="2190" alt="Kuva14" src="https://github.com/user-attachments/assets/f1eea75b-1960-4119-8ee2-9cb33f9283cb" /><br> Kuva X. (BEAst Label)[https://beast.se/standarder/beast-label/#] -kollietikettien hyödyntäminen materiaalitoimituksissa
 
 
 
