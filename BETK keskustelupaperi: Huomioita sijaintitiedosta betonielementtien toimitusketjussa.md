@@ -208,7 +208,9 @@ Rakennettujen kohteiden tietomalleissa sijaintitieto muodostaa keskeisen osan tu
 
 **Spatial composition** – geometrisesti kuvattu tilallinen koostumus, kuten IfcSpatialZone, joka kokoaa yhteen samankaltaisia tiloja tai toiminnallisia alueita.<br>
 
-<img width="4450" height="2223" alt="2025-11-07_Kuva1" src="https://github.com/user-attachments/assets/ce41cd97-a614-42a7-a3a7-2a58f3e410b6" /><br> Kuva x. Rakennuksen tilayksiköt (Domer & Bernadello, 2023)[^1]
+<img width="4450" height="2223" alt="Kuva12" src="https://github.com/user-attachments/assets/b5baed5d-4741-4d37-af71-6ab5e02f665f" />
+
+<br> Kuva x. Rakennuksen tilayksiköt (Domer & Bernadello, 2023)[^1]
 
 Rakennuksen tilahierarkia seuraa tyypillisesti rakennuksen suunnittelun ja rakentamisen logiikkaa: ```IfcProject``` toimii ylimpänä kontekstina, jonka alla sijaitsevat ```IfcSite```, ```IfcBuilding```, ```IfcBuildingStorey``` ja ```IfcSpace```. Näin muodostetaan yhtenäinen tietorakenne rakentamiskohteen informaatiomalliin (BIM), jonka avulla eri suunnittelualojen ja toimitusketjun toimijat voivat viitata samoihin tilallisiin ja paikallisiin konteksteihin mallissa (BIM).<br>
 
