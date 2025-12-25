@@ -55,21 +55,21 @@
  
 ## Sisällysluettelo
 
+1. [Tausta](#1-tausta)
+2. [Keskustelupaperin tarkoitus ja rajaukset](#2-keskustelupaperin-tarkoitus-ja-rajaukset)
+3. [Sijaintitietojen esittäminen tietomalleissa](#3-sijaintitietojen-esittäminen-tietomalleissa)
+   1. [Koordinaatistot](#31-koordinaatistot)
+      1. [Asiakkaan koordinaatisto](#311-asiakkaan-koordinaatisto)
+      2. [Projektin koordinaatisto](#312-projektin-koordinaatisto)
+      3. [Suunnittelijan koordinaatisto](#313-suunnittelijan-koordinaatisto)
+   2. [Kerrostiedot IFC-mallissa](#32-kerrostiedot-ifc-mallissa)
+   3. [Lohkotiedot IFC-mallissa](#33-lohkotiedot-ifc-mallissa)
+4. [Toimialan näkökulma – koordinaatistosta kohti toimitusketjun sijaintitietoa](#4-toimialan-näkökulma--koordinaatistosta-kohti-toimitusketjun-sijaintitietoa)
+   1. [Sijaintitietojen välitys sähköisissä hankinta- ja toimitussanomissa](#41-sijaintitietojen-välitys-sähköisissä-hankinta--ja-toimitussanomissa)
+   2. [Toimitusketjun näkökulma: BEAst Label -esimerkki Ruotsista](#42-toimitusketjun-näkökulma-beast-label--esimerkki-ruotsista)
+5. [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)
+6. [Viittaukset](#viittaukset)
 
-[1 Tausta](#1-tausta)<br>
-[2 Keskustelupaperin tarkoitus ja rajaukset](#2Keskustelupaperin-tarkoitus-ja-rajaukset)<br>
-[3 Sijaintitietojen esittäminen tietomalleissa](#3-sijaintitietojen-esittäminen-tietomalleissa)<br>
-	[3.1 Koordinaatistot](#31-koordinaatistot)<br>
-   	[3.1.1 Asiakkaan koordinaatisto](#311-asiakkaan-koordinaatisto)<br>
- 	[3.1.2 Projektin koordinaatisto](#312-projektin-koordinaatisto)<br>
- 	[3.1.3 Suunnittelijan koordinaatisto](#313-suunnittelijan-koordinaatisto)<br>
-   	[3.2 Kerrostiedot IFC-mallissa](#32-kerrostiedot-ifc-mallissa)<br>
-   	[3.3 Lohkotiedot IFC-mallissa](#33-lohkotiedot-ifc-mallissa)<br>
-[4 Toimialan näkökulma – koordinaatistosta kohti toimitusketjun sijaintitietoa](#4-toimialan-näkökulma--koordinaatistosta-kohti-toimitusketjun-sijaintitietoa)<br>
-	[4.1 Sijaintitietojen välitys sähköisissä hankinta- ja toimitussanomissa](#41-sijaintitietojen-välitys-sähköisissä-hankinta--ja-toimitussanomissa)<br>
-  	[4.2 Toimitusketjun näkökulma: BEAst Label -esimerkki Ruotsista](#42-toimitusketjun-näkökulma-beast-label--esimerkki-ruotsista)<br>
-   [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)<br>
-   [Viittaukset](#viittaukset)<br>
 
 ---
 ​ 
