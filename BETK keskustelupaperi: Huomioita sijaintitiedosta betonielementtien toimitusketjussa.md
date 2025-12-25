@@ -202,21 +202,23 @@ Lohkojakotieto oltava aina vaikka vain yksi rappu talossa?
 
 ## Toimialan näkökulma – koordinaatistosta kohti toimitusketjun sijaintitietoa
 
-Rakennusalan kehityshankkeissa, kuten Rava3Pro- ja BETK-hankkeissa, on tunnistettu tarve täsmentää tietomallien koordinaattitietoon liittyviä vaatimuksia. Tämän kirjoituksen hetkellä alalla ei kuitenkaan ole vielä yhtenäisiä ja laajasti sovellettuja käytäntöjä koordinaattitiedon hyödyntämiseen toimitusketjun tasolla.
+Rakennusalan viimeaikaisissa kehityshankkeissa on tunnistettu, että tietomallien koordinaattitiedon nykyinen käyttö painottuu vahvasti suunnittelun ja viranomaisprosessien tarpeisiin, kun taas toimitusketjun operatiiviset käyttötapaukset jäävät heikosti tuetuiksi. Hankkeissa, kuten Rava3Pro- ja BETK-kokonaisuuksissa, koordinaattitietoon liittyviä vaatimuksia on täsmennetty erityisesti IFC-mallien validoinnin ja viranomaiskäytön näkökulmasta. Tästä huolimatta alalla ei ole vielä muodostunut yhtenäisiä ja laajasti sovellettuja käytäntöjä, joilla koordinaattipohjainen sijaintitieto kytkeytyisi systemaattisesti fyysisiin tuotteisiin ja toimitusketjun tapahtumiin.
 
-BETK-hankkeessa kehitetty tapa yksilöidä betonielementti GS1 GTIN -tunnisteen avulla mahdollistaa fyysisten tuotteiden yhdistämisen digitaaliseen sijainti- ja tapahtumatietoon esimerkiksi RFID-teknologian kautta. RFID-lukutapahtumat voivat tuottaa automaattisesti sijaintitietoa, jota on mahdollista välittää toimitusketjun osapuolten välillä digitaalisissa sanomissa, kuten Peppol-sanomissa.
+Toimitusketjun näkökulmasta pelkkä geometrinen tai absoluuttinen sijainti ei ole riittävä. Keskeistä on sijaintitiedon kontekstualisointi siten, että se on tulkittavissa tuotannon, logistiikan ja asennuksen ohjausta varten. Tämä edellyttää siirtymää koordinaattikeskeisestä ajattelusta kohti tapahtuma- ja kohdepohjaista sijaintitietoa, jossa fyysiset tuotteet voidaan yksilöidä, paikantaa ja liittää ajallisiin sekä prosessuaalisiin tapahtumiin koko toimitusketjun läpi.
 
-Koordinaattitiedon välittäminen tarjoaa merkittäviä mahdollisuuksia, mutta edellyttää laajempaa toimialatason vakiointia. BETK-hankkeessa tietomalliin lisätty betonielementin painopisteen koordinaattitieto toimii konkreettisena esimerkkinä kevyestä, mutta vaikuttavasta ratkaisusta, joka ei vaadi laajaa standardimuutosta, mutta avaa uusia käyttötapauksia tuotannon, logistiikan ja asennuksen ohjaukseen.
+BETK-hankkeessa kehitetty lähestymistapa betonielementtien tuoteyksilöintiin ja -tunnistamiseen GS1 standardien avulla muodostaa keskeisen teknisen edellytyksen tälle siirtymälle. Yksilöivä tuotetunniste mahdollistaa fyysisen betonielementin kytkemisen digitaaliseen tapahtuma- ja sijaintitietoon esimerkiksi RFID-teknologian avulla. RFID-lukutapahtumat voivat tuottaa automaattisesti tietoa elementin sijainnista, siirtymistä ja käsittelyvaiheista, ja tämä tieto voidaan välittää edelleen toimitusketjun osapuolten välillä rakenteellisissa digitaalisissa sanomissa, kuten Peppol-pohjaisissa hankinta- ja toimitussanomissa.
+
+Koordinaattitiedon välittäminen toimitusketjussa tarjoaa merkittäviä mahdollisuuksia, mutta samalla se paljastaa vakioinnin puutteen keskeiseksi rajoitteeksi. Ilman yhteisesti sovittuja tietorakenteita, semantiikkaa ja käyttötapoja koordinaattitieto jää helposti järjestelmäkohtaiseksi tai kontekstittomaksi. BETK-hankkeessa tietomalliin lisätty betonielementin painopisteen koordinaattitieto edustaa tarkoituksellisesti kevyttä ratkaisua tähän ongelmaan. Painopisteen koordinaatti ei pyri kuvaamaan koko elementin geometriaa, vaan toimii yksiselitteisenä ja laskennallisesti yksinkertaisena sijaintireferenssinä, joka voidaan hyödyntää tuotannon suunnittelussa, kuljetusten optimoinnissa, nostojen ohjauksessa ja asennusjärjestyksen hallinnassa.
 
 <img width="642" height="211" alt="Kuva4" src="https://github.com/user-attachments/assets/a6dacf51-5744-4673-9c8b-0c5f8f0d53d5" /><br>Kuva 5. Kuorielementin painopisteen koordinaatit
 
+Tämä lähestymistapa osoittaa, että toimitusketjun sijaintitiedon kehittäminen ei välttämättä edellytä laajoja muutoksia IFC-standardin rakenteisiin tai raskaita semanttisia laajennuksia. Sen sijaan vaikuttavia käyttötapauksia voidaan avata lisäämällä rajattuja, mutta merkityksellisiä sijaintiattribuutteja, jotka voidaan liittää yksilöityihin tuotteisiin ja välittää eteenpäin tapahtumatiedon yhteydessä. Näin sijaintitieto toimii linkkinä tietomallien, fyysisten tuotteiden ja toimitusketjun operatiivisten prosessien välillä.
+
 ### 4.1 Sijaintitietojen välitys sähköisissä hankinta-toimitus sanomissa
 
+Toimitusketjun näkökulmasta keskeinen kysymys ei ole ainoastaan sijaintitiedon mallintaminen, vaan sen siirrettävyys järjestelmien välillä. Peppol-pohjaiset hankinta- ja toimitussanomat tarjoavat olemassa olevan infrastruktuurin, jossa sijaintitietoa voidaan välittää rakenteellisessa muodossa tilausten, toimitusten ja tapahtumien yhteydessä. Kun asennuslohko-, kerros- ja tilatiedot johdetaan tietomallista ja liitetään osaksi sanomaliikennettä, voidaan fyysisten toimitusten kohdistaminen tehdä johdonmukaisesti ilman manuaalista uudelleentulkintaa.
 
-Peppol
-Asennuslohkotieto tietomallista
-Asennuslohkotieto tietomalliin
-Asennussijainnit Peppol
+Alla esitetty esimerkkirakenne havainnollistaa, miten sijaintitietoa voidaan jäsentää hierarkkisesti sähköisissä hankinta- ja toimitussanomissa siten, että se tukee sekä tietomallipohjaista suunnittelua että toimitusketjun operatiivista ohjausta.
 
 ```yaml
 Sijaintitiedot Peppol sanomissa:
@@ -236,7 +238,7 @@ Sijaintitiedot Peppol sanomissa:
 ```
 **Koodi 1. ** esimerkki sijaintitietojen välittämisestä sähköisissä hankinta-toimitus sanomissa
 
-## 5 Toimitusketjun näkökulma: BEAst Label -esimerkki Ruotsista
+### 4.2 Toimitusketjun näkökulma: BEAst Label -esimerkki Ruotsista
 
 Ruotsalaisen rakennusteollisuuden tarpeisiin kehitetty BEAst Label on rakennusalan toimitusketjujen tueksi laadittu kollietikettistandardi, jonka tarkoituksena on yhdenmukaistaa tavaroiden ja materiaalien merkintä ja tunnistettavuus toimitusprosessin eri vaiheissa. Standardin tekninen tehtävä on mahdollistaa rakennusmateriaalien yksiselitteinen tunnistus, paikannus ja ohjattu käsittely työmaalla sekä tukea sähköistä tiedonvaihtoa toimitusketjun osapuolten välillä. BEAst Label perustuu GS1-järjestelmään ja sen SSCC-tunnuksiin (Serial Shipping Container Code) sekä hyödyntää GS1-128-, DataMatrix- ja QR-viivakoodeja, joita käytetään muun muassa kolli-ID:n, GPS-koordinaattien ja yhteystietojen koneelliseen lukuun.<br>
 
