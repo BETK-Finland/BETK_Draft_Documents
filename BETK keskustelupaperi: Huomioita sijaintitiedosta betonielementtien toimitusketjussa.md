@@ -160,15 +160,16 @@ Kerrostiedossa on havaittu haasteeksi mm. kerrostiedon puuttuminen, väärin sy�
 
 <img width="197" height="246" alt="Kuva5" src="https://github.com/user-attachments/assets/4b8df90e-22ef-445d-ba3f-3e6135d2d7e0" /><br> Kuva 6. Esimerkki kuinka välilyönnit lisäävät kerroksia hankkeen tietomalliin
 
-Ohjeita tietojen lisäämiseen hankkeissa:<br>
-	•	Rakennesuunnittelija lisää sovitun lohko- ja kerrosjaon tietomalliin.<br>
-	•	Lohko- ja kerrostiedot tarkistetaan ennen tietomallitoimituksia.<br>
-	•	Kerrostieto kirjoitetaan ilman ”.krs” tai muita tiedonsiirtoa sotkevia selitetekstejä, vain nu-meroita. Kerrostieto on IFC-mallissa kerrostietonimisessä tietokentässä (IfcBuildingStorey) jo-ten arvo ei tarvitse selittävää tekstiä siitä, että tiedolla tarkoitetaan kerrosta.<br>
-	•	Kerroksen muodostavat kantavat ja ei-kantavat seinät ja pilarit niiden yläpuolinen välipohja. Usean kerrosten läpi menevät rakenteet (esim. pilarit) alimpaan kerrokseen, jossa ne asennetaan.<br>
-	•	Rakennemallissa kerroksina myös ”POHJARAKENTEET, PERUSTUKSET, ALAPOHJA, KELLARI”. Eli paalut ja anturarakenteet, sokkelit ja alapohjan rakenteet.<br>
-	•	Kerrokset nimet aina isolla kirjaimella, jotta ei tule eri tavalla kirjoitettuna. Esim. Kellari vs KELLARI.<br> 
-	•	Rakenteellinen pintalaatta nimetään saman kerrokseen kuin sen alapuoliset rakenteet.<br>
-	•	Yläpohjassa esim. ylimmän ontelolaattatason yläpuoliset vesikattorakenteet nimetään erik-seen omaksi kerrokseksi, esim. YLÄPOHJA.<br>
+> [!TIP]
+> Ohjeita tietojen lisäämiseen hankkeissa:<br>
+* Rakennesuunnittelija lisää sovitun lohko- ja kerrosjaon tietomalliin.<br>
+* Lohko- ja kerrostiedot tarkistetaan ennen tietomallitoimituksia.<br>
+* Kerrostieto kirjoitetaan ilman ”.krs” tai muita tiedonsiirtoa sotkevia selitetekstejä, vain nu-meroita. Kerrostieto on IFC-mallissa kerrostietonimisessä tietokentässä (IfcBuildingStorey) jo-ten arvo ei tarvitse selittävää tekstiä siitä, että tiedolla tarkoitetaan kerrosta.<br>
+* Kerroksen muodostavat kantavat ja ei-kantavat seinät ja pilarit niiden yläpuolinen välipohja. Usean kerrosten läpi menevät rakenteet (esim. pilarit) alimpaan kerrokseen, jossa ne asennetaan.<br>
+* Rakennemallissa kerroksina myös ”POHJARAKENTEET, PERUSTUKSET, ALAPOHJA, KELLARI”. Eli paalut ja anturarakenteet, sokkelit ja alapohjan rakenteet.<br>
+* Kerrokset nimet aina isolla kirjaimella, jotta ei tule eri tavalla kirjoitettuna. Esim. Kellari vs KELLARI.<br> 
+* Rakenteellinen pintalaatta nimetään saman kerrokseen kuin sen alapuoliset rakenteet.<br>
+* Yläpohjassa esim. ylimmän ontelolaattatason yläpuoliset vesikattorakenteet nimetään erik-seen omaksi kerrokseksi, esim. YLÄPOHJA.<br>
  
 <img width="385" height="159" alt="Kuva6" src="https://github.com/user-attachments/assets/7d6217e4-ef5a-44cf-adb9-c6b1322c298c" /><br>Kuva 7. Esimerkki kerrosten nimeämisestä
 
