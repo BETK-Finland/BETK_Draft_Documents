@@ -221,9 +221,13 @@ Sijaintitiedon standardoitu rakenne on keskeinen edellytys digitaalisten toimitu
 
 ---
 
-## Toimialan näkökulmia sijaintitietojen vakioinnista...
+## Toimialan näkökulma – koordinaatistosta kohti toimitusketjun sijaintitietoa
 
-Rava3Pro-hankkeessa on ollut esillä vaatimuksia hankkeen tietomallien koordinaatti-tiedolle, mutta tätä ohjetta kirjotettaessa selkeitä vaatimuksia ei vielä ole tiedossa. BETK-hankkeessa on käyty keskustelua koordinaattitiedon mahdollisuuksista ja haasteista.  BETK-hankkeessa luotu ja soveltamisohjeessa **[1]** kuvattu tapa yksilöidä elementti käyttäen GS1 GTIN-standardia mahdollistaa elementin tunnistamisen käyttäen RFID-teknologiaa. RFID-lukutapahtumissa on mahdollista saada mm. lukutapahtumista sijaintitietoa ja tietoa on mahdollista välittää toimitusketjun välillä Peppol-sanomilla. Koordinaattitiedon välittäminen tarjoaa erilaisia mahdollisuuksia mutta edellyttää alalta laajempaa vakiointia. BETK-hankkeessa tietomallin tietokenttiin lisättiin betonielementin  painopisteen koordinaatit. Tämän toteuttaminen ei edellytä laajempaa vakiointia ja on esimerkkinä tulevaisuuden ratkaisuille ja käyttötapauksille. 
+Rakennusalan kehityshankkeissa, kuten Rava3Pro- ja BETK-hankkeissa, on tunnistettu tarve täsmentää tietomallien koordinaattitietoon liittyviä vaatimuksia. Tämän kirjoituksen hetkellä alalla ei kuitenkaan ole vielä yhtenäisiä ja laajasti sovellettuja käytäntöjä koordinaattitiedon hyödyntämiseen toimitusketjun tasolla.
+
+BETK-hankkeessa kehitetty tapa yksilöidä betonielementti GS1 GTIN -tunnisteen avulla mahdollistaa fyysisten tuotteiden yhdistämisen digitaaliseen sijainti- ja tapahtumatietoon esimerkiksi RFID-teknologian kautta. RFID-lukutapahtumat voivat tuottaa automaattisesti sijaintitietoa, jota on mahdollista välittää toimitusketjun osapuolten välillä digitaalisissa sanomissa, kuten Peppol-sanomissa.
+
+Koordinaattitiedon välittäminen tarjoaa merkittäviä mahdollisuuksia, mutta edellyttää laajempaa toimialatason vakiointia. BETK-hankkeessa tietomalliin lisätty betonielementin painopisteen koordinaattitieto toimii konkreettisena esimerkkinä kevyestä, mutta vaikuttavasta ratkaisusta, joka ei vaadi laajaa standardimuutosta, mutta avaa uusia käyttötapauksia tuotannon, logistiikan ja asennuksen ohjaukseen.
 
 <img width="642" height="211" alt="Kuva4" src="https://github.com/user-attachments/assets/a6dacf51-5744-4673-9c8b-0c5f8f0d53d5" /><br>Kuva 5. Kuorielementin painopisteen koordinaatit
 
