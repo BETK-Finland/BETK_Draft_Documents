@@ -252,12 +252,6 @@ BEAst Label muodostaa teknisen rajapinnan fyysisen etiketin ja sähköisen tiedo
 
 <img width="2693" height="2190" alt="Kuva14" src="https://github.com/user-attachments/assets/f1eea75b-1960-4119-8ee2-9cb33f9283cb" /><br> Kuva X. [BEAst Label](https://beast.se/standarder/beast-label/#) -kollietikettien hyödyntäminen materiaalitoimituksissa
 
-
-
-
-
-(BEAst Label)[https://beast.se/standarder/beast-label/#]
-(BEAst Label-manual)[https://beast.se/wp-content/uploads/2018/10/BEAst-Label_Manual_v1-03.pdf]
 	
 	
 ## Lyhenteet ja terminologia
