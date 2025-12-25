@@ -60,9 +60,9 @@
 [2 Keskustelupaperin tarkoitus ja rajaukset](#2Keskustelupaperin-tarkoitus-ja-rajaukset)<br>
 [3 Sijaintitietojen esittäminen tietomalleissa](#3-sijaintitietojen-esittäminen-tietomalleissa)<br>
 	[3.1 Koordinaatistot](#31-koordinaatistot)<br>
-    	[3.1.1 Asiakkaan koordinaatisto](#311-asiakkaan-koordinaatisto)<br>
-      	[3.1.2 Projektin koordinaatisto](#312-projektin-koordinaatisto)<br>
-      	[3.1.3 Suunnittelijan koordinaatisto](#313-suunnittelijan-koordinaatisto)<br>
+   	[3.1.1 Asiakkaan koordinaatisto](#311-asiakkaan-koordinaatisto)<br>
+ 	[3.1.2 Projektin koordinaatisto](#312-projektin-koordinaatisto)<br>
+ 	[3.1.3 Suunnittelijan koordinaatisto](#313-suunnittelijan-koordinaatisto)<br>
    	[3.2 Kerrostiedot IFC-mallissa](#32-kerrostiedot-ifc-mallissa)<br>
    	[3.3 Lohkotiedot IFC-mallissa](#33-lohkotiedot-ifc-mallissa)<br>
 [4 Toimialan näkökulma – koordinaatistosta kohti toimitusketjun sijaintitietoa](#4-toimialan-näkökulma--koordinaatistosta-kohti-toimitusketjun-sijaintitietoa)<br>
