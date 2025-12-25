@@ -164,7 +164,7 @@ Kerrostiedossa on havaittu haasteeksi mm. kerrostiedon puuttuminen, väärin sy�
 > Ohjeita tietojen lisäämiseen hankkeissa:<br>
 * Rakennesuunnittelija lisää sovitun lohko- ja kerrosjaon tietomalliin.<br>
 * Lohko- ja kerrostiedot tarkistetaan ennen tietomallitoimituksia.<br>
-* Kerrostieto kirjoitetaan ilman ”.krs” tai muita tiedonsiirtoa sotkevia selitetekstejä, vain nu-meroita. Kerrostieto on IFC-mallissa kerrostietonimisessä tietokentässä (IfcBuildingStorey) jo-ten arvo ei tarvitse selittävää tekstiä siitä, että tiedolla tarkoitetaan kerrosta.<br>
+* Kerrostieto kirjoitetaan ilman ”.krs” tai muita tiedonsiirtoa sotkevia selitetekstejä, vain numeroita. Kerrostieto on IFC-mallissa kerrostietonimisessä tietokentässä (IfcBuildingStorey) jo-ten arvo ei tarvitse selittävää tekstiä siitä, että tiedolla tarkoitetaan kerrosta.<br>
 * Kerroksen muodostavat kantavat ja ei-kantavat seinät ja pilarit niiden yläpuolinen välipohja. Usean kerrosten läpi menevät rakenteet (esim. pilarit) alimpaan kerrokseen, jossa ne asennetaan.<br>
 * Rakennemallissa kerroksina myös ”POHJARAKENTEET, PERUSTUKSET, ALAPOHJA, KELLARI”. Eli paalut ja anturarakenteet, sokkelit ja alapohjan rakenteet.<br>
 * Kerrokset nimet aina isolla kirjaimella, jotta ei tule eri tavalla kirjoitettuna. Esim. Kellari vs KELLARI.<br> 
