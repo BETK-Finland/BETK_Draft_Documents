@@ -129,8 +129,7 @@ Mikäli suunnittelijan ohjelmistossa ei ole mahdollista toteuttaa näitä ratkai
 
 <img width="384" height="335" alt="Suunnittelijan koordinaatisto" src="https://github.com/user-attachments/assets/acc2c361-8c3e-411d-bea7-6158deb8d653" /><br> Kuva 4.Suunnittelijan koordinaatisto<br>
 
-### 3.2	Sijaintitiedot tietomallissa
-#### 3.2.1	Kerrostiedot IFC-mallissa
+### 3.2	Kerrostiedot IFC-mallissa
 IFC-mallissa rakenneosat kuuluvat tiettyyn rakennukseen (IfcBuilding), lohkoon (osittainen IfcBuilding) ja kerrokseen (IfcBuildingStorey). Rakennuksen lohko ei ole IFC-formaatissa vastaava käsite kuin rakennus ja kerros. IFC-formaatti mahdollistaa hierarkisuuden siten että, rakennus voi koostua useasta rakennuksesta, jotka voivat sisältää osittaisia rakennuksia, jotka ovat on tarkoitettu raken-nuksen lohkojen määrittelyyn. Useat eri suunnittelualojen mallinnusohjelmat perustuvat siihen, että mallia tehdään rakennuksittain ja kerroksittain. Nämä sijaintitiedot ovat tärkeitä asennusta ja valmistusta suunniteltaessa ja toteutuksessa. Ja usein myös jo tarjouslaskentavaiheessa kustannusten jaot-telua varten on tietomallien lohkojako tarpeellinen. 
 Kerrostiedossa on havaittu haasteeksi mm. kerrostiedon puuttuminen, väärin syötetty kerrostiedot ja monenlaiset kirjoitustavat ja -virheet. 
 
@@ -148,7 +147,7 @@ Ohjeita tietojen lisäämiseen hankkeissa:
  
 <img width="385" height="159" alt="Kuva6" src="https://github.com/user-attachments/assets/7d6217e4-ef5a-44cf-adb9-c6b1322c298c" /><br>Kuva 7. Esimerkki kerrosten nimeämisestä
 	
-#### 3.2.2	Lohkotiedot IFC-mallissa
+#### 3.3 Lohkotiedot IFC-mallissa
 Rakennuksen lohkojakoon vaikuttavat mm. palo-osastointi, toiminnot, runkojärjestelmä, tekniikka, maapinnan olosuhteen ja perustukset, työvaiheiden limitys, tontin koko ja muoto ja jne jne. Eli vai-kuttavia asioita on paljon ja lohkotietojen käyttötapaukset vaihtelevat hankkeen aikana. Alla muu-tamia esimerkkejä erityyppisistä rakennuksista.
 Logistiikka-halli, joka jaettu lohkoihin A ja B ja niiden alla useampi asennuslohko A1, A2, B1 ja  B2 jne. 
 
