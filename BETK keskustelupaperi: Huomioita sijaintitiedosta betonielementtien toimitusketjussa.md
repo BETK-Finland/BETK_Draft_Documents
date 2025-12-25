@@ -195,28 +195,26 @@ Koodi 1.
 ---
 
 ## 4	Sijaintitietojen esittäminen tietomalleissa
-Rakennettujen kohteiden tietomalleissa sijaintitieto muodostaa keskeisen osan tuotetiedon ja prosessitiedon yhteentoimivuutta. IFC-standardin (Industry Foundation Classes) rakenteessa sijainti ja tilallinen organisointi määritellään kahden toisiaan täydentävän periaatteen kautta: placement (sijoittaminen) ja spatial organization (tilallinen rakenne).<br>
+Rakennettujen kohteiden tietomalleissa sijaintitieto muodostaa keskeisen osan tuotetiedon ja prosessitiedon yhteentoimivuutta. IFC-standardin (*Industry Foundation Classes*) rakenteessa sijainti ja tilallinen organisointi määritellään kahden toisiaan täydentävän periaatteen kautta: ***placement*** (sijoittaminen) ja ***spatial organization*** (tilallinen rakenne).<br>
 
-**Placement** kuvaa kohteen paikan suhteessa koordinaattijärjestelmään, toiseen objektiin tai paikalliseen referenssiin. IFC:n määritelmissä tämä toteutetaan luokan IfcObjectPlacement kautta, joka voi olla absoluuttinen (maailmankoordinatisto), suhteellinen (toiseen tuotteeseen) tai rajoitettu (esimerkiksi verkkoon tai lineaariseen kohteeseen sidottu). Paikallinen sijoitus määritellään IfcLocalPlacement-luokalla, ja suuremmassa mittakaavassa georeferointi yhdistää mallin maantieteelliseen sijaintiin. Koordinaattiverkot (IfcGrid) mahdollistavat kohteiden sijoittamisen eri geometristen asetelmien mukaan, kuten suorakulmaisina, radiaalisina tai kolmiomaisina rakenteina.<br>
+**Placement** kuvaa kohteen paikan suhteessa koordinaattijärjestelmään, toiseen objektiin tai paikalliseen referenssiin. IFC:n määritelmissä tämä toteutetaan luokan ```IfcObjectPlacement``` kautta, joka voi olla absoluuttinen (maailmankoordinatisto), suhteellinen (toiseen tuotteeseen) tai rajoitettu (esimerkiksi verkkoon tai lineaariseen kohteeseen sidottu). Paikallinen sijoitus määritellään ```IfcLocalPlacement```-luokalla, ja suuremmassa mittakaavassa georeferointi yhdistää mallin maantieteelliseen sijaintiin. Koordinaattiverkot (*IfcGrid*) mahdollistavat kohteiden sijoittamisen eri geometristen asetelmien mukaan, kuten suorakulmaisina, radiaalisina tai kolmiomaisina rakenteina.<br>
 
 <img width="4163" height="1220" alt="2025-11-08_Kuva1" src="https://github.com/user-attachments/assets/887316e8-9821-4e62-9425-d89a754edb6c" /> Kuva x. Koordinaattiverkot (Domer & Bernadello, 2023)
 
 
 **Spatial organization** puolestaan määrittää, miten rakennuksen tai muun rakenteen osat järjestyvät hierarkkisesti ja tilallisesti. Tämä voidaan esittää kahdella tavalla:<br>
 
-Spatial containment – hierarkkinen tilarakenne ilman omaa geometriaa (esimerkiksi Site – Building – Storey – Space), jota kuvataan luokalla IfcSpatialStructureElement.<br>
+**Spatial containment** – hierarkkinen tilarakenne ilman omaa geometriaa (esimerkiksi ```Site``` – ```Building``` – ```Storey``` – ```Space```), jota kuvataan luokalla ```IfcSpatialStructureElement```.<br>
 
-Spatial composition – geometrisesti kuvattu tilallinen koostumus, kuten IfcSpatialZone, joka kokoaa yhteen samankaltaisia tiloja tai toiminnallisia alueita.<br>
+**Spatial composition** – geometrisesti kuvattu tilallinen koostumus, kuten IfcSpatialZone, joka kokoaa yhteen samankaltaisia tiloja tai toiminnallisia alueita.<br>
 
 <img width="4450" height="2223" alt="2025-11-07_Kuva1" src="https://github.com/user-attachments/assets/ce41cd97-a614-42a7-a3a7-2a58f3e410b6" /><br> Kuva x. Rakennuksen tilayksiköt (Domer & Bernadello, 2023)[^1]
 
-Rakennuksen tilahierarkia seuraa tyypillisesti rakennuksen suunnittelun ja rakentamisen logiikkaa: IfcProject toimii ylimpänä kontekstina, jonka alla sijaitsevat IfcSite, IfcBuilding, IfcBuildingStorey ja IfcSpace. Näin muodostetaan yhtenäinen tietorakenne rakentamiskohteen informaatiomalliin (BIM), jonka avulla eri suunnittelualojen ja toimitusketjun toimijat voivat viitata samoihin tilallisiin ja paikallisiin konteksteihin mallissa (BIM).<br>
+Rakennuksen tilahierarkia seuraa tyypillisesti rakennuksen suunnittelun ja rakentamisen logiikkaa: ```IfcProject``` toimii ylimpänä kontekstina, jonka alla sijaitsevat ```IfcSite```, ```IfcBuilding```, ```IfcBuildingStorey``` ja ```IfcSpace```. Näin muodostetaan yhtenäinen tietorakenne rakentamiskohteen informaatiomalliin (BIM), jonka avulla eri suunnittelualojen ja toimitusketjun toimijat voivat viitata samoihin tilallisiin ja paikallisiin konteksteihin mallissa (BIM).<br>
 
-Lisäksi IFC tukee koostettuja elementtejä (assemblies), joiden avulla voidaan yhdistää useita rakennusosia (esim. palkki- ja runkorakenteita) yhdeksi loogiseksi kokonaisuudeksi IfcElementAssembly-luokan kautta. Sijainti- ja tilatietojen yhteys varmistetaan relaatioiden, kuten IfcRelContainedInSpatialStructure ja IfcRelAggregates, avulla, jolloin kohteiden keskinäiset suhteet säilyvät yksiselitteisinä tietomallissa.<br>
+Lisäksi IFC tukee koostettuja elementtejä (```assemblies```), joiden avulla voidaan yhdistää useita rakennusosia (esim. palkki- ja runkorakenteita) yhdeksi loogiseksi kokonaisuudeksi ```IfcElementAssembly```-luokan kautta. Sijainti- ja tilatietojen yhteys varmistetaan relaatioiden, kuten ```IfcRelContainedInSpatialStructure``` ja ```IfcRelAggregates```, avulla, jolloin kohteiden keskinäiset suhteet säilyvät yksiselitteisinä tietomallissa.<br>
 
-Sijaintitiedon standardoitu rakenne on keskeinen edellytys digitaalisten toimitusketjujen hallinnalle, koska se mahdollistaa sekä fyysisten tuotteiden että niihin liittyvien tapahtumien (esim. toimitukset, asennukset) liittämisen samaan kontekstiin. Yhtenäinen sijaintimäärittely tukee myös linkitetyn datan sovelluksia, joissa rakennustuotteiden yksilöivä tunniste voidaan yhdistää rakennuksen tilalliseen ja koordinaattipohjaiseen rakenteeseen.<br>
-
-
+Sijaintitiedon mallintamisen standardoitu rakenne on keskeinen edellytys digitaalisten toimitusketjujen hallinnalle, koska se mahdollistaa sekä fyysisten tuotteiden että niihin liittyvien tapahtumien (esim. toimitukset, asennukset) liittämisen samaan kontekstiin. Yhtenäinen sijaintimäärittely tukee myös linkitetyn datan sovelluksia, joissa rakennustuotteiden yksilöivä tunniste voidaan yhdistää rakennuksen tilalliseen ja koordinaattipohjaiseen rakenteeseen.<br>
 
 ---
 
