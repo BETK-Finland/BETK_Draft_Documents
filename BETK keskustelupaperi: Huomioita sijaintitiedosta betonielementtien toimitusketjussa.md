@@ -197,6 +197,22 @@ Pistetalo jossa ei ole tarpeen lohkojakoa tehdä. Rappu-tiedon lisäksi asennusl
 
 Lohkojakotieto oltava aina vaikka vain yksi rappu talossa?
 
+
+---
+
+## Toimialan näkökulma – koordinaatistosta kohti toimitusketjun sijaintitietoa
+
+Rakennusalan kehityshankkeissa, kuten Rava3Pro- ja BETK-hankkeissa, on tunnistettu tarve täsmentää tietomallien koordinaattitietoon liittyviä vaatimuksia. Tämän kirjoituksen hetkellä alalla ei kuitenkaan ole vielä yhtenäisiä ja laajasti sovellettuja käytäntöjä koordinaattitiedon hyödyntämiseen toimitusketjun tasolla.
+
+BETK-hankkeessa kehitetty tapa yksilöidä betonielementti GS1 GTIN -tunnisteen avulla mahdollistaa fyysisten tuotteiden yhdistämisen digitaaliseen sijainti- ja tapahtumatietoon esimerkiksi RFID-teknologian kautta. RFID-lukutapahtumat voivat tuottaa automaattisesti sijaintitietoa, jota on mahdollista välittää toimitusketjun osapuolten välillä digitaalisissa sanomissa, kuten Peppol-sanomissa.
+
+Koordinaattitiedon välittäminen tarjoaa merkittäviä mahdollisuuksia, mutta edellyttää laajempaa toimialatason vakiointia. BETK-hankkeessa tietomalliin lisätty betonielementin painopisteen koordinaattitieto toimii konkreettisena esimerkkinä kevyestä, mutta vaikuttavasta ratkaisusta, joka ei vaadi laajaa standardimuutosta, mutta avaa uusia käyttötapauksia tuotannon, logistiikan ja asennuksen ohjaukseen.
+
+<img width="642" height="211" alt="Kuva4" src="https://github.com/user-attachments/assets/a6dacf51-5744-4673-9c8b-0c5f8f0d53d5" /><br>Kuva 5. Kuorielementin painopisteen koordinaatit
+
+### 4.1 Sijaintitietojen välitys sähköisissä hankinta-toimitus sanomissa
+
+
 Peppol
 Asennuslohkotieto tietomallista
 Asennuslohkotieto tietomalliin
@@ -218,19 +234,7 @@ Sijaintitiedot Peppol sanomissa:
 <Vaihtoehtoiset toimitusajat>
 
 ```
-Koodi 1. 
-
----
-
-## Toimialan näkökulma – koordinaatistosta kohti toimitusketjun sijaintitietoa
-
-Rakennusalan kehityshankkeissa, kuten Rava3Pro- ja BETK-hankkeissa, on tunnistettu tarve täsmentää tietomallien koordinaattitietoon liittyviä vaatimuksia. Tämän kirjoituksen hetkellä alalla ei kuitenkaan ole vielä yhtenäisiä ja laajasti sovellettuja käytäntöjä koordinaattitiedon hyödyntämiseen toimitusketjun tasolla.
-
-BETK-hankkeessa kehitetty tapa yksilöidä betonielementti GS1 GTIN -tunnisteen avulla mahdollistaa fyysisten tuotteiden yhdistämisen digitaaliseen sijainti- ja tapahtumatietoon esimerkiksi RFID-teknologian kautta. RFID-lukutapahtumat voivat tuottaa automaattisesti sijaintitietoa, jota on mahdollista välittää toimitusketjun osapuolten välillä digitaalisissa sanomissa, kuten Peppol-sanomissa.
-
-Koordinaattitiedon välittäminen tarjoaa merkittäviä mahdollisuuksia, mutta edellyttää laajempaa toimialatason vakiointia. BETK-hankkeessa tietomalliin lisätty betonielementin painopisteen koordinaattitieto toimii konkreettisena esimerkkinä kevyestä, mutta vaikuttavasta ratkaisusta, joka ei vaadi laajaa standardimuutosta, mutta avaa uusia käyttötapauksia tuotannon, logistiikan ja asennuksen ohjaukseen.
-
-<img width="642" height="211" alt="Kuva4" src="https://github.com/user-attachments/assets/a6dacf51-5744-4673-9c8b-0c5f8f0d53d5" /><br>Kuva 5. Kuorielementin painopisteen koordinaatit
+**Koodi 1. ** esimerkki sijaintitietojen välittämisestä sähköisissä hankinta-toimitus sanomissa
 
 ## 5 Toimitusketjun näkökulma: BEAst Label -esimerkki Ruotsista
 
