@@ -214,7 +214,7 @@ Koordinaattitiedon välittäminen toimitusketjussa tarjoaa merkittäviä mahdoll
 
 Tämä lähestymistapa osoittaa, että toimitusketjun sijaintitiedon kehittäminen ei välttämättä edellytä laajoja muutoksia IFC-standardin rakenteisiin tai raskaita semanttisia laajennuksia. Sen sijaan vaikuttavia käyttötapauksia voidaan avata lisäämällä rajattuja, mutta merkityksellisiä sijaintiattribuutteja, jotka voidaan liittää yksilöityihin tuotteisiin ja välittää eteenpäin tapahtumatiedon yhteydessä. Näin sijaintitieto toimii linkkinä tietomallien, fyysisten tuotteiden ja toimitusketjun operatiivisten prosessien välillä.
 
---
+---
 
 ### 4.1 Sijaintitietojen välitys sähköisissä hankinta-toimitus sanomissa
 
