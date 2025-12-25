@@ -56,18 +56,18 @@
 ## Sisällysluettelo
 
 
-1. [Tausta](#1-tausta)<br>
-2. [Keskustelupaperin tarkoitus ja rajaukset](#2Keskustelupaperin-tarkoitus-ja-rajaukset)<br>
-3. [Sijaintieto tietomallissa](#3sijaintieto-tietomallissa)<br>
- 3.1 [Koordinaatistot](#31koordinaatistot)<br>
-  3.1.1 [Asiakkaan koordinaatisto](#311asiakkaan-koordinaatisto)<br>
-  3.1.2 [Projektin koordinaatisto](#312projektin-koordinaatisto)<br>
-  3.1.3 [Suunnittelijan koordinaatisto](#313suunnittelijan-koordinaatisto)<br>
- 3.2 [Sijaintitiedot tietomallissa](#32sijaintitiedot-tietomallissa)<br> 
-  3.2.1 [Kerrostiedot IFC-mallissa](#321kerrostiedot-ifc-mallissa)<br>
-  3.2.2 [Lohkotiedot IFC-mallissa](#322lohkotiedot-ifc-mallissa)<br>
-5. [Sijaintitietojen esittäminen tietomalleissa](#4sijaintitietojen-esittäminen-tietomalleissa)<br>
-6. [Toimitusketjun näkökulma: BEAst Label -esimerkki Ruotsista](#5sijaintitiedot-toimituksissa-case-ruotsi)<br>
+[1 Tausta](#1-tausta)<br>
+[2 Keskustelupaperin tarkoitus ja rajaukset](#2Keskustelupaperin-tarkoitus-ja-rajaukset)<br>
+[3 Sijaintitietojen esittäminen tietomalleissa](#3-sijaintitietojen-esittäminen-tietomalleissa)<br>
+	[3.1 Koordinaatistot](#31-koordinaatistot)<br>
+    	[3.1.1 Asiakkaan koordinaatisto](#311-asiakkaan-koordinaatisto)<br>
+      	[3.1.2 Projektin koordinaatisto](#312-projektin-koordinaatisto)<br>
+      	[3.1.3 Suunnittelijan koordinaatisto](#313-suunnittelijan-koordinaatisto)<br>
+   	[3.2 Kerrostiedot IFC-mallissa](#32-kerrostiedot-ifc-mallissa)<br>
+   	[3.3 Lohkotiedot IFC-mallissa](#33-lohkotiedot-ifc-mallissa)<br>
+[4 Toimialan näkökulma – koordinaatistosta kohti toimitusketjun sijaintitietoa](#4-toimialan-näkökulma--koordinaatistosta-kohti-toimitusketjun-sijaintitietoa)<br>
+	[4.1 Sijaintitietojen välitys sähköisissä hankinta- ja toimitussanomissa](#41-sijaintitietojen-välitys-sähköisissä-hankinta--ja-toimitussanomissa)<br>
+  	[4.2 Toimitusketjun näkökulma: BEAst Label -esimerkki Ruotsista](#42-toimitusketjun-näkökulma-beast-label--esimerkki-ruotsista)<br>
    [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)<br>
    [Viittaukset](#viittaukset)<br>
 
