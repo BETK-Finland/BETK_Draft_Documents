@@ -177,26 +177,27 @@ Kerrostiedossa on havaittu haasteeksi mm. kerrostiedon puuttuminen, väärin sy�
 ---
 
 #### 3.3 Lohkotiedot IFC-mallissa
-Rakennuksen lohkojakoon vaikuttavat mm. palo-osastointi, toiminnot, runkojärjestelmä, tekniikka, maapinnan olosuhteen ja perustukset, työvaiheiden limitys, tontin koko ja muoto ja jne jne. Eli vai-kuttavia asioita on paljon ja lohkotietojen käyttötapaukset vaihtelevat hankkeen aikana. Alla muu-tamia esimerkkejä erityyppisistä rakennuksista.
-Logistiikka-halli, joka jaettu lohkoihin A ja B ja niiden alla useampi asennuslohko A1, A2, B1 ja  B2 jne. 
+Rakennuksen lohkojako on keskeinen mutta luonteeltaan kontekstisidonnainen osa sijaintitietoa. Lohko ei ole yksiselitteinen tai pysyvä rakennuksen ominaisuus, vaan se muodostuu useiden suunnittelullisten, rakenteellisten ja tuotannollisten tekijöiden yhteisvaikutuksesta. Lohkojakoon vaikuttavat esimerkiksi palo-osastointi, rakennuksen toiminnallinen jäsentely, runkojärjestelmä, tekniset järjestelmät, perustamisolosuhteet, työvaiheiden ajoitus sekä tontin koko ja geometria. Näiden tekijöiden merkitys vaihtelee hanketyypin ja hankevaiheen mukaan, minkä vuoksi myös lohkotiedon käyttötarkoitukset muuttuvat hankkeen edetessä.
+
+IFC-mallissa lohko ei ole samalla tavoin eksplisiittisesti määritelty tilallinen yksikkö kuin rakennus tai kerros. Käytännössä lohkot mallinnetaan usein osittaisina rakennuksina, rakennuksen alirakenteina tai ominaisuustietoina, jotka liitetään rakennusosiin. Tämä mahdollistaa lohkojaon esittämisen tietomallissa, mutta ei takaa lohkotiedon yhdenmukaista tulkintaa tai siirrettävyyttä eri järjestelmien välillä. Toimitusketjun näkökulmasta lohko toimii kuitenkin usein keskeisenä viittauspisteenä tuotannon suunnittelussa, toimitusten kohdistamisessa ja asennusjärjestyksen ohjauksessa.
+
+Teollisissa ja logistisissa hallirakennuksissa lohkojako perustuu tyypillisesti rakennuksen toiminnallisiin tai rakenteellisiin kokonaisuuksiin. Rakennus jaetaan laajoihin päälohkoihin, joiden sisälle muodostuu edelleen useita asennuslohkoja. Näiden avulla betonielementtien valmistusta, toimituksia ja asennuksia voidaan vaiheistaa ja ajoittaa hallitusti.
 
 <img width="642" height="289" alt="Kuva7" src="https://github.com/user-attachments/assets/01b3ef00-47f5-41a8-ac34-afaf78d2c2e6" /><br> Kuva 8. Logistiikka-halli lohkojako esimerkki
 
-
-Asuinkerrostalo jossa liikuntasaumajaon kohdalta jaottelu lohkoihin A ja B ja niiden sisällä rappujen mukainen jaottelu. 
+Asuinkerrostalokohteissa lohkojako perustuu usein liikuntasaumoihin ja rakennuksen rakenteelliseen jaotteluun. Näin muodostuvat lohkot jakautuvat edelleen porrashuoneiden mukaisiin kokonaisuuksiin. Tässä kontekstissa lohko toimii paitsi rakenteellisena myös aikataulullisena ja logistisena ohjausrakenteena betonielementtien toimitusketjussa.
 
 <img width="583" height="260" alt="Kuva8" src="https://github.com/user-attachments/assets/13bfacc9-db06-435f-9720-62275f2f1c8f" /><br> Kuva 9. Asuinkerrostalon lohkojako esimerkki
 
-Pistetalo jossa ei ole tarpeen lohkojakoa tehdä. Rappu-tiedon lisäksi asennuslohkon muodostaa yksittäinen huoneisto ja sen sisältämät elementit.
+Pienemmissä rakennuksissa, kuten pistetaloissa, erillinen lohkojako ei aina ole tarkoituksenmukainen. Tällöin porrashuone tai jopa yksittäinen huoneisto muodostaa käytännössä asennuslohkon, jonka ympärille elementtien toimitukset ja asennus ajoitetaan. Tämä osoittaa, että lohko ei ole universaali rakennuksen ominaisuus, vaan hankekohtainen abstrahointi, jonka tarpeellisuus ja tarkkuustaso vaihtelevat.
 
 <img width="421" height="381" alt="Kuva9" src="https://github.com/user-attachments/assets/c1822aeb-8444-499b-a0b8-5cc13a73ec1d" /><br> Kuva 10. Pistetalo esimerkki
 
 > [!TIP]
-> **Ohjeita tietojen lisäämiseen hankkeissa:**
-> * Rakennesuunnittelija lisää tietomalliin sovitun lohko- ja kerrosjaon. 
-> * Lohko- ja kerrostiedot tarkistetaan ennen tietomallitoimituksia.
+> **Huomio hankekäytännöistä:**
+> Lohko- ja kerrostiedon määrittely jää käytännössä usein rakennesuunnittelijan vastuulle, ja tietojen oikeellisuus tarkistetaan ennen tietomallien luovutusta. Samalla jää avoimeksi kysymys siitä, missä määrin lohkotiedon tulisi olla eksplisiittisesti määritelty myös hankkeissa, joissa lohkojako on rakenteellisesti yksinkertainen.
 
-Lohkojakotieto oltava aina vaikka vain yksi rappu talossa?
+> Toimitusketjun näkökulmasta on perusteltua pohtia, tulisiko lohkojakotieto esittää järjestelmällisesti kaikissa kohteissa, myös tilanteissa joissa rakennus koostuu vain yhdestä porrashuoneesta tai joissa erillistä lohkojakoa ei muutoin koeta tarpeelliseksi. Tällöin lohko ei välttämättä kuvaa rakennuksen fyysistä jakautumista, vaan toimii loogisena viittauspisteenä, jonka avulla betonielementit voidaan kohdistaa, tunnistaa ja liittää toimitus- ja asennusprosessien tapahtumatietoon yhdenmukaisella tavalla.
 
 
 ---
