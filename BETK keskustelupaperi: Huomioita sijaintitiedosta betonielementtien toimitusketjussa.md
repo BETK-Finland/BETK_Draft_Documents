@@ -239,7 +239,7 @@ Sijaintitiedot Peppol sanomissa:
 <Vaihtoehtoiset toimitusajat>
 
 ```
-**Koodi 1. ** esimerkki sijaintitietojen välittämisestä sähköisissä hankinta-toimitus sanomissa
+Koodi 1. esimerkki sijaintitietojen välittämisestä sähköisissä hankinta-toimitus sanomissa
 
 ---
 
