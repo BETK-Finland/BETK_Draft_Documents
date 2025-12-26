@@ -195,8 +195,9 @@ Pienemmissä rakennuksissa, kuten pistetaloissa, erillinen lohkojako ei aina ole
 
 > [!TIP]
 > **Huomio hankekäytännöistä:**
-> Lohko- ja kerrostiedon määrittely jää käytännössä usein rakennesuunnittelijan vastuulle, ja tietojen oikeellisuus tarkistetaan ennen tietomallien luovutusta. Samalla jää avoimeksi kysymys siitä, missä määrin lohkotiedon tulisi olla eksplisiittisesti määritelty myös hankkeissa, joissa lohkojako on rakenteellisesti yksinkertainen.
-
+> 
+> Lohko- ja kerrostiedon määrittely jää käytännössä usein rakennesuunnittelijan vastuulle, ja tietojen oikeellisuus tarkistetaan ennen tietomallien luovutusta. Samalla jää avoimeksi kysymys siitä, missä määrin lohkotiedon tulisi olla eksplisiittisesti määritelty myös hankkeissa, joissa lohkojako on rakenteellisesti yksinkertainen.<br>
+> 
 > Toimitusketjun näkökulmasta on perusteltua pohtia, tulisiko lohkojakotieto esittää järjestelmällisesti kaikissa kohteissa, myös tilanteissa joissa rakennus koostuu vain yhdestä porrashuoneesta tai joissa erillistä lohkojakoa ei muutoin koeta tarpeelliseksi. Tällöin lohko ei välttämättä kuvaa rakennuksen fyysistä jakautumista, vaan toimii loogisena viittauspisteenä, jonka avulla betonielementit voidaan kohdistaa, tunnistaa ja liittää toimitus- ja asennusprosessien tapahtumatietoon yhdenmukaisella tavalla.
 
 
