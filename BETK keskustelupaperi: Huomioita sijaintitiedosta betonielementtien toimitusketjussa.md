@@ -98,7 +98,7 @@ Keskustelupaperi kytkeytyy Rakennusteollisuus RT:n käynnissä olevaan tuotetied
 
 Koska rakennettavien kohteiden sijaintitiedolla on eri käyttäjäryhmille erilaisia merkityksiä, käyttötarkoituksia ja tarkkuusvaatimuksia, tässä dokumentissa keskitytään rajatusti betonielementtien toimitusketjun näkökulmaan. Tarkastelun painopiste on suunnittelumalleissa esiintyvissä kerros- ja lohkotiedoissa, niiden tulkittavuudessa sekä mahdollisuuksissa liittää nämä tiedot fyysisiin toimituksiin ja digitaalisiin sanomiin. Laajempi sijaintitiedon standardointi, esimerkiksi koordinaattipohjaisessa tai monialaisessa kontekstissa, tunnistetaan tärkeäksi jatkotyön aiheeksi, mutta se ei ole tämän keskustelupaperin varsinainen tavoite.
 
-Esimerkiksi rakennesuunnittelijalle lohkoa usein rajaavat rakenteelliset liikuntasaumat ja samaan aikaan elementtiasentajalle tärkeä tieto on mm. betonielementin asennuslohko. LVI-suunnittelija usein jakaa rakennuksen TATE-järjestelmien mukaisiin palvelu-alueisiin ja esim. TATE-toimitusketjun kannalta yksittäisen tilan yksilöinti on tärkeä sijaintitieto. Tämän takia tämä kirjoitus on ns. keskustelupaperi, jossa ei pyritä ratkaisemaan sijaintitietoa täydellisesti vaan keskittyen betonielementtien toimituksen kannalta tärkeisiin tietoihin ja niissä havaittuihin ongelmiin ja myös ehdotuksia näiden ratkaisemiseksi pohjoismaisella tasolla.
+Esimerkiksi rakennesuunnittelijalle lohkoa usein rajaavat rakenteelliset liikuntasaumat ja samaan aikaan elementtiasentajalle tärkeä tieto on mm. betonielementin asennuslohko. LVI-suunnittelija usein jakaa rakennuksen TATE-järjestelmien mukaisiin palvelualueisiin ja esim. TATE-toimitusketjun kannalta yksittäisen tilan yksilöinti on tärkeä sijaintitieto. Tämän takia tämä kirjoitus on ns. keskustelupaperi, jossa ei pyritä ratkaisemaan sijaintitietoa täydellisesti vaan keskittyen betonielementtien toimituksen kannalta tärkeisiin tietoihin ja niissä havaittuihin ongelmiin ja myös ehdotuksia näiden ratkaisemiseksi pohjoismaisella tasolla.
 
 ---
 
@@ -165,12 +165,12 @@ Kerrostiedossa on havaittu haasteeksi mm. kerrostiedon puuttuminen, väärin sy�
 > **Ohjeita tietojen lisäämiseen hankkeissa:**
 > * Rakennesuunnittelija lisää sovitun lohko- ja kerrosjaon tietomalliin.<br>
 > * Lohko- ja kerrostiedot tarkistetaan ennen tietomallitoimituksia.<br>
-> * Kerrostieto kirjoitetaan ilman ”.krs” tai muita tiedonsiirtoa sotkevia selitetekstejä, vain numeroita. Kerrostieto on IFC-mallissa kerrostietonimisessä tietokentässä (IfcBuildingStorey) jo-ten arvo ei tarvitse selittävää tekstiä siitä, että tiedolla tarkoitetaan kerrosta.<br>
+> * Kerrostieto kirjoitetaan ilman ”.krs” tai muita tiedonsiirtoa sotkevia selitetekstejä, vain numeroita tai kirjaimia. Kerrostieto on IFC-mallissa kerrostietonimisessä tietokentässä (IfcBuildingStorey), joten arvo ei tarvitse selittävää tekstiä siitä, että tiedolla tarkoitetaan kerrosta.<br>
 > * Kerroksen muodostavat kantavat ja ei-kantavat seinät ja pilarit niiden yläpuolinen välipohja. Usean kerrosten läpi menevät rakenteet (esim. pilarit) alimpaan kerrokseen, jossa ne asennetaan.<br>
 > * Rakennemallissa kerroksina myös ”POHJARAKENTEET, PERUSTUKSET, ALAPOHJA, KELLARI”. Eli paalut ja anturarakenteet, sokkelit ja alapohjan rakenteet.<br>
 > * Kerrokset nimet aina isolla kirjaimella, jotta ei tule eri tavalla kirjoitettuna. Esim. Kellari vs KELLARI.<br> 
 > * Rakenteellinen pintalaatta nimetään saman kerrokseen kuin sen alapuoliset rakenteet.<br>
-> * Yläpohjassa esim. ylimmän ontelolaattatason yläpuoliset vesikattorakenteet nimetään erik-seen omaksi kerrokseksi, esim. YLÄPOHJA.<br>
+> * Yläpohjassa esim. ylimmän ontelolaattatason yläpuoliset vesikattorakenteet nimetään erikseen omaksi kerrokseksi, esim. YLÄPOHJA.<br>
  
 <img width="385" height="159" alt="Kuva6" src="https://github.com/user-attachments/assets/7d6217e4-ef5a-44cf-adb9-c6b1322c298c" /><br>Kuva 7. Esimerkki kerrosten nimeämisestä
 
