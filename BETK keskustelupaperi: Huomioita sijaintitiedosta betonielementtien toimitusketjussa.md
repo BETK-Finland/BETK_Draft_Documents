@@ -76,7 +76,7 @@
 ​ 
 ## 1 Tausta
 
-Rakennushankkeiden tietomallit ovat vakiintuneet osaksi hankkeiden tarjouspyyntöjä, määrä- ja kustannuslaskentaa sekä toteutuksen suunnittelua. Suunnittelijoiden laatimia tietomalleja hyödyntävät rakennusliikkeet ja tuoteosatoimittajat laajasti hankinnan, tuotannon, logistiikan ja asennuksen suunnittelussa. Betonielementtirakentamisessa tietomallien merkitys korostuu erityisesti elementtien määrityksessä, jaottelussa ja ajoituksessa.
+Rakennushankkeiden tietomallit ovat vakiintuneet osaksi hankkeiden tarjouspyyntöjä, määrä- ja kustannuslaskentaa sekä toteutuksen suunnittelua. Suunnittelijoiden laatimia tietomalleja hyödyntävät rakennusliikkeet ja tuoteosatoimittajat laajasti hankinnan, tuotannon, logistiikan ja asennuksen suunnittelussa. Betonielementtirakentamisessa tietomallien merkitys korostuu erityisesti elementtien määrälaskennassa, ryhmittelyssä ja aikataulutuksessa.
 
 Alalla yleisesti käytössä olevat mallinnusohjeet ja vakioidut tietokentät, kuten BEC2012-hankkeessa luodut käytännöt, ovat parantaneet tietomallien yhteentoimivuutta. Tästä huolimatta betonielementtien sijaintitietoon liittyvät tiedot, erityisesti lohko- ja kerrostiedot, ovat edelleen epäyhtenäisiä, puutteellisia tai tulkinnanvaraisia. Suunnittelumalleista saatava sijaintitieto ei sellaisenaan vastaa toimitusketjun eri vaiheiden tarpeita, eikä tieto siirry luotettavasti suunnittelusta tilaus-, toimitus- ja asennusprosessiin.
 
