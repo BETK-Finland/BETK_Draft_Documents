@@ -114,7 +114,7 @@ Betonielementtien erottamiseen tietomallin muista objekteista voi käyttää kok
       </tr>
       <tr>
         <th scope="row">Property<br>Attribute</th>
-        <td><code>Tyyppielementti</code></td>
+        <td><code>Kokoonpanon tyyppi</code></td>
       </tr>
           <th rowspan="5">Sallitut arvot</th>
       <td><code>BETONIELEMENTTI</code></td>
