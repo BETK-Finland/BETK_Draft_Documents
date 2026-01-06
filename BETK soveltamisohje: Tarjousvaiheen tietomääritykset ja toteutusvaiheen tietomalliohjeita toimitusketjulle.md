@@ -136,7 +136,7 @@ Betonielementtien erottamiseen tietomallin muista objekteista voi käyttää kok
 </html>
 
 #### 3.1.2 Elementtityyppi
-Elementtityyppi-tietokenttä tunnistaa mallin eri elementit. Tiedot syötetään tarjouksen yhteydessä ja päivitetään tarvittaessa toteutuksessa, jotta loppuselvityksessä voidaan tehdä tarvittaessa määrälaskenta.
+Elementtityyppi-tietokenttä tunnistaa mallin eri elementtityypit. Tiedot syötetään laskenta-aineiston laadinnan yhteydessä ja päivitetään ja pidetään ajantasalla myös toteustusvaiheessa, jotta loppuselvityksessä voidaan tehdä tarvittaessa määrälaskenta käyttäen tietokenttää elementtien ryhmittelyssä.
 
 ###### Taulukko 2. 
 
