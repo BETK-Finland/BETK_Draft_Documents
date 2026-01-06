@@ -110,7 +110,7 @@ Betonielementtien erottamiseen tietomallin muista objekteista voi käyttää kok
       </tr>
       <tr>
         <th scope="row">PropertySet</th>
-        <td><code>BETK</code></td>
+        <td><code>BETK-Tunnistetiedot ja luokittelu</code></td>
       </tr>
       <tr>
         <th scope="row">Property<br>Attribute</th>
