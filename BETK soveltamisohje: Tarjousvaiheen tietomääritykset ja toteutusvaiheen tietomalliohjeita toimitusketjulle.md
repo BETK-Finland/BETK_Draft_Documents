@@ -655,7 +655,11 @@ Väribetoni-kenttään merkitään väribetonin väri.
       <td>05 SIN-Sininen</td>
       <td>08 KEL-Keltainen</td>
       <td>Muu</td>      
-                        
+         </tr>
+    </tbody>
+  </table>
+</body>
+</html>                        
 
 #### 3.1.6 Vähähiilinen
 Vähähiilinen-tiedon avulla mahdollista erotella tarjousvaiheessa vähähiiliseksi ajattelut tuotteet Kyllä/Ei-valinnalla. Toteutussuunnittelussa elementeille määritellään tarkemmat GWP-arvot.
