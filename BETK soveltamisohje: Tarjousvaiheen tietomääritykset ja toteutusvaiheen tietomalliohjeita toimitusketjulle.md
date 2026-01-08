@@ -113,7 +113,7 @@ Betonielementtien erottamiseen tietomallin muista objekteista voi käyttää kok
         <td><code>BETK-Tunnistetiedot ja luokittelu</code></td>
       </tr>
       <tr>
-        <th scope="row">Property<br>Attribute</th>
+        <th scope="row">Ominaisuus</th>
         <td><code>Kokoonpanon tyyppi</code></td>
       </tr>
           <th rowspan="5">Sallitut arvot</th>
@@ -161,7 +161,7 @@ Elementtityyppi-tietokenttä tunnistaa mallin eri elementtityypit. Tiedot syöte
             <td colspan="2">BETK-hankinta</td>
         </tr>
          <tr>
-            <td>Property Attribute</td>
+            <td>Ominaisuus</td>
             <td colspan="2">Sallitut arvot jaetaan kahteen ominaisuuskenttään:  
 Elementin tyyppi, koodi ( AK jne)
 Elementin tyyppi, kuvaus (Sokkelipalkki jne)
@@ -458,7 +458,7 @@ Raudoitustietokentästä valitaan elementtityypin raudoitustyyppitieto. Descript
         <td colspan="2">BETK-Hankinta</td>
       </tr>
       <tr>
-        <th scope="row">Property</th>
+        <th scope="row">Ominaisuus</th>
         <td colspan="2"><b>Raudoitus 1, koodi<br>Raudoitus 1, kuvaus<br>Raudoitus 2, koodi<br>Raudoitus 2, kuvaus</b></td>
       </tr>
           <th rowspan="11">Sallitut arvot<br>(Option list/String UDA)</th>
@@ -528,7 +528,7 @@ Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuore
         <td colspan="2">BETK-Hankinta</td>
       </tr>
       <tr>
-        <th scope="row">Property</th>
+        <th scope="row">Ominaisuus</th>
         <td colspan="2">Pintakäsittely</td>
       </tr>
           <th rowspan="30">Sallitut arvot<br>(Option list)</th>
@@ -638,7 +638,7 @@ Väribetoni-kenttään merkitään väribetonin väri.
         <th>Ominaisuusjoukko</th>
         <td>BETK-Hankinta</td>
 </tr><tr>
-        <th>Property</th>
+        <th>Ominaisuus</th>
         <td>Väribetoni</td>
 </tr><tr>
       <th rowspan="10">Sallitut arvot<br>(String)</th>
@@ -689,7 +689,7 @@ Vähähiilinen-tiedon avulla mahdollista erotella tarjousvaiheessa vähähiilise
         <td colspan="2">BETK-Hankinta</td>
       </tr>
       <tr>
-        <th scope="row">Property</th>
+        <th scope="row">Ominaisuus</th>
         <td colspan="2">Vähähiilinen</td>
       </tr>
           <th rowspan="2">Sallitut arvot<br>(String)</th>
@@ -726,7 +726,7 @@ Kyllä/-Ei-tieto elementistä, joka on varusteltu tietomallissa toteutusta vasta
         <td colspan="2">BETK-Hankinta</td>
       </tr>
       <tr>
-        <th scope="row">Property</th>
+        <th scope="row">Ominaisuus</th>
         <td colspan="2">Onko tyyppielementti</td>
       </tr>
           <th rowspan="2">Sallitut arvot<br>(Boolean)</th>
@@ -763,7 +763,7 @@ Tieto työmaalla käännettävästä elementistä. Asennustyön hinnoittelua var
         <td colspan="2">BETK-Hankinta</td>
       </tr>
       <tr>
-        <th scope="row">Property</th>
+        <th scope="row">Ominaisuus</th>
         <td colspan="2">Kääntökivi</td>
       </tr>
           <th rowspan="2">Sallitut arvot<br>(Boolean)</th>
