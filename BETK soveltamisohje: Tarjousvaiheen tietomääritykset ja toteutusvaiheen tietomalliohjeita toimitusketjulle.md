@@ -157,7 +157,7 @@ Elementtityyppi-tietokenttä tunnistaa mallin eri elementtityypit. Tiedot syöte
             <td colspan="2">-</td>
         </tr>
         <tr>
-            <td>Propertyset</td>
+            <td>Ominaisuusjoukko</td>
             <td colspan="2">BETK-hankinta</td>
         </tr>
          <tr>
@@ -454,7 +454,7 @@ Raudoitustietokentästä valitaan elementtityypin raudoitustyyppitieto. Descript
         <td colspan="2">–</td>
       </tr>
       <tr>
-        <th scope="row">PropertySet</th>
+        <th scope="row">Ominaisuusjoukko</th>
         <td colspan="2">BETK-Hankinta</td>
       </tr>
       <tr>
@@ -524,7 +524,7 @@ Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuore
         <td colspan="2">–</td>
       </tr>
       <tr>
-        <th scope="row">PropertySet</th>
+        <th scope="row">Ominaisuusjoukko</th>
         <td colspan="2">BETK-Hankinta</td>
       </tr>
       <tr>
@@ -635,7 +635,7 @@ Väribetoni-kenttään merkitään väribetonin väri.
         <th>Rajaukset</th>
         <td>–</td>
 </tr><tr>
-        <th>PropertySet</th>
+        <th>Ominaisuusjoukko</th>
         <td>BETK-Hankinta</td>
 </tr><tr>
         <th>Property</th>
@@ -685,7 +685,7 @@ Vähähiilinen-tiedon avulla mahdollista erotella tarjousvaiheessa vähähiilise
         <td colspan="2">–</td>
       </tr>
       <tr>
-        <th scope="row">PropertySet</th>
+        <th scope="row">Ominaisuusjoukko</th>
         <td colspan="2">BETK-Hankinta</td>
       </tr>
       <tr>
@@ -722,7 +722,7 @@ Kyllä/-Ei-tieto elementistä, joka on varusteltu tietomallissa toteutusta vasta
         <td colspan="2">–</td>
       </tr>
       <tr>
-        <th scope="row">PropertySet</th>
+        <th scope="row">Ominaisuusjoukko</th>
         <td colspan="2">BETK-Hankinta</td>
       </tr>
       <tr>
@@ -759,7 +759,7 @@ Tieto työmaalla käännettävästä elementistä. Asennustyön hinnoittelua var
         <td colspan="2">–</td>
       </tr>
       <tr>
-        <th scope="row">PropertySet</th>
+        <th scope="row">Ominaisuusjoukko</th>
         <td colspan="2">BETK-Hankinta</td>
       </tr>
       <tr>
