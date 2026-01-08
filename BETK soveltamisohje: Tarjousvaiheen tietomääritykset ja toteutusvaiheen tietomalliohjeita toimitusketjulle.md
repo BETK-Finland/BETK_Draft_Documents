@@ -84,15 +84,15 @@ Tämä soveltamisohje on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toim
 [^5]: Esimerkki malli IFC-muodossa
 
 ## 2 Soveltamisohjeen tarkoitus ja rajaukset
-Soveltamisohje keskittyy suunnittelijan tuottaman tietomallin sisällön vakiointiin tarjousvaiheessa. Samalla BEC2012-tietokenttien nimeämistä on tarkennettu ja IFC-malliin kirjoitettavia ominaisuuksia määritetty elementtityyppikohtaiseksi tiedonsiirron laadun parantamiseksi ja samalla on tietokenttien nimeämisessä pyritty huomioimaan mahdollisesti tulevaisuudessa kehitettävää muiden rakenneosien ja materiaalien tunnistamista ja vakiointia. Tiedonsiirron vakiointia on myös kehitetty lisäämällä sallittujen arvojen listauksia tietokenttiin, joissa se mahdollista ja järkevää tehdä. Tietokentissä on huomioitu myös tietomallin rikastamista toteutusvaiheessa toimitusketjulta tulevilla tiedoilla.  Soveltamisohjetta täydentävät erillinen taulukko tietokentistä[^4] joissa mm. elementtien mittatiedot ja esimerkkitietomalli[^5]. Tätä soveltamisohjetta täydentää myös erillinen ohje elementtien yksilöinnistä toimitusketjussa[^3] ja esimerkki malli IFC-muodossa[^5]. Tätä soveltamisohjetta voidaan päivittää myöhemmin standardoinnin edetessä. Tämä soveltamisohje ei ota kantaa muuhun tarjouspyyntö aineistoon. 
+Soveltamisohje keskittyy suunnittelijan tuottaman tietomallin sisällön vakiointiin tarjousvaiheessa. Samalla BETK-hankkeessa on BEC2012-tietokenttien nimeämistä tarkennettu ja IFC-malliin kirjoitettavia ominaisuus-tietoja määritetty elementtityyppikohtaiseksi tiedonsiirron laadun parantamiseksi. Samalla on tietokenttien nimeämisessä pyritty huomioimaan mahdollisesti tulevaisuudessa kehitettävää muiden rakenneosien ja materiaalien tunnistamista ja vakiointia. Tiedonsiirron vakiointia on myös kehitetty lisäämällä sallittujen arvojen listauksia tietokenttiin, joissa se mahdollista ja järkevää tehdä. Ominaisuus-tiedoissa on huomioitu myös tietomallin rikastamista toteutusvaiheessa toimitusketjulta tulevilla tiedoilla.  Soveltamisohjetta täydentävät erillinen taulukko tietokentistä[^4] joissa mm. elementtien mittatiedot ja esimerkkitietomalli[^5]. Tätä soveltamisohjetta täydentää myös erillinen ohje elementtien yksilöinnistä toimitusketjussa[^3] ja esimerkki malli IFC-muodossa[^5]. Tätä soveltamisohjetta voidaan päivittää myöhemmin standardoinnin edetessä. Tämä soveltamisohje ei ota kantaa muuhun tarjouspyyntö aineistoon. 
 
 ## 3 Rakentamiskohteen tietomallin tietosisällöt tarjousvaiheessa
-Tarjousvaiheessa tietomallissa käytettävät tietokentät elementtityyppien tunnistamiseen on kuvattu alla olevissa taulukoissa. Taulukoiden arvojen lisäksi hankintavaiheessa tarvittavat mitta- ja pinta-alojen tietokentät kuvattu erillisessä excel-taulukossa [^4]. Excel-taulukossa on myös muita toteutusvaiheessa tarvittavia tietokenttiä sallittuine arvoineen
+Tarjousvaiheessa tietomallissa käytettävät tietokentät elementtityyppien tunnistamiseen on kuvattu alla olevissa taulukoissa. Taulukoiden arvojen lisäksi hankintavaiheessa tarvittavat mitta- ja pinta-alojen ominaisuudet kuvattu erillisessä excel-taulukossa [^4]. Excel-taulukossa on myös muita toteutusvaiheessa tarvittavia ominaisuus-tietoja sallittuine arvoineen
 
 ### 3.1 Elementin tuotetiedot tarjousvaiheessa
 
 #### 3.1.1 Kokoonpanon tyyppi
-Betonielementtien erottamiseen tietomallin muista objekteista voi käyttää kokoonpanon tyyppi kenttää. 
+Betonielementtien erottamiseen tietomallin muista objekteista ja kokoonpanoista voi käyttää kokoonpanon tyyppi-ominaisuustietoa. 
 
 ###### Taulukko 1.
 
@@ -102,7 +102,7 @@ Betonielementtien erottamiseen tietomallin muista objekteista voi käyttää kok
      <thead>
       <tr>
         <th scope="row">Tietosisältötarve</th>
-        <td><code>KOKOONPANON TYYPPI</code></td>
+        <td><code>Kokoonpanon tyyppi</code></td>
       </tr>
       <tr>
         <th scope="row">Rajaukset</th>
@@ -136,7 +136,7 @@ Betonielementtien erottamiseen tietomallin muista objekteista voi käyttää kok
 </html>
 
 #### 3.1.2 Elementtityyppi
-Elementtityyppi-tietokenttä tunnistaa mallin eri elementtityypit. Tiedot syötetään laskenta-aineiston laadinnan yhteydessä ja päivitetään ja pidetään ajantasalla myös toteustusvaiheessa, jotta loppuselvityksessä voidaan tehdä tarvittaessa määrälaskenta käyttäen tietokenttää elementtien ryhmittelyssä.
+Elementtityyppi-ominaisuuden avulla voidaan tunnistaa eri elementtityypit. Tiedot syötetään laskenta-aineiston laadinnan yhteydessä ja päivitetään ja pidetään ajantasalla myös toteustusvaiheessa, jotta loppuselvityksessä voidaan tehdä tarvittaessa määrälaskenta käyttäen ominaisuutta elementtien ryhmittelyssä.
 
 ###### Taulukko 2. 
 
@@ -447,7 +447,7 @@ Raudoitustietokentästä valitaan elementtityypin raudoitustyyppitieto. Descript
      <thead>
       <tr>
         <th scope="row">Tietosisältötarve</th>
-        <td colspan="2">RAUDOITUS</td>
+        <td colspan="2">Raudoitusmäärä</td>
       </tr>
       <tr>
         <th scope="row">Rajaukset</th>
@@ -517,7 +517,7 @@ Pintakäsittely-tietokenttään merkitään tarjousvaiheessa elementin ulkokuore
      <thead>
       <tr>
         <th scope="row">Tietosisältötarve</th>
-        <td colspan="2">PINTAKÄSITTELY</td>
+        <td colspan="2">Elementin pintakäsittely</td>
       </tr>
       <tr>
         <th scope="row">Rajaukset</th>
@@ -630,7 +630,7 @@ Väribetoni-kenttään merkitään väribetonin väri.
      <thead>
       <tr>
         <th>Tietosisältötarve</th>
-        <td>VÄRIBETONI</td>
+        <td>Väribetoni</td>
 </tr><tr>
         <th>Rajaukset</th>
         <td>–</td>
@@ -678,7 +678,7 @@ Vähähiilinen-tiedon avulla mahdollista erotella tarjousvaiheessa vähähiilise
      <thead>
       <tr>
         <th scope="row">Tietosisältötarve</th>
-        <td colspan="2">VÄHÄHIILINEN</td>
+        <td colspan="2">Vähähiilinen</td>
       </tr>
       <tr>
         <th scope="row">Rajaukset</th>
@@ -705,7 +705,7 @@ Vähähiilinen-tiedon avulla mahdollista erotella tarjousvaiheessa vähähiilise
 </html>
 
 #### 3.1.7 Tyyppielementti
-Kyllä/-Ei-tieto elementistä, joka on varusteltu tietomallissa toteutusta vastaavaksi tyyp-pielementiksi. Tyyppielementti sisältää raudoitukset ja valutarvikkeet mallinnettuna. Tarjousvaiheessa valutarvikkeita ei ole yleensä mallinnettuna, joten tarjousvaiheessa tieto tarjousvaiheessa huomioitavista valutarvikkeista on kerrottava muussa tarjousaineistossa.
+Kyllä/-Ei-tieto elementistä, joka on varusteltu tietomallissa toteutusta vastaavaksi tyyppielementiksi. Tyyppielementti sisältää raudoitukset ja valutarvikkeet mallinnettuna. Tarjousvaiheessa valutarvikkeita ei ole yleensä mallinnettuna, joten tarjousvaiheessa tieto tarjousvaiheessa huomioitavista valutarvikkeista on kerrottava muussa tarjousaineistossa.
 
 ###### Taulukko 6. 
 
@@ -715,7 +715,7 @@ Kyllä/-Ei-tieto elementistä, joka on varusteltu tietomallissa toteutusta vasta
      <thead>
       <tr>
         <th scope="row">Tietosisältötarve</th>
-        <td colspan="2">TYYPPIELEMENTTI</td>
+        <td colspan="2">Tyyppielementti</td>
       </tr>
       <tr>
         <th scope="row">Rajaukset</th>
@@ -752,7 +752,7 @@ Tieto työmaalla käännettävästä elementistä. Asennustyön hinnoittelua var
      <thead>
       <tr>
         <th scope="row">Tietosisältötarve</th>
-        <td colspan="2">KÄÄNTÖKIVI</td>
+        <td colspan="2">Kääntökivi</td>
       </tr>
       <tr>
         <th scope="row">Rajaukset</th>
@@ -787,7 +787,7 @@ Lohko- ja kerrostiedosta erillinen ohje
 
 **Revisiointi käytännöt**  
 
-Toteutusvaiheessa tapahtuva revisiointi ja tiedonsiirto käyttäen Peppol-sanomia tarken-netaan myöhemmin.
+Toteutusvaiheessa tapahtuva revisiointi ja tiedonsiirto käyttäen Peppol-sanomia tarkennetaan myöhemmin.
 
 
 ## Lyhenteet ja terminologia
@@ -812,11 +812,11 @@ Toteutusvaiheessa tapahtuva revisiointi ja tiedonsiirto käyttäen Peppol-sanomi
           <td>Suunnitteluohjelmistoissa mallin objekteille talletettavaa liitännäistietoa (metatieto), lyhenne englanninkielisestä käsitteestä User Defined Attribute.</td>
         </tr>
         <tr>
-          <td>PropertySet</td>
+          <td>Ominaisuusryhmä</td>
           <td>Rakentamisalalla on yleisesti käytössä ”Property Set” -termi. Tässä dokumentissa käytetään termiä ”Ominaisuusryhmä”, jotta termi on helpommin ymmärrettävissä ja päästään eroon vieraskielisestä termistä. Ominaisuusryhmien tarkka määrittäminen mahdollistaa ominaisuuksien ryhmittelyn ihmiselle sopiviin kokonaisuuksiin. Usealla ominaisuusryhmällä vältetään myös ominaisuuksien pitkä listaus yhdessä ”kaiken kattavassa” ominaisuusryhmässä. </td>
         </tr>
            <tr>
-          <td>Property</td>
+          <td>Ominaisuus</td>
           <td>Rakentamisalalle on vakiintunut ”Property” -termin käyttö. Tässä dokumentissa käytetään termiä ”Ominaisuus”, jotta termi on helpommin ymmärrettävissä ja päästään eroon vieraskielisestä termistä. Ominaisuuksien tarkka määrittäminen mahdollistaa vakioidun tietorakenteen. Ominaisuudet on aina liitetty johonkin ominaisuusryhmään. </td>
         </tr>
     </tbody>
