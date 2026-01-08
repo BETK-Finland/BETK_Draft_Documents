@@ -629,31 +629,37 @@ Väribetoni-kenttään merkitään väribetonin väri.
   <table>
      <thead>
       <tr>
-        <th scope="row">Tietosisältötarve</th>
-        <td colspan="2">VÄRIBETONI</td>
-      </tr>
-      <tr>
-        <th scope="row">Rajaukset</th>
-        <td colspan="2">–</td>
-      </tr>
-      <tr>
-        <th scope="row">PropertySet</th>
-        <td colspan="2">BETK-Hankinta</td>
-      </tr>
-      <tr>
-        <th scope="row">Property</th>
-        <td colspan="2">Väribetoni</td>
-      </tr>
-          <th rowspan="9">Sallitut arvot<br>(String)</th>
+        <th>Tietosisältötarve</th>
+        <td>VÄRIBETONI</td>
+</tr><tr>
+        <th>Rajaukset</th>
+        <td>–</td>
+</tr><tr>
+        <th>PropertySet</th>
+        <td>BETK-Hankinta</td>
+</tr><tr>
+        <th>Property</th>
+        <td>Väribetoni</td>
+</tr><tr>
+      <th rowspan="10">Sallitut arvot<br>(String)</th>
       <td>01 Harmaa, värjätty</td>
+</tr><tr>
       <td>02 MUS-Musta</td>
+</tr><tr>
       <td>03 VAL-Valkoinen</td>
+</tr><tr>
       <td>04 PUN-Punainen</td>
+</tr><tr>
       <td>05 SIN-Sininen</td>
+</tr><tr>
       <td>06 RUS-Ruskea</td>
+</tr><tr>
       <td>07 VIH-Vihreä</td>
+</tr><tr>
       <td>05 SIN-Sininen</td>
+</tr><tr>
       <td>08 KEL-Keltainen</td>
+</tr><tr>
       <td>Muu</td>      
          </tr>
     </tbody>
