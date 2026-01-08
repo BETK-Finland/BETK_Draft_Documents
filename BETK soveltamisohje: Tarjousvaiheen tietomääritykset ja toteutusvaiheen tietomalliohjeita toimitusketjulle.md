@@ -811,7 +811,7 @@ Toteutusvaiheessa tapahtuva revisiointi ja tiedonsiirto käyttäen Peppol-sanomi
         </tr>
            <tr>
           <td>Property</td>
-          <td>Rakentamisalalle on vakiintunut ”Property” -termin käyttö. Tässä dokumentissa käytetään termiä ”Ominaisuus”, jotta termi on helpommin ymmärrettävissä ja päästään eroon vieraskielisestä termistä. Ominaisuuksien tarkka määrittäminen mahdollistaa vakioidun tietorakenteen. </td>
+          <td>Rakentamisalalle on vakiintunut ”Property” -termin käyttö. Tässä dokumentissa käytetään termiä ”Ominaisuus”, jotta termi on helpommin ymmärrettävissä ja päästään eroon vieraskielisestä termistä. Ominaisuuksien tarkka määrittäminen mahdollistaa vakioidun tietorakenteen. Ominaisuudet on aina liitetty johonkin ominaisuusryhmään. </td>
         </tr>
     </tbody>
 </table>
