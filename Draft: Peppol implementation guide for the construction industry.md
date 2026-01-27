@@ -767,11 +767,7 @@ Usage of [cac:SellerSubstitutedLineItem](https://docs.peppol.eu/poacc/upgrade-3/
 ---
 
 ## Attachment A: Quantity/@unitCode usage
-In Peppol, the unit of measure codes must follow UN/ECE’s code list Recommendation 20, including [Recommendation 21 codes – prefixed with X (UN/ECE)](https://docs.peppol.eu/poacc/upgrade-3/codelist/UNECERec20/). As this list is very large, this following subset of that list are the values that are recommended to be used in the concrete element supply chain.
-
-For possible expansion of this list, [see short list in Sweden first.](https://skr.se/download/18.427140af179361c4e462c7c8/1620639375793/SFTI%20Shortlist_UnitsOfMeasureCodes_20191017.pdf)
-
->  $\color{red}{\textsf{Draft note:}}$ *Use **UN/ECE Recommendation 20** (including **Rec 21** codes, prefixed with **X**) for unit codes. The following shortlist is recommended for the concrete element supply chain. For possible expansion, consider the Swedish shortlist first.*
+Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/poacc/upgrade-3/codelist/UNECERec20/)** codes, prefixed with **X**) for unit codes. The following shortlist is recommended for the concrete element supply chain. For possible expansion, consider the [Swedish shortlist first.](https://skr.se/download/18.427140af179361c4e462c7c8/1620639375793/SFTI%20Shortlist_UnitsOfMeasureCodes_20191017.pdf)
 
 | cbc:Quantity/@unitCode   | Description in English | Description in Finnish  | Description in Swedish  | Notes                                                                                                                    |
 | -------------------------- | ---------------------- | ----------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------ |
