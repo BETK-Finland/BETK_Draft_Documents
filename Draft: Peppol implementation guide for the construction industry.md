@@ -813,8 +813,8 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
     <td>cbc:Name (Swedish)</td>
     <td>cbc:Value (Example)</td>
     <td>cbc:ValueQuantity</td>
-    <td> @UntiCode</td>     
-    <td> - </td>
+    <td>@UntiCode</td>     
+    <td>Remarks</td>
    </tr>
    <tr>
      <td>Rakennus</td>
@@ -823,7 +823,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>A</td>
      <td> - </td>
      <td> - </td>     
-    <td> - </td>
+     <td>https://sanastot.suomi.fi/terminology/rakymp/concept/c6</td>
    </tr>
    <tr>
      <td>Kerros</td>
@@ -832,7 +832,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>1</td>
      <td> - </td>
      <td> - </td>     
-    <td> - </td>
+    <td>https://sanastot.suomi.fi/terminology/rakymp/concept/c606](https://sanastot.suomi.fi/terminology/rakymp/concept/c604</td>
    </tr>
    <tr>
      <td>Asennuslohko</td>
@@ -859,7 +859,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>A1</td>
      <td> - </td>
      <td> - </td>
-     <td> - </td>
+     <td>https://sanastot.suomi.fi/terminology/rakymp/concept/c606</td>
    </tr>
     <tr>
      <td>Purkupaikka</td>
