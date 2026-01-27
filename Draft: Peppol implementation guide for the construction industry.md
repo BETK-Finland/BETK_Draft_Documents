@@ -785,24 +785,6 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
 
 >  $\color{red}{\textsf{Draft note:}}$ *Use the following **`cac:AdditionalItemProperty`** names and values consistently to enable automated processing. (Examples shown where available.)*
 
-| Cbc:Name                                  | Cbc:Value (Example)                                                                                        | Description                                           | Description (Finnish)          |
-|-------------------------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|--------------------------------|
-|                                           |                                                                              | $\color{red}{\textsf{Building block name}}$           | Rakennuslohkon nimi            |
-|                                           |                                                                                                            | $\color{red}{\textsf{Floor name}}$                    | Kerroksen nimi                 |
-|                                           |                                                                                                            | $\color{red}{\textsf{Installation block 1}}$          | Asennuslohko 1                 |
-|                                           |                                                                                                            | $\color{red}{\textsf{Installation block 2}}$          | Asennuslohko 2                 |
-|                                           |                                                                                                            | $\color{red}{\textsf{Installation block 3}}$          | Asennuslohko 3                 |
-|                                           |                                                                                                            | $\color{red}{\textsf{Stairwell}}$                     | Rappu                          |
-|                                           |                                                                                                            | $\color{red}{\textsf{Space/Room}}$                    | Tila                           |
-|                                           |                                                                                                            | $\color{red}{\textsf{Planned factory casting date}}$  | Suunniteltu tehtaan valupäivä  |
-|                                           |                                                                                                            |                                                       | Suunniteltu toimituspäivä      |
-|                                           |                                                                                                            |                                                       | MTO – Variation Number         |
-|                                           |                                                                                                            | Data carrier                                          | RFID:n tunnus                  |
-|                                           |                                                                                                            | Co2 / ESG                                             | Hiilidioksidiekvivalentti      |
-|                                           | `BETONILEMENTTI` <br> `PAIKALLAVALU` <br> `TERÄSKOKOONPANO` <br> `PUUKOKOONPANO` <br> `MUU KOKOONPANO`     | $\color{red}{\textsf{Assembly type}}$                 | Kokoonpanon tyyppi             |
-|                                           |  `True` / `False`                                                                                          |                                                       | Kääntökivi                     |
-
-
 
 <html>
 <table border="1" cellspacing="5" cellpadding="5">
