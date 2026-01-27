@@ -832,7 +832,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>1</td>
      <td> - </td>
      <td> - </td>     
-    <td>https://sanastot.suomi.fi/terminology/rakymp/concept/c606](https://sanastot.suomi.fi/terminology/rakymp/concept/c604</td>
+    <td>https://sanastot.suomi.fi/terminology/rakymp/concept/c604</td>
    </tr>
    <tr>
      <td>Asennuslohko</td>
