@@ -870,32 +870,32 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td> - </td>     
      <td> - </td>
    </tr>
-    <tr>
+   <tr>
      <td>MTO - Variation Number</td>
      <td> - </td>
-     <td>ruotti</td>
+     <td> - </td>
      <td>Esimerkki tähän</td>
      <td> - </td>
      <td> - </td>     
      <td> - </td>
    </tr>
-    <tr>
-     <td></td>
-     <td></td>
-     <td></td>
-     <td></td>
-     <td> - </td>
-     <td> - </td>     
-     <td> - </td>
-   </tr>
    <tr>
+     <td>GUID</td>
+     <td> - </td>
+     <td> - </td>
      <td></td>
+     <td> - </td>
+     <td> - </td>     
+     <td>GUID/UUID obtained from design software</td>
+   </tr>
+    <tr>
+     <td>GUID, IFC</td>
      <td></td>
      <td></td>
      <td></td>
      <td> - </td>
      <td> - </td>     
-     <td> - </td>
+     <td>GUID/UUID assigned to element at ifc-export</td>
    </tr>
     <tr>
      <td>CO2 ekvivalentti</td>
