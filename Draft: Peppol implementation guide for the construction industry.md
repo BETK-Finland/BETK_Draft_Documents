@@ -810,6 +810,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
    <tr>
     <td>cbc:Name (Finnish)</td>
     <td>cbc:Name (English)</td>
+    <td>cbc:Name (Swedish)</td>
     <td>cbc:Value (Example)</td>
     <td>cbc:ValueQuantity</td>
     <td> @UntiCode</td>
@@ -817,6 +818,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
    <tr>
      <td>Rakennus</td>
      <td>Building</td>
+     <td>ruotti</td>
      <td>A</td>
      <td> - </td>
      <td> - </td>
@@ -824,6 +826,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
    <tr>
      <td>Kerros</td>
      <td>Floor</td>
+     <td>ruotti</td>
      <td>1</td>
      <td> - </td>
      <td> - </td>
@@ -831,6 +834,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
    <tr>
      <td>Asennuslohko</td>
      <td>Building block</td>
+     <td>ruotti</td>
      <td>1</td>
      <td> - </td>
      <td> - </td>
@@ -838,6 +842,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
     <tr>
      <td>Suunnittelijan lohko</td>
      <td>Designers building block</td>
+     <td>ruotti</td>
      <td>1</td>
      <td> - </td>
      <td> - </td>
@@ -845,6 +850,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
     <tr>
      <td>Rappu</td>
      <td>Stairwell</td>
+     <td>ruotti</td>
      <td>A1</td>
      <td> - </td>
      <td> - </td>
@@ -852,6 +858,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
     <tr>
      <td>Purkupaikka</td>
      <td> - </td>
+     <td>ruotti</td>
      <td>GLN (Miten kerrotaan, että on kyse GLN:stä?)</td>
      <td> - </td>
      <td> - </td>
@@ -859,6 +866,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
     <tr>
      <td>Suunniteltu tehtaan valupäivä</td>
      <td>Planned factory casting date</td>
+     <td>ruotti</td>
      <td>2025-01-15</td>
      <td> - </td>
      <td> - </td>
@@ -866,6 +874,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <tr>
      <td>Suunniteltu toimituspäivä</td>
      <td>Planned delivery date</td>
+     <td>ruotti</td>
      <td>2025-01-16</td>
      <td> - </td>
      <td> - </td>
@@ -873,6 +882,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
     <tr>
      <td>MTO - Variation Number</td>
      <td> - </td>
+     <td>ruotti</td>
      <td>Esimerkki tähän</td>
      <td> - </td>
      <td> - </td>
@@ -880,6 +890,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
     <tr>
      <td>Data carrier</td>
      <td>Data carrier</td>
+     <td>ruotti</td>
      <td>124567243564423565523</td>
      <td> - </td>
      <td> - </td>
@@ -887,6 +898,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
     <tr>
      <td>CO2 ekvivalentti</td>
      <td>CO2 equivalent</td>
+     <td>ruotti</td>
      <td>22.8</td>
      <td>1</td>
      <td>TNE</td>
@@ -894,13 +906,15 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <tr>
      <td>Kokoonpanon tyyppi</td>
      <td>Assembly type</td>
+     <td>ruotti</td>
      <td>BETONIELEMENTTI, PAIKALLAVALU, TERÄSKOKOONPANO, PUUKOKOONPANO, MUU KOKOONPANO</td>
      <td> - </td>
      <td> - </td>
    </tr>
      <tr>
      <td>Kääntökivi</td>
-     <td> - </td>
+     <td> - </td>     
+     <td>ruotti</td>
      <td>True / False</td>
      <td> - </td>
      <td> - </td>
