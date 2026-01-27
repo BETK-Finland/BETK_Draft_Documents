@@ -813,7 +813,8 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
     <td>cbc:Name (Swedish)</td>
     <td>cbc:Value (Example)</td>
     <td>cbc:ValueQuantity</td>
-    <td> @UntiCode</td>
+    <td> @UntiCode</td>     
+    <td> - </td>
    </tr>
    <tr>
      <td>Rakennus</td>
@@ -821,7 +822,8 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>Byggnad</td>
      <td>A</td>
      <td> - </td>
-     <td> - </td>
+     <td> - </td>     
+    <td> - </td>
    </tr>
    <tr>
      <td>Kerros</td>
@@ -829,7 +831,8 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>Våning</td>
      <td>1</td>
      <td> - </td>
-     <td> - </td>
+     <td> - </td>     
+    <td> - </td>
    </tr>
    <tr>
      <td>Asennuslohko</td>
@@ -837,7 +840,8 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>SWE</td>
      <td>1</td>
      <td> - </td>
-     <td> - </td>
+     <td> - </td>     
+    <td> - </td>
    </tr>
     <tr>
      <td>Suunnittelijan lohko</td>
@@ -845,13 +849,15 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>Konstruktion etapp</td>
      <td>1</td>
      <td> - </td>
+     <td> - </td>     
      <td> - </td>
    </tr>
     <tr>
-     <td>Rappu</td>
-     <td>Stairwell</td>
+     <td>Porras</td>
+     <td>Staircase</td>
      <td>Trappa</td>
      <td>A1</td>
+     <td> - </td>
      <td> - </td>
      <td> - </td>
    </tr>
@@ -861,6 +867,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>SWE</td>
      <td>GLN (Miten kerrotaan, että on kyse GLN:stä?)</td>
      <td> - </td>
+     <td> - </td>     
      <td> - </td>
    </tr>
     <tr>
@@ -869,6 +876,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>SWE</td>
      <td>2025-01-15</td>
      <td> - </td>
+     <td> - </td>     
      <td> - </td>
    </tr>
      <tr>
@@ -877,6 +885,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>SWE</td>
      <td>2025-01-16</td>
      <td> - </td>
+     <td> - </td>     
      <td> - </td>
    </tr>
     <tr>
@@ -885,6 +894,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>ruotti</td>
      <td>Esimerkki tähän</td>
      <td> - </td>
+     <td> - </td>     
      <td> - </td>
    </tr>
     <tr>
@@ -893,6 +903,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td></td>
      <td></td>
      <td> - </td>
+     <td> - </td>     
      <td> - </td>
    </tr>
    <tr>
@@ -901,6 +912,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td></td>
      <td></td>
      <td> - </td>
+     <td> - </td>     
      <td> - </td>
    </tr>
     <tr>
@@ -909,7 +921,8 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>SWE</td>
      <td>22.8</td>
      <td>1</td>
-     <td>TNE</td>
+     <td>TNE</td>     
+     <td> - </td>
    </tr>
      <tr>
      <td>Kokoonpanon tyyppi</td>
@@ -917,7 +930,8 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>SWE</td>
      <td>BETONIELEMENTTI, PAIKALLAVALU, TERÄSKOKOONPANO, PUUKOKOONPANO, MUU KOKOONPANO</td>
      <td> - </td>
-     <td> - </td>
+     <td> - </td>     
+      <td> - </td>
    </tr>
      <tr>
      <td>Kääntökivi</td>
@@ -925,6 +939,7 @@ Use **UN/ECE Recommendation 20** (including **[Rec 21](https://docs.peppol.eu/po
      <td>SWE</td>
      <td>True / False</td>
      <td> - </td>
+     <td> - </td>     
      <td> - </td>
    </tr>
  </table>
