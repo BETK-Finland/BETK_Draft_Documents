@@ -40,12 +40,9 @@
 ## Sisällysluettelo
 
 
-
 ## Dokumentin tarkoitus
 
-Tämä dokumentti on BETK-työryhmän keskustelupaperi, jonka tavoitteena on jäsentää tilauksesta suunniteltavien rakennustuotteiden, erityisesti betonielementtien, toimitusketjussa keskeistä tapahtuma- ja statustietoa. Paperi kokoaa havaintoja, tunnistettuja ongelmia ja kehityssuuntia tapahtumatiedon jakamiseen liittyen ja toimii mahdollisen soveltamisohjeen lähtökohtana.
-
-Dokumentti ei ole normi, standardi eikä valmis ohje, vaan tarkoitettu yhteisen ymmärryksen rakentamiseen ja jatkokehityksen tueksi. Se kytkeytyy Rakennusteollisuus RT:n käynnissä olevaan rakennustuotetiedon ja toimitusketjujen digitalisaatiotyöhön, jossa pyritään siirtymään manuaalisesta ja rakenteettomasta tiedonvaihdosta kohti rakenteellista ja koneluettavaa tiedonhallintaa.
+Tämä dokumentti on BETK-työryhmän keskustelupaperi, jonka tavoitteena on jäsentää ja koota havaintoja, tunnistettuja ongelmia ja kehityssuuntia tapahtumatiedon jakamiseen liittyen ja toimii mahdollisen toimialakohtaisen soveltamisohjeen lähtökohtana. Dokumentti ei ole normi, standardi eikä valmis ohje, vaan tarkoitettu yhteisen ymmärryksen rakentamiseen ja jatkokehityksen tueksi. Se kytkeytyy Rakennusteollisuus RT:n käynnissä olevaan rakennustuotetiedon ja toimitusketjujen digitalisaatiotyöhön, jossa pyritään siirtymään manuaalisesta ja rakenteettomasta tiedonvaihdosta kohti rakenteellista ja koneluettavaa tiedonhallintaa.
 
 ## 1. Mitä on tapahtumatiedon jakaminen
 
