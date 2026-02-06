@@ -38,7 +38,9 @@
 
  
 ## Sisällysluettelo
-
+1. [Dokumentin tarkoitus](#dokumentin-tarkoitus)<br>
+1. 
+---
 
 ## Dokumentin tarkoitus
 
@@ -47,6 +49,12 @@ Tämä dokumentti on BETK-työryhmän keskustelupaperi, jonka tavoitteena on jä
 ## 1. Mitä on tapahtumatiedon jakaminen
 
 ### 1.1 GS1 EPCIS
+
+EPC Information Services (EPCIS) -ratkaisu perustuu kahteen standardoituun rajapintaan: Capture ja Query. Capture-rajapinta tallentaa EPCIS-tapahtumat EPCIS-tietovarastoon (EPCIS Repository), joka on pysyvä tietokanta ja jota voidaan käyttää Query-rajapinnan kautta. Standardi ei määrittele, miten tietokanta on toteutettu, vaan ainoastaan rajapinnat tiedon syöttämistä ja hakemista varten. Rajapintoja tarvitaan yhteentoimivuuden varmistamiseksi, kun taas toteutustavat mahdollistavat kilpailun teknologiaa ja EPC Information Service -palveluja tarjoavien toimijoiden välillä. EPCIS-tapahtumat kuvaavat toimitusketjun aikana kertyviä liiketoimintavaiheita, joihin sisältyy tyypillisesti aikaleima, sijainti (GLN) ja tapahtuman tyyppi (esim. pakkaus, lähetys ja vastaanotto). Näihin tapahtumiin voidaan päästä käsiksi organisaation sisällä tai niitä voidaan jakaa kumppaneille todennetun internet-yhteyden kautta. (METROPOLIA LOPPURAPORTTI, 2012)
+
+Capture-rajapinta sijaitsee EPCIS-tietovaraston ja EPCIS-tietoja keräävän sovelluksen (EPCIS Capturing Application) välissä. Keräävä sovellus valvoo alemman tason arkkitehtuurielementtien toimintaa ja tuo liiketoimintakontekstin koordinoimalla muita tietolähteitä, jotka liittyvät tietyn liiketoimintaprosessin vaiheen toteuttamiseen. RFID-tapahtumien lisäksi sovellukset voivat vastaanottaa tietoa myös muista lähteistä (esim. manuaalisesta syötöstä tai viivakoodin luvusta).
+
+EPCIS Query -rajapinta tarjoaa kaksi vuorovaikutustapaa. “On-demand”- tai synkronisessa tilassa asiakas tekee pyynnön EPCIS Query Control Interface -rajapinnan kautta ja saa vastauksen välittömästi. “Standing request”- tai asynkronisessa tilassa asiakas luo tilauksen määräaikaiselle kyselylle. Joka kerta, kun tämä määräaikainen kysely suoritetaan, tulokset toimitetaan asynkronisesti (eli “työnnetään”) vastaanottajalle EPCIS Query Callback Interface -rajapinnan kautta. EPCIS Query Callback Interface -rajapintaa voidaan käyttää myös tiedon toimittamiseen välittömästi tapahtuman tallennuksen yhteydessä ohittaen tietovaraston. (METROPOLIA LOPPURAPORTTI, 2012)
 
 ### 1.2 
 
@@ -64,34 +72,7 @@ BETK-työryhmä on laatinut ja julkaissut soveltamisohjeen betonielementtien tuo
 EPC Information Services (EPCIS)
 
 
-EPC Information Services (EPCIS) 
-An EPCIS solution is based on two standardized interfaces: Capture and Query. The 
-Capture interface stores EPCIS events into an EPCIS Repository, which is a persistent 
-database accessible through the Query Interface. Standard does not define how the 
-database is implemented, only the interfaces for feeding and retrieving data. The 
-interfaces are needed for interoperability, while the implementations allow for 
-competition among those providing the technology and EPC Information Service. 
-EPCIS events represent business steps accumulated through the supply chain that 
-typically include a timestamp, location (GLN) and type of the event (e.g. packing, 
-shipping and receiving). These events can be accessed internally or shared with partners 
-through an authenticated Internet connection. (METROPOLIA LOPPURAPORTTI, 2012)
 
-
-32 
-
-The Capture Interface lies between the repository and an EPCIS Capturing Application. 
-The Capturing Application supervises the operation of the lower-level architectural 
-elements, and provides business context by coordinating with other sources of 
-information involved in executing a particular step of a business process. In addition to 
-RFID events, the applications can take input from other sources (e.g. manual input or 
-barcode read). 
-An EPCIS Query Interface provides two modes of interaction. In ―on-demand‖ or 
-―synchronous‖ mode, a client makes a request through the EPCIS Query Control 
-Interface and receives a response immediately. In ―standing request‖ or ―asynchronous‖ 
-mode, a client establishes a subscription for a periodic query. Each time the periodic 
-query is executed, the results are delivered asynchronously (or ―pushed‖) to a recipient 
-via the EPCIS Query Callback Interface. The EPCIS Query Callback Interface may also 
-be used to deliver information immediately upon capture bypassing the repository. (METROPOLIA LOPPURAPORTTI, 2012)
 
 
 `#0969DA`
