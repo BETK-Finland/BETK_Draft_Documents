@@ -84,7 +84,35 @@ be used to deliver information immediately upon capture bypassing the repository
 
 ## Suunnitteluvaihe
 
-![20250515_Kuva1](https://github.com/user-attachments/assets/b700cd01-b8bd-4143-9abc-ecefd0af2573)
+
+<img width="692" height="1272" alt="EPCIS_vaihe_kuva1" src="https://github.com/user-attachments/assets/76e8572e-8050-4993-acf6-d83ac73c5cab" />
+
+
+<img width="673" height="1273" alt="EPCIS_vaihe_kuva2" src="https://github.com/user-attachments/assets/bd2aa069-c152-45fe-842f-afe1f222a9ee" />
+
+
+<img width="672" height="1272" alt="EPCIS_vaihe_kuva3" src="https://github.com/user-attachments/assets/0b2bb02b-0ca7-4e92-b8f6-e9207cc142b5" />
+
+
+<img width="692" height="1271" alt="EPCIS_vaihe_kuva4" src="https://github.com/user-attachments/assets/df209a45-f4a6-497a-bf6b-3b62ba7d42c3" />
+
+
+<img width="692" height="1280" alt="EPCIS_vaihe_kuva5" src="https://github.com/user-attachments/assets/3d0f2429-6206-4e29-b700-1982857dcb58" />
+
+
+<img width="672" height="1272" alt="EPCIS_vaihe_kuva6" src="https://github.com/user-attachments/assets/7c1d495e-c1d5-4e96-9c73-1afefa449a05" />
+
+
+<img width="692" height="1272" alt="EPCIS_vaihe_kuva7" src="https://github.com/user-attachments/assets/45a3d722-37ab-4d05-a19b-5e4e0ec69194" />
+
+
+<img width="673" height="1272" alt="EPCIS_vaihe_kuva8" src="https://github.com/user-attachments/assets/ac006553-80e2-4625-8870-7223103eddc7" />
+
+
+<img width="692" height="1272" alt="EPCIS_vaihe_kuva9" src="https://github.com/user-attachments/assets/e8b47ac9-02c8-432b-847d-fe27ae0f16d0" />
+
+
+
 
 
 
