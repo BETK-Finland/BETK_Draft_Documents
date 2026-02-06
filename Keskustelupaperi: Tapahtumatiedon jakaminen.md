@@ -2,7 +2,7 @@
 
 
 >Julkaisija: Rakennusteollisuus ry\
->Luonnos: 24.01.2026
+>Luonnos: 06.02.2026
 
 <details>
 <summary>Asiakirjan tiedot </summary>
@@ -10,7 +10,7 @@
 | Selite                | Arvo                                                                |
 |-----------------------|---------------------------------------------------------------------|
 | Asiakirjan nimi       | BETK keskustelupaperi: Tapahtumatiedon jakaminen toimitusketjussa |
-| Asiakirjan päivämäärä | 24.01.2026                                                         |
+| Asiakirjan päivämäärä | 06.02.2026                                                         |
 | Asiakirjan versio     | 0.0.1                                                                 |
 | Asiakirjan status     | Luonnos                                                             |
 
@@ -23,6 +23,7 @@
 |------------------|-------------------------------|
 | Teemu Alaluusua  | Aalto-yliopisto               |
 | Tom Partanen     | Consolis Parma Oy             |
+|Antti Taskinen    | Fira                          |
 
 </details>
 
@@ -31,7 +32,7 @@
 
 | Versio  | Päivämäärä  | Tekijä  | Muutoskuvaus               |
 |---------|-------------|---------|----------------------------|
-| 0.1     | 214.1.2026   | TAla    | Luonnos vaihe              |
+| 0.0.1   | 6.2.2026    | TAla    | Luonnos vaihe              |
 
  </details>
 
