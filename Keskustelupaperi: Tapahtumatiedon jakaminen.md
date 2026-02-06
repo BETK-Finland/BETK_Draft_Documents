@@ -41,9 +41,18 @@
 
 
 
-## Dokumentin tarkoitus
+## 1. Dokumentin tarkoitus
 
-Tämän dokumentin tarkoituksena on koota ajatuksia tapahtumatiedonjakamisesta rakennusalan käyttötapauksissa ja toimia mahdollisesti toteutettavan soveltamisohjeen pohjana.
+Tämä dokumentti on BETK-työryhmän keskustelupaperi, jonka tavoitteena on jäsentää tilauksesta suunniteltavien rakennustuotteiden, erityisesti betonielementtien, toimitusketjussa keskeistä tapahtuma- ja statustietoa. Paperi kokoaa havaintoja, tunnistettuja ongelmia ja kehityssuuntia tapahtumatiedon jakamiseen liittyen ja toimii mahdollisen soveltamisohjeen lähtökohtana.
+
+Dokumentti ei ole normi, standardi eikä valmis ohje, vaan tarkoitettu yhteisen ymmärryksen rakentamiseen ja jatkokehityksen tueksi. Se kytkeytyy Rakennusteollisuus RT:n käynnissä olevaan rakennustuotetiedon ja toimitusketjujen digitalisaatiotyöhön, jossa pyritään siirtymään manuaalisesta ja rakenteettomasta tiedonvaihdosta kohti rakenteellista ja koneluettavaa tiedonhallintaa.
+
+## 2. Lähtökohta tapahtumatiedon jakamiselle tilauksesta suunniteltavien rakennustuotteiden toimitusketjussa
+
+BETK-työryhmä on laatinut ja julkaissut soveltamisohjeen betonielementtien tuoteyksilöintiin ja -tunnistamiseen, mikä toimii tapahtumatiedon jakamisen lähtökohtana. Laadittu soveltamisohje ... menetelmä GS1 standardien soveltamiseen ... (03) GTIN --> (242 MTO Variation number) --> (21) Serial)
+
+## 3. 
+
 
 EPC Information Services (EPCIS)
 
