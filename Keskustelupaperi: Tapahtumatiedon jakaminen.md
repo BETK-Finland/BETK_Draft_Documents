@@ -56,6 +56,25 @@ Capture-rajapinta sijaitsee EPCIS-tietovaraston ja EPCIS-tietoja keräävän sov
 
 EPCIS Query -rajapinta tarjoaa kaksi vuorovaikutustapaa. “On-demand”- tai synkronisessa tilassa asiakas tekee pyynnön EPCIS Query Control Interface -rajapinnan kautta ja saa vastauksen välittömästi. “Standing request”- tai asynkronisessa tilassa asiakas luo tilauksen määräaikaiselle kyselylle. Joka kerta, kun tämä määräaikainen kysely suoritetaan, tulokset toimitetaan asynkronisesti (eli “työnnetään”) vastaanottajalle EPCIS Query Callback Interface -rajapinnan kautta. EPCIS Query Callback Interface -rajapintaa voidaan käyttää myös tiedon toimittamiseen välittömästi tapahtuman tallennuksen yhteydessä ohittaen tietovaraston. (METROPOLIA LOPPURAPORTTI, 2012)
 
+Perinteinen tavaravirtoihin liittyvä EDI-sanomaliikenne perustuu yhdessä määriteltyihin skenaarioihin, jotka laukaisevat lähetys- ja vastaanottoilmoitusten (dispatch advice ja receive advice) lähettämisen. Näitä pisteitä on suhteellisen vähän verrattuna siihen kokonaismäärään käsittelytapahtumia, joita toimitusketjussa tehdään. Yksityiskohtaisemman näkyvyyden toteuttaminen toimitusketjuun ei ole EDI:n avulla kovin käytännöllistä. Suurin osa syntyvästä datasta on hyödyllistä vain erityistilanteissa, ja siihen tulisi päästä käsiksi vain tarvittaessa.
+
+EPC Information Service (EPCIS) on EPC Globalin (GS1:n tytäryhtiö) kehittämä rajapintastandardi. Se määrittelee kaksi yleistä rajapintaa: toisen tiedon keräämistä ja toisen tiedon jakamista varten. Kaikki EPCIS:n käsittelemä data koskee yksilöllisesti tunnistettavia fyysisiä objekteja ja niihin liittyviä fyysisiä tapahtumia. Ytimekkäästi ilmaistuna EPCIS-järjestelmä vastaa kysymyksiin kuka, mitä, missä ja milloin.
+
+EPCIS Capture -rajapinta kerää tunnistetietoa eri lähteistä, kuten RFID-porttien tai viivakoodinlukujen kautta, ja tallentaa ne tietokantaan (EPCIS Repository) yhdessä liiketoimintakontekstin kanssa (esim. pakattu, lähetetty). Tietovaraston tarkka tietokantarakenne ei kuulu standardin määrittelyyn.
+
+Kaikki data haetaan tietovarastosta EPCIS Query -rajapinnan kautta. Tiedonhankinta poikkeaa EDI-mallista siten, että se toimii ensisijaisesti pull-mallilla: dataa pyydetään tietovarastosta silloin, kun sitä tarvitaan, sen sijaan että sitä lähetettäisiin automaattisesti ennalta määritellyissä tilanteissa. EPCIS tukee kuitenkin myös standing request -toiminnallisuutta, joka mahdollistaa EDI:n kaltaisen push-mallin.
+
+Jokainen yritys tai toimipaikka voi ylläpitää omaa EPCIS-tietovarastoaan tai käyttää kolmannen osapuolen tarjoamaa keskitettyä tietovarastoa. Kummassakin tapauksessa pääsy dataan on hallittu asianmukaisilla todennusmenetelmillä, eli kukin osapuoli näkee vain ne tapahtumat, jotka koskevat sitä itseään.
+
+Tulevaisuuden suunnitelmat tiedonsiirron osalta
+
+Asiakkaiden nykyiset sanomavälittäjät kutsuttiin työpajaan 10 esittämään näkemyksensä sanomaliikenteen toteuttamisesta. Sanomavälittäjille esiteltiin asiakkaiden tarpeet yhteisessä tilaisuudessa, jonka projektiryhmä järjesti kaksi viikkoa ennen työpajaa.
+
+Kaksi operaattoria osallistui 17. lokakuuta pidettyyn työpajaan: Itella ja Tieto. Tieto esitteli mahdollisuutta käyttää EDI:tä ja EPCIS:iä rinnakkain mahdollisimman kattavan järjestelmän saavuttamiseksi. EPCIS:n hyödyt tunnistaen Itellan näkemys oli kuitenkin, ettei EPCIS:n käyttöönotto ollut välttämätöntä ja että asiakkaiden välittömät tarpeet voitaisiin täyttää EDI:n avulla.
+
+Itellan näkemys EPCIS:stä sai yleisesti kannatusta osallistujien keskuudessa. Erityisesti vaatimus jokaisen käsiteltävän kollin yksilöllisestä tunnistamisesta nähtiin liian vaikeaksi ja kalliiksi toteuttaa lähitulevaisuudessa. Tämä haaste koskee myös viivakoodien käyttöä eikä ole RFID-teknologiaan sidottu.
+
+Esille tuotiin ehdotus DESADV- ja RECADV-sanomien käytöstä GS1 EANCOM -standardien mukaisesti, mutta sanomien sisällöstä ei saavutettu yksimielisyyttä. Toinen ongelma oli se, etteivät yritykset tällä hetkellä käytä GLN-tunnuksia eri osapuolten tunnistamiseen sanomaliikenteessä, vaikka GS1-määritykset sitä edellyttävät. Sovittiin, että GS1 järjestää projektin jälkeen tapaamisen, jossa kiinnostuneet osapuolet voivat yhdessä määritellä sanomien vähimmäissisällön ja saada lisätietoa GLN-tunnusten käytöstä.
 ### 1.2 
 
 
