@@ -41,8 +41,41 @@
 
 
 
+## Dokumentin tarkoitus
+
+Tämän dokumentin tarkoituksena on koota ajatuksia tapahtumatiedonjakamisesta rakennusalan käyttötapauksissa ja toimia mahdollisesti toteutettavan soveltamisohjeen pohjana.
+
+EPC Information Services (EPCIS)
 
 
+EPC Information Services (EPCIS) 
+An EPCIS solution is based on two standardized interfaces: Capture and Query. The 
+Capture interface stores EPCIS events into an EPCIS Repository, which is a persistent 
+database accessible through the Query Interface. Standard does not define how the 
+database is implemented, only the interfaces for feeding and retrieving data. The 
+interfaces are needed for interoperability, while the implementations allow for 
+competition among those providing the technology and EPC Information Service. 
+EPCIS events represent business steps accumulated through the supply chain that 
+typically include a timestamp, location (GLN) and type of the event (e.g. packing, 
+shipping and receiving). These events can be accessed internally or shared with partners 
+through an authenticated Internet connection. (METROPOLIA LOPPURAPORTTI, 2012)
+
+
+32 
+
+The Capture Interface lies between the repository and an EPCIS Capturing Application. 
+The Capturing Application supervises the operation of the lower-level architectural 
+elements, and provides business context by coordinating with other sources of 
+information involved in executing a particular step of a business process. In addition to 
+RFID events, the applications can take input from other sources (e.g. manual input or 
+barcode read). 
+An EPCIS Query Interface provides two modes of interaction. In ―on-demand‖ or 
+―synchronous‖ mode, a client makes a request through the EPCIS Query Control 
+Interface and receives a response immediately. In ―standing request‖ or ―asynchronous‖ 
+mode, a client establishes a subscription for a periodic query. Each time the periodic 
+query is executed, the results are delivered asynchronously (or ―pushed‖) to a recipient 
+via the EPCIS Query Callback Interface. The EPCIS Query Callback Interface may also 
+be used to deliver information immediately upon capture bypassing the repository. (METROPOLIA LOPPURAPORTTI, 2012)
 
 
 `#0969DA`
