@@ -87,6 +87,8 @@ BETK-työryhmä on laatinut ja julkaissut soveltamisohjeen betonielementtien tuo
 
 ### 2.3 Toimintaympäristön tunnistetut haasteet tapahtumatiedon jakamisen osalta
 
+Rakennus-ja rakennustuoteteollisuudessa yksi tunnistettu ongelmaToinen ongelma on se, etteivät yritykset tällä hetkellä käytä GLN-tunnuksia eri osapuolten tunnistamiseen toimitusprosesseissaan ja EDI-pohjainen tiedonvaihto ...vaikka GS1-määritykset sitä edellyttävät.
+
 
 EPC Information Services (EPCIS)
 
@@ -97,8 +99,8 @@ EPC Information Services (EPCIS)
 `#0969DA`
 
 
-
-## Suunnitteluvaihe
+## 3. EPCIS ja CBV-standardien soveltaminen rakennusalan toimintaympäristössä
+### Suunnitteluvaihe
 
 
 <img height="400" alt="EPCIS_vaihe_kuva1" src="https://github.com/user-attachments/assets/76e8572e-8050-4993-acf6-d83ac73c5cab" />
