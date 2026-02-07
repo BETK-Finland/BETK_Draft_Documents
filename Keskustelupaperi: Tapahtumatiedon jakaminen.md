@@ -42,7 +42,7 @@
 1. 
 ---
 
-## 1. Dokumentin tarkoitus
+## 1. Johdanto
 
 Tämä dokumentti on BETK-työryhmän keskustelupaperi, jonka tavoitteena on jäsentää ja koota havaintoja, tunnistettuja ongelmia ja kehityssuuntia tapahtumatiedon jakamiseen liittyen ja toimii mahdollisen toimialakohtaisen soveltamisohjeen lähtökohtana. Dokumentti ei ole normi, standardi eikä valmis ohje, vaan tarkoitettu yhteisen ymmärryksen rakentamiseen ja jatkokehityksen tueksi. Se kytkeytyy Rakennusteollisuus RT:n käynnissä olevaan rakennustuotetiedon ja toimitusketjujen digitalisaatiotyöhön, jossa pyritään siirtymään manuaalisesta ja rakenteettomasta tiedonvaihdosta kohti rakenteellista ja koneluettavaa tiedonhallintaa.
 
@@ -51,6 +51,13 @@ Tämä keskustelupaperi jatkaa BETK-työryhmän aiempaa työtä rakennustuotteid
 2.1 Tuoteyksilöinnin ja -tunnistamisen soveltamisohje
 BETK-työryhmä on laatinut ja julkaissut soveltamisohjeen betonielementtien tuoteyksilöintiin ja -tunnistamiseen, mikä toimii tapahtumatiedon jakamisen lähtökohtana. Laadittu soveltamisohje ... menetelmä GS1 standardien soveltamiseen ... (03) GTIN --> (242 MTO Variation number) --> (21) Serial)
 ## 1. Mitä on tapahtumatiedon jakaminen
+
+
+Toimitusketjun kehittämisessä tunnistettuna kehittämistarpeena on todettu tarve tuottaa tapahtumatietoa tuotteen toimitusketjun aikaiseen jäljitettävyyttä tuotevalmistuksesta asennuksen ja ylläpidon aikaiseen vaiheeseen.
+
+
+
+Rakenteellisten tilauksesta suunniteltavien runkotuotteiden osalta tapahtumatiedon merkitys korostuu erityisesti asennusvaiheessa, jossa yksilöity fyysinen tuote asennetaan osaksi rakennetta. Rajatuissa piloteissa on havaittu, että asennusvaiheessa tuotteita voidaan vaihtaa keskenään työmaan logististen reunaehtojen tai inhimillisten virheiden seurauksena, jolloin suunniteltu ja toteutunut asennussijainti eivät vastaa toisiaan. Mikäli yksittäisen elementin ominaisuuksissa havaitaan poikkeama, edellyttää tilanteen hallinta kykyä jäljittää kyseinen tuote ja sen todellinen asennussijainti yksiselitteisesti. Ilman rakenteellisesti määriteltyä ja jaettua tapahtumatietoa tuoteyksilöinnin ja toteutuneen asennuksen välinen yhteys voi katketa, mikä heikentää jäljitettävyyttä ja voi muodostaa rakenteellisen turvallisuusriskin. Tämän vuoksi asennussijaintiin kytkeytyvä tapahtumatieto on keskeinen edellytys tilauksesta suunniteltavien runkotuotteiden toimitusketjun luotettavuudelle, riskienhallinnalle ja elinkaaritiedon eheydelle.
 
 ### 1.1 GS1 EPCIS
 
