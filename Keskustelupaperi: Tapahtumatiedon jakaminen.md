@@ -50,12 +50,24 @@ Tämä keskustelupaperi kytkeytyy BETK-työryhmän aiemmin julkaisemaan tilaukse
 
 Rakenteellisten tilauksesta suunniteltavien runkotuotteiden osalta tapahtumatiedon merkitys korostuu erityisesti asennusvaiheessa, jossa yksilöity fyysinen tuote asennetaan osaksi rakennettavaa kohdetta. Rajatuissa piloteissa on havaittu, että asennusvaiheessa tuotteiden suunniteltu ja toteutunut asennussijainti eivät välttämättä vastaa toisiaan. Mikäli yksittäisen elementin ominaisuuksissa havaitaan poikkeama, edellyttää tilanteen hallinta kykyä jäljittää kyseinen tuote ja sen todellinen asennussijainti yksiselitteisesti. Ilman rakenteellisesti määriteltyä ja jaettua tapahtumatietoa tuoteyksilöinnin ja toteutuneen asennuksen välinen yhteys voi katketa, mikä heikentää jäljitettävyyttä ja voi muodostaa rakenteellisen turvallisuusriskin. Tämän vuoksi asennussijaintiin kytkeytyvä tapahtumatieto on keskeinen edellytys tilauksesta suunniteltavien runkotuotteiden toimitusketjun luotettavuudelle, riskienhallinnalle ja elinkaaritiedon eheydelle.
 
-## 2. Mitä on tapahtumatiedon jakaminen
+## 2. Miksi edistää tapahtumatiedon jakamisen käyttöönottoa?
 Toimitusketjujen kehittämistyössä on tunnistettu merkittävä tarve tuottaa ja jakaa tapahtumatietoa, joka tukee rakennustuotteiden jäljitettävyyttä koko niiden elinkaaren ajan. Tapahtumatiedolla tarkoitetaan tässä yhteydessä rakenteellista tietoa tuotetta koskevista tapahtumista, kuten valmistuksesta, varastoinnista, kuljetuksesta, vastaanotosta, asennuksesta sekä mahdollisesti myös suunnittelun, ylläpidon ja käytön aikaisista toimenpiteistä.
 
-Tapahtumatiedon systemaattinen tuottaminen ja jakaminen mahdollistaa siirtymisen dokumenttipohjaisesta ja jälkikäteisestä tiedonvaihdosta kohti reaaliaikaisempaa ja automaattisesti hyödynnettävää tiedonhallintaa. Erityisesti jäljitettävyyden näkökulmasta tapahtumatieto muodostaa keskeisen mekanismin, jonka avulla voidaan yhdistää tuotteen fyysinen sijainti, tila ja historia sitä koskevaan digitaaliseen tietoon toimitusketjun eri vaiheissa aina tuotevalmistuksesta asennukseen ja edelleen ylläpidon aikaisiin vaiheisiin.
+Tapahtumatiedon systemaattinen tuottaminen ja jakaminen mahdollistaa siirtymisen dokumenttipohjaisesta ja jälkikäteisestä tiedonvaihdosta kohti reaaliaikaista ja automaattisesti hyödynnettävää tiedonhallintaa. Jäljitettävyyden näkökulmasta tapahtumatieto muodostaa mekanismin, jonka avulla tuotteen fyysinen sijainti, tila ja historia voidaan kytkeä sitä koskevaan digitaaliseen tietoon toimitusketjun eri vaiheissa tuotevalmistuksesta asennukseen ja edelleen ylläpidon aikaisiin toimintoihin.
+
+Tapahtumatiedon kehittämispotentiaali perustuu sen kykyyn tehdä prosessien todellinen toteutuminen systemaattisesti analysoitavaksi. Prosessien ohjaus ja kehittäminen nojaavat usein oletettuihin toimintamalleihin ja aggregoituihin suorituskykymittareihin, jotka eivät vastaa sitä, miten toiminta tosiasiallisesti etenee käytännössä. Tutkimuksessa on osoitettu, että toimijat sekoittavat usein suunnitellun prosessin sen todelliseen toteutumiseen, mikä heikentää kehittämistoimenpiteiden kohdentumista (van der Aalst, 2022).
+
+Nykyiset tietojärjestelmät tuottavat laajoja määriä aikaleimattua tapahtumatietoa, joka kuvaa prosessien toteutuneita vaiheita ja niiden välisiä riippuvuuksia. Prosessilouhinta hyödyntää tätä tapahtumatietoa rekonstruoimalla prosessit sellaisina kuin ne ovat toteutuneet, jolloin analyysi perustuu havaittuun toimintaan eikä yksittäisiin oletuksiin tai tunnuslukuihin. Tapahtumatietoon perustuva analyysi mahdollistaa sekä tyypillisen prosessikäyttäytymisen että harvinaisten, mutta usein suhteettoman paljon resursseja kuluttavien prosessivarianttien tunnistamisen (van der Aalst, 2022).
+
+Rakennetun ympäristön kontekstissa tapahtumatiedon merkitys korostuu prosessien moniulotteisuuden vuoksi. Yksittäiset tapahtumat liittyvät samanaikaisesti useisiin objekteihin, kuten tuotteisiin, resursseihin ja sijainteihin, jolloin prosessit muodostuvat useiden toisiinsa kytkeytyvien elinkaarien vuorovaikutuksesta. Prosessianalyysi, joka nojaa yhteen prosessia kuvaavaan tunnisteeseen, ei kykene kuvaamaan tällaista kokonaisuutta riittävällä tarkkuudella. Objektikeskeinen prosessilouhinta mahdollistaa prosessien mallintamisen näiden objektien välisten suhteiden kautta ja tuottaa realistisemman perustan juurisyyanalyysille ja prosessien kehittämiselle (van der Aalst, 2022).
+
+Tapahtumatiedon hyödyntäminen edellyttää kuitenkin riittävää tiedon laatua ja johdonmukaisuutta. Puutteellinen tai epäyhtenäisesti määritelty tapahtumatieto heikentää analyysin luotettavuutta ja rajoittaa sen hyödynnettävyyttä, mikä korostaa systemaattisen tapahtumatiedon tuottamisen ja standardoitujen tietokäytäntöjen merkitystä. Kokonaisuutena tapahtumatieto muodostaa perustan dataohjautuvalle ja systeemiselle toimitusketjujen ja tuotantoprosessien kehittämiselle (van der Aalst, 2022).
 
 ### 2.1 GS1 EPCIS
+
+Tapahtumatiedon rakenteellinen yhteentoimivuus edellyttää käytännössä laajasti hyväksyttyjen standardien hyödyntämistä yksittäisten, tapauskohtaisten tiedostomallien sijaan. Tässä kontekstissa GS1:n EPCIS-standardi tarjoaa valmiin ja globaalisti hyödynnetyn mallin tapahtuma- ja jäljitettävyystiedon välittämiseen eri organisaatioiden ja tietojärjestelmien välillä. EPCIS on ISO-standardoitu ja sovellusriippumaton, ja se mahdollistaa tapahtumatiedon siirtämisen rakenteellisessa muodossa esimerkiksi XML- tai JSON-esityksinä ilman toimittajalukkoa. EPCIS täydentää olemassa olevia sanomaratkaisuja, kuten Peppol-verkostoa ja UBL-pohjaisia verkkolaskuja, jotka eivät sellaisenaan kata toimitusketjun tapahtumatietoon tai tuoteyksilöintiin liittyviä tietosisältöjä.
+
+EPCIS mahdollistaa mallin, jossa tuotetta koskeva tapahtumatieto rikastuu toimitusketjun edetessä siten, että kukin toimija lisää tuotteen digitaaliseen historiaan oman käsittelynsä ja siihen liittyvät tapahtumat. Näin muodostuu eheä ja todennettavissa oleva tapahtumaketju tuotteen alkuperästä sen loppukäyttöön. Tämä edellyttää olemassa olevan tuotetiedon huolellista kohdentamista standardin mukaisiin attribuutteihin, mutta kohdentaminen tehdään käytännössä vain kerran, minkä jälkeen standardi tukee laajasti erilaisia käyttötapauksia. EPCIS-standardin merkitys korostuu entisestään EU:n kestävyysraportointivaatimusten ja digitaalisten tuotepassien yleistyessä, jolloin tapahtumatiedon systemaattinen ja yhteentoimiva hallinta muodostuu keskeiseksi edellytykseksi toimitusketjujen läpinäkyvyydelle, luotettavuudelle ja sääntelyyn vastaamiselle.
 
 EPC Information Services (EPCIS) -ratkaisu perustuu kahteen standardoituun rajapintaan: Capture ja Query. Capture-rajapinta tallentaa EPCIS-tapahtumat EPCIS-tietovarastoon (EPCIS Repository), joka on pysyvä tietokanta ja jota voidaan käyttää Query-rajapinnan kautta. Standardi ei määrittele, miten tietokanta on toteutettu, vaan ainoastaan rajapinnat tiedon syöttämistä ja hakemista varten. Rajapintoja tarvitaan yhteentoimivuuden varmistamiseksi, kun taas toteutustavat mahdollistavat kilpailun teknologiaa ja EPC Information Service -palveluja tarjoavien toimijoiden välillä. EPCIS-tapahtumat kuvaavat toimitusketjun aikana kertyviä liiketoimintavaiheita, joihin sisältyy tyypillisesti aikaleima, sijainti (GLN) ja tapahtuman tyyppi (esim. pakkaus, lähetys ja vastaanotto). Näihin tapahtumiin voidaan päästä käsiksi organisaation sisällä tai niitä voidaan jakaa kumppaneille todennetun internet-yhteyden kautta. (METROPOLIA LOPPURAPORTTI, 2012)
 
@@ -82,34 +94,25 @@ Kaksi operaattoria osallistui 17. lokakuuta pidettyyn työpajaan: Itella ja Tiet
 Itellan näkemys EPCIS:stä sai yleisesti kannatusta osallistujien keskuudessa. Erityisesti vaatimus jokaisen käsiteltävän kollin yksilöllisestä tunnistamisesta nähtiin liian vaikeaksi ja kalliiksi toteuttaa lähitulevaisuudessa. Tämä haaste koskee myös viivakoodien käyttöä eikä ole RFID-teknologiaan sidottu.
 
 Esille tuotiin ehdotus DESADV- ja RECADV-sanomien käytöstä GS1 EANCOM -standardien mukaisesti, mutta sanomien sisällöstä ei saavutettu yksimielisyyttä. Toinen ongelma oli se, etteivät yritykset tällä hetkellä käytä GLN-tunnuksia eri osapuolten tunnistamiseen sanomaliikenteessä, vaikka GS1-määritykset sitä edellyttävät. Sovittiin, että GS1 järjestää projektin jälkeen tapaamisen, jossa kiinnostuneet osapuolet voivat yhdessä määritellä sanomien vähimmäissisällön ja saada lisätietoa GLN-tunnusten käytöstä.
-### 1.2 
+
+Toimitusketjujen ja talouden tiedonvaihdon keskeinen haaste ei liity yksittäisen tiedon puutteeseen, vaan tiedon rakenteelliseen yhteensopimattomuuteen. Eri järjestelmistä ja toimijoilta peräisin oleva “lähes samanlainen” data ei ole koneellisesti yhdistettävissä, mikä johtaa merkittävään manuaaliseen työhön, virheisiin ja tiedon käytettävyyden heikkenemiseen. Ilman yhteisiä rakenteita ja yhdenmukaisia tietomalleja tapahtumatiedon luotettava hyödyntäminen toimitusketjun yli ei ole mahdollista.
+
+Tapahtumatiedon yhtenäistämiseksi on välttämätöntä tukeutua laajasti hyväksyttyihin standardeihin yksittäisten, tapauskohtaisten tiedostomallien sijaan. Tässä kontekstissa GS1:n EPCIS-standardi tarjoaa valmiin ja globaalisti hyödynnetyn mallin tapahtuma- ja jäljitettävyystiedon välittämiseen eri organisaatioiden ja tietojärjestelmien välillä. EPCIS on ISO-standardoitu ja sovellusriippumaton, ja se mahdollistaa tapahtumatiedon siirtämisen rakenteellisessa muodossa esimerkiksi XML- tai JSON-esityksinä ilman toimittajalukkoa.
+
+Eurooppalaiset verkkolaskuverkostot, kuten Peppol ja sen taustalla oleva UBL, eivät sellaisenaan kata toimitusketjun tapahtumatietoon, kuljetusketjuun tai tuoteyksilöintiin liittyviä tietosisältöjä. EPCIS täydentää tätä kokonaisuutta toimimalla erillisenä tapahtumatietomallina, jota voidaan hyödyntää joko verkkolaskujen liitteenä tai täysin itsenäisesti järjestelmien välisessä tiedonvaihdossa. EPCIS-sanomat sisältävät teknistä ja jäljitettävyyteen liittyvää tietoa, eivät liiketoimintakriittistä hintainformaatiota, mikä tukee tiedon laajaa jakamista toimitusketjun osapuolten välillä.
+
+EPCIS mahdollistaa mallin, jossa tuotetta koskeva tapahtumatieto rikastuu toimitusketjun edetessä. Kukin toimija lisää tuotteen digitaaliseen historiaan oman käsittelynsä ja siihen liittyvät tapahtumat, jolloin muodostuu eheä ja todennettavissa oleva tapahtumaketju tuotteen alkuperästä sen loppukäyttöön. Tämä edellyttää olemassa olevan tuotetiedon huolellista kohdentamista standardin mukaisiin attribuutteihin, sillä virheellisesti määritelty tapahtumatieto heikentää koko ketjun luotettavuutta. Kohdentaminen tehdään kuitenkin käytännössä vain kerran, minkä jälkeen standardi tukee laajasti erilaisia käyttötapauksia.
+
+EPCIS-standardin merkitys korostuu entisestään EU:n kestävyysraportointivaatimusten ja digitaalisten tuotepassien yleistyessä. Standardi tarjoaa valmiin rakenteen sille tapahtuma- ja jäljitettävyystiedolle, jota yrityksiltä tullaan edellyttämään sekä liiketoimintakumppaneiden että viranomaisten suuntaan. Näin EPCIS ei ole ainoastaan tekninen ratkaisu tiedonsiirtoon, vaan keskeinen mahdollistaja toimitusketjujen läpinäkyvyydelle, luotettavuudelle ja sääntelyyn vastaamiselle.
+
+### 2.2 Toimintaympäristön tunnistetut haasteet tapahtumatiedon jakamisen osalta
+
+Rakennus- ja rakennustuoteteollisuudessa on tunnistettu, että GLN-tunnusten systemaattinen käyttö toimitusprosessien eri osapuolten yksiselitteiseen tunnistamiseen ei ole vakiintunut. Tämä korostuu erityisesti EDI-pohjaisessa tiedonvaihdossa, jossa osapuolitiedot esitetään usein epäyhtenäisillä tai tapauskohtaisilla tunnisteilla, vaikka GS1-määritykset edellyttävät GLN-tunnusten käyttöä osapuolten standardoidussa tunnistamisessa. GLN-tunnusten puutteellinen hyödyntäminen heikentää suoraan EPCIS-tapahtumatiedon yhteentoimivuutta, sillä EPCIS-mallissa tapahtumat kytkeytyvät toimijoihin ja sijainteihin nimenomaan standardoitujen tunnisteiden kautta. Ilman GLN-pohjaista osapuolitunnistusta EPCIS-tapahtumien luotettava yhdistäminen toimitusketjun eri toimijoiden välillä vaikeutuu, mikä rajoittaa tapahtumatiedon jäljitettävyyttä, analysoitavuutta ja uudelleenkäytettävyyttä toimitusketjun yli.
 
 
-## 2. Kehittämisen lähtökohdat tapahtumatiedon jakamiselle tilauksesta suunniteltavien rakennustuotteiden toimitusketjussa
-
-### 2.1 Tuoteyksilöinnin ja -tunnistamisen soveltamisohje
-BETK-työryhmä on laatinut ja julkaissut soveltamisohjeen betonielementtien tuoteyksilöintiin ja -tunnistamiseen, mikä toimii tapahtumatiedon jakamisen lähtökohtana. Laadittu soveltamisohje ... menetelmä GS1 standardien soveltamiseen ... (03) GTIN --> (242 MTO Variation number) --> (21) Serial)
-
-### 2.2 Toimintaympäristön tunnistetut tarpeet tapahtumatiedon jakamisen osalta
-
-### 2.3 Toimintaympäristön tunnistetut haasteet tapahtumatiedon jakamisen osalta
-
-Rakennus-ja rakennustuoteteollisuudessa yksi tunnistettu ongelmaToinen ongelma on se, etteivät yritykset tällä hetkellä käytä GLN-tunnuksia eri osapuolten tunnistamiseen toimitusprosesseissaan ja EDI-pohjainen tiedonvaihto ...vaikka GS1-määritykset sitä edellyttävät.
-
-
-EPC Information Services (EPCIS)
-
-
-
-
-
-`#0969DA`
-
-
-## 3. EPCIS ja CBV-standardien soveltaminen rakennusalan toimintaympäristössä
+## 3. Pohdintaa CBV-standardin soveltamisesta tilauksesta suunniteltavien rakennustuotteiden toimitusketjussa
 
 ### 3.1 Suunnitteluvaihe
-
 
 <img height="400" alt="EPCIS_vaihe_kuva1" src="https://github.com/user-attachments/assets/76e8572e-8050-4993-acf6-d83ac73c5cab" />
 
