@@ -44,25 +44,16 @@
 
 ## 1. Johdanto
 
-Tämä dokumentti on BETK-työryhmän keskustelupaperi, jonka tavoitteena on jäsentää ja koota havaintoja, tunnistettuja ongelmia ja kehityssuuntia tapahtumatiedon jakamiseen liittyen ja toimii mahdollisen toimialakohtaisen soveltamisohjeen lähtökohtana. Dokumentti ei ole normi, standardi eikä valmis ohje, vaan tarkoitettu yhteisen ymmärryksen rakentamiseen ja jatkokehityksen tueksi. Se kytkeytyy Rakennusteollisuus RT:n käynnissä olevaan rakennustuotetiedon ja toimitusketjujen digitalisaatiotyöhön, jossa pyritään siirtymään manuaalisesta ja rakenteettomasta tiedonvaihdosta kohti rakenteellista ja koneluettavaa tiedonhallintaa.
+Tämän keskustelupaperin tavoitteena on jäsentää ja koota havaintoja, tunnistettuja ongelmia ja kehityssuuntia tapahtumatiedon jakamiseen liittyen ja toimia mahdollisen toimialakohtaisen soveltamisohjeen lähtökohtana. Dokumentti ei ole normi, standardi eikä valmis ohje, vaan tarkoitettu yhteisen ymmärryksen rakentamiseen ja jatkokehityksen tueksi. Dokumentti kytkeytyy Rakennusteollisuus RT:n käynnissä olevaan toimitusketjujen digitaalisen hallinnan kehitystyöhön, jossa pyritään siirtymään manuaalisesta ja rakenteettomasta tiedonvaihdosta kohti rakenteellista ja koneluettavaa tiedonhallintaa.
 
-Tämä keskustelupaperi jatkaa BETK-työryhmän aiempaa työtä rakennustuotteiden tuoteyksilöinnin ja -tunnistamisen parissa. Siinä missä julkaistu soveltamisohje keskittyy fyysisten tuotteiden yksilöintiin ja tunnistamiseen, tämän dokumentin painopiste on yksilöityihin tuotteisiin kytkeytyvän tapahtumatiedon muodostumisessa, jakamisessa ja hyödyntämisessä toimitusketjun eri vaiheissa.
+Tämä keskustelupaperi kytkeytyy BETK-työryhmän aiemmin julkaisemaan tilauksesta suunniteltavien rakennustuotteiden tuoteyksilöinnin ja -tunnistamisen [soveltamisohjeeseen](https://github.com/BETK-Finland/BETK_Documents_FI/blob/main/02_soveltamisohjeet/Tuoteyksil%C3%B6innin%20ja%20-tunnistamisen%20yhteentoimivuuden%20soveltamisohje.md), mikä toimii tapahtumatiedon jakamisen lähtökohtana.
 
-2.1 Tuoteyksilöinnin ja -tunnistamisen soveltamisohje
-BETK-työryhmä on laatinut ja julkaissut soveltamisohjeen betonielementtien tuoteyksilöintiin ja -tunnistamiseen, mikä toimii tapahtumatiedon jakamisen lähtökohtana. Laadittu soveltamisohje ... menetelmä GS1 standardien soveltamiseen ... (03) GTIN --> (242 MTO Variation number) --> (21) Serial)
-
-
+Rakenteellisten tilauksesta suunniteltavien runkotuotteiden osalta tapahtumatiedon merkitys korostuu erityisesti asennusvaiheessa, jossa yksilöity fyysinen tuote asennetaan osaksi rakennettavaa kohdetta. Rajatuissa piloteissa on havaittu, että asennusvaiheessa tuotteiden suunniteltu ja toteutunut asennussijainti eivät välttämättä vastaa toisiaan. Mikäli yksittäisen elementin ominaisuuksissa havaitaan poikkeama, edellyttää tilanteen hallinta kykyä jäljittää kyseinen tuote ja sen todellinen asennussijainti yksiselitteisesti. Ilman rakenteellisesti määriteltyä ja jaettua tapahtumatietoa tuoteyksilöinnin ja toteutuneen asennuksen välinen yhteys voi katketa, mikä heikentää jäljitettävyyttä ja voi muodostaa rakenteellisen turvallisuusriskin. Tämän vuoksi asennussijaintiin kytkeytyvä tapahtumatieto on keskeinen edellytys tilauksesta suunniteltavien runkotuotteiden toimitusketjun luotettavuudelle, riskienhallinnalle ja elinkaaritiedon eheydelle.
 
 ## 1. Mitä on tapahtumatiedon jakaminen
 Toimitusketjujen kehittämistyössä on tunnistettu merkittävä tarve tuottaa ja jakaa tapahtumatietoa, joka tukee rakennustuotteiden jäljitettävyyttä koko niiden elinkaaren ajan. Tapahtumatiedolla tarkoitetaan tässä yhteydessä rakenteellista tietoa tuotetta koskevista tapahtumista, kuten valmistuksesta, varastoinnista, kuljetuksesta, vastaanotosta, asennuksesta sekä mahdollisesti myös suunnittelun, ylläpidon ja käytön aikaisista toimenpiteistä.
 
 Tapahtumatiedon systemaattinen tuottaminen ja jakaminen mahdollistaa siirtymisen dokumenttipohjaisesta ja jälkikäteisestä tiedonvaihdosta kohti reaaliaikaisempaa ja automaattisesti hyödynnettävää tiedonhallintaa. Erityisesti jäljitettävyyden näkökulmasta tapahtumatieto muodostaa keskeisen mekanismin, jonka avulla voidaan yhdistää tuotteen fyysinen sijainti, tila ja historia sitä koskevaan digitaaliseen tietoon toimitusketjun eri vaiheissa aina tuotevalmistuksesta asennukseen ja edelleen ylläpidon aikaisiin vaiheisiin.
-
-Toimitusketjun kehittämisessä tunnistettuna kehittämistarpeena on todettu tarve tuottaa tapahtumatietoa tuotteen toimitusketjun aikaiseen jäljitettävyyttä tuotevalmistuksesta asennuksen ja ylläpidon aikaiseen vaiheeseen.
-
-
-
-Rakenteellisten tilauksesta suunniteltavien runkotuotteiden osalta tapahtumatiedon merkitys korostuu erityisesti asennusvaiheessa, jossa yksilöity fyysinen tuote asennetaan osaksi rakennetta. Rajatuissa piloteissa on havaittu, että asennusvaiheessa tuotteita voidaan vaihtaa keskenään työmaan logististen reunaehtojen tai inhimillisten virheiden seurauksena, jolloin suunniteltu ja toteutunut asennussijainti eivät vastaa toisiaan. Mikäli yksittäisen elementin ominaisuuksissa havaitaan poikkeama, edellyttää tilanteen hallinta kykyä jäljittää kyseinen tuote ja sen todellinen asennussijainti yksiselitteisesti. Ilman rakenteellisesti määriteltyä ja jaettua tapahtumatietoa tuoteyksilöinnin ja toteutuneen asennuksen välinen yhteys voi katketa, mikä heikentää jäljitettävyyttä ja voi muodostaa rakenteellisen turvallisuusriskin. Tämän vuoksi asennussijaintiin kytkeytyvä tapahtumatieto on keskeinen edellytys tilauksesta suunniteltavien runkotuotteiden toimitusketjun luotettavuudelle, riskienhallinnalle ja elinkaaritiedon eheydelle.
 
 ### 1.1 GS1 EPCIS
 
