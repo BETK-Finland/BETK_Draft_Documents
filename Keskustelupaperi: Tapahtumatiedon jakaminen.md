@@ -42,12 +42,14 @@
 1. 
 ---
 
-## Dokumentin tarkoitus
+## 1. Dokumentin tarkoitus
 
 Tämä dokumentti on BETK-työryhmän keskustelupaperi, jonka tavoitteena on jäsentää ja koota havaintoja, tunnistettuja ongelmia ja kehityssuuntia tapahtumatiedon jakamiseen liittyen ja toimii mahdollisen toimialakohtaisen soveltamisohjeen lähtökohtana. Dokumentti ei ole normi, standardi eikä valmis ohje, vaan tarkoitettu yhteisen ymmärryksen rakentamiseen ja jatkokehityksen tueksi. Se kytkeytyy Rakennusteollisuus RT:n käynnissä olevaan rakennustuotetiedon ja toimitusketjujen digitalisaatiotyöhön, jossa pyritään siirtymään manuaalisesta ja rakenteettomasta tiedonvaihdosta kohti rakenteellista ja koneluettavaa tiedonhallintaa.
 
 Tämä keskustelupaperi jatkaa BETK-työryhmän aiempaa työtä rakennustuotteiden tuoteyksilöinnin ja -tunnistamisen parissa. Siinä missä julkaistu soveltamisohje keskittyy fyysisten tuotteiden yksilöintiin ja tunnistamiseen, tämän dokumentin painopiste on yksilöityihin tuotteisiin kytkeytyvän tapahtumatiedon muodostumisessa, jakamisessa ja hyödyntämisessä toimitusketjun eri vaiheissa.
 
+2.1 Tuoteyksilöinnin ja -tunnistamisen soveltamisohje
+BETK-työryhmä on laatinut ja julkaissut soveltamisohjeen betonielementtien tuoteyksilöintiin ja -tunnistamiseen, mikä toimii tapahtumatiedon jakamisen lähtökohtana. Laadittu soveltamisohje ... menetelmä GS1 standardien soveltamiseen ... (03) GTIN --> (242 MTO Variation number) --> (21) Serial)
 ## 1. Mitä on tapahtumatiedon jakaminen
 
 ### 1.1 GS1 EPCIS
