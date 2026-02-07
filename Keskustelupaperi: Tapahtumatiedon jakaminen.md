@@ -50,8 +50,13 @@ Tämä keskustelupaperi jatkaa BETK-työryhmän aiempaa työtä rakennustuotteid
 
 2.1 Tuoteyksilöinnin ja -tunnistamisen soveltamisohje
 BETK-työryhmä on laatinut ja julkaissut soveltamisohjeen betonielementtien tuoteyksilöintiin ja -tunnistamiseen, mikä toimii tapahtumatiedon jakamisen lähtökohtana. Laadittu soveltamisohje ... menetelmä GS1 standardien soveltamiseen ... (03) GTIN --> (242 MTO Variation number) --> (21) Serial)
-## 1. Mitä on tapahtumatiedon jakaminen
 
+
+
+## 1. Mitä on tapahtumatiedon jakaminen
+Toimitusketjujen kehittämistyössä on tunnistettu merkittävä tarve tuottaa ja jakaa tapahtumatietoa, joka tukee rakennustuotteiden jäljitettävyyttä koko niiden elinkaaren ajan. Tapahtumatiedolla tarkoitetaan tässä yhteydessä rakenteellista tietoa tuotetta koskevista tapahtumista, kuten valmistuksesta, varastoinnista, kuljetuksesta, vastaanotosta, asennuksesta sekä mahdollisesti myös suunnittelun, ylläpidon ja käytön aikaisista toimenpiteistä.
+
+Tapahtumatiedon systemaattinen tuottaminen ja jakaminen mahdollistaa siirtymisen dokumenttipohjaisesta ja jälkikäteisestä tiedonvaihdosta kohti reaaliaikaisempaa ja automaattisesti hyödynnettävää tiedonhallintaa. Erityisesti jäljitettävyyden näkökulmasta tapahtumatieto muodostaa keskeisen mekanismin, jonka avulla voidaan yhdistää tuotteen fyysinen sijainti, tila ja historia sitä koskevaan digitaaliseen tietoon toimitusketjun eri vaiheissa aina tuotevalmistuksesta asennukseen ja edelleen ylläpidon aikaisiin vaiheisiin.
 
 Toimitusketjun kehittämisessä tunnistettuna kehittämistarpeena on todettu tarve tuottaa tapahtumatietoa tuotteen toimitusketjun aikaiseen jäljitettävyyttä tuotevalmistuksesta asennuksen ja ylläpidon aikaiseen vaiheeseen.
 
