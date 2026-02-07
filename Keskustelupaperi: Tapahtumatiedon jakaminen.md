@@ -23,7 +23,7 @@
 |------------------|-------------------------------|
 | Teemu Alaluusua  | Aalto-yliopisto               |
 | Tom Partanen     | Consolis Parma Oy             |
-|Antti Taskinen    | Fira                          |
+| Antti Taskinen   | Fira                          |
 
 </details>
 
