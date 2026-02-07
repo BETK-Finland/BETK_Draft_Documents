@@ -104,10 +104,25 @@ EPC Information Services (EPCIS)
 
 
 ## 3. EPCIS ja CBV-standardien soveltaminen rakennusalan toimintaympäristössä
-### Suunnitteluvaihe
+
+### 3.1 Suunnitteluvaihe
 
 
 <img height="400" alt="EPCIS_vaihe_kuva1" src="https://github.com/user-attachments/assets/76e8572e-8050-4993-acf6-d83ac73c5cab" />
+
+<table>
+ <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+ 
+</table>
+
+
+
 
 
 <img height="400" alt="EPCIS_vaihe_kuva2" src="https://github.com/user-attachments/assets/bd2aa069-c152-45fe-842f-afe1f222a9ee" />
