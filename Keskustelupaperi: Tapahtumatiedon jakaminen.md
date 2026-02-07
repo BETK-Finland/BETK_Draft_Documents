@@ -114,6 +114,8 @@ Rakennus- ja rakennustuoteteollisuudessa on tunnistettu, että GLN-tunnusten sys
 
 ### 3.1 Suunnitteluvaihe
 
+CBV standardi ei nykyhetkellä sisällä vakioitua tietosisältöä suunnitteluvaiheen tapahtumista (statustieto), mitä hyödynnetään ja välitetään rakennusalalla tuotannonohjauksessa. Tunnistettuja vakiointi tarpeita tietokenttien osalta on tunnistettu alla olevassa taulukossa.
+
 <img height="400" alt="EPCIS_vaihe_kuva1" src="https://github.com/user-attachments/assets/76e8572e-8050-4993-acf6-d83ac73c5cab" />
 
 <table>
