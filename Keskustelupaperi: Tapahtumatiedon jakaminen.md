@@ -462,6 +462,656 @@ GS1 CBV standardi ei nykyhetkellä sisällä vakioitua tietosisältöä suunnitt
 ---
 
 
+### 3.3 Tiedonkantaja
+
+<html>
+<table>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th COLSPAN ="2">EHDOTUS YHDISTELMÄKSI</th>
+        <th COLSPAN ="2">OLEMASSA OLEVAT MAHDOLLISET</th>
+        <th COLSPAN ="2">MAHDOLLISET LISÄYKSET EPCIS</th>
+    </tr>
+    <tr>
+        <td>Liiketoimintavaihe</td>
+        <td>Tapahtuma</td>
+        <td>Käyttötarkoitus</td>
+        <td>Business Step</td>
+        <td>Dispositio</td>
+        <td>CBV-Business Step</td>
+        <td>CBV-Disposition</td>
+        <td>Business</td>
+        <td>Disposition</td>
+        <td>Kommentti</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Data Carrier</td>
+        <td>Odottaa tietoja tunnisteen ohjelmointia varten.</td>
+        <td></td>
+        <td>encoding</td>
+        <td>in_progress</td>
+        <td>encoding</td>
+        <td></td>
+        <td></td>
+        <td>awaiting_information</td>
+        <td>Ei välttämättä pakollinen</td>
+    </tr>
+    <tr>
+        <td>Data Carrier</td>
+        <td>Tunniste on ohjelmoitu tagille.</td>
+        <td>Tilannetta varten, jossa tunniste koodataan tagille ennen tagin liittämistä tuotteeseen. Mahdollisesti kolmas osapuoli tekee. </td>
+        <td>encoding</td>
+        <td>encoded</td>
+        <td>encoding</td>
+        <td>encoded</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Data Carrier</td>
+        <td>Tunniste on toiminnassa ja liitetty tuotteeseen.</td>
+        <td></td>
+        <td>encoding</td>
+        <td>active</td>
+        <td>encoding</td>
+        <td>active</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Data Carrier</td>
+        <td>Tunniste on deaktivoitu (kill-komento suoritettu).</td>
+        <td></td>
+        <td>killing</td>
+        <td>deactivated</td>
+        <td>killing</td>
+        <td>deactivated</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Data Carrier</td>
+        <td>Tunniste on pysyvästi poistettu käytöstä.</td>
+        <td></td>
+        <td>killing</td>
+        <td>destroyed</td>
+        <td>killing</td>
+        <td>destroyed</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</html>
+
+---
+
+
+### 3.4 Kuljetus
+
+<html>
+<table>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th COLSPAN ="2">EHDOTUS YHDISTELMÄKSI</th>
+        <th COLSPAN ="2">OLEMASSA OLEVAT MAHDOLLISET</th>
+        <th COLSPAN ="2">MAHDOLLISET LISÄYKSET EPCIS</th>
+    </tr>
+    <tr>
+        <td>Liiketoimintavaihe</td>
+        <td>Tapahtuma</td>
+        <td>Käyttötarkoitus</td>
+        <td>Business Step</td>
+        <td>Dispositio</td>
+        <td>CBV-Business Step</td>
+        <td>CBV-Disposition</td>
+        <td>Business</td>
+        <td>Disposition</td>
+        <td>Kommentti</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr
+        <tr>
+        <td>Kuljetus</td>
+        <td>Kuormattu</td>
+        <td></td>
+        <td>loading</td>
+        <td>available </td>
+        <td>loading</td>
+        <td>available, in_transit, container_closed</td>
+        <td></td>
+        <td></td>
+        <td>Liitetään SSCC:hen</td>
+    </tr>
+    <tr>
+        <td>Kuljetus</td>
+        <td>Lähtenyt työmaalle</td>
+        <td></td>
+        <td>departing</td>
+        <td>in_transit</td>
+        <td>departing, shipping,trasnporting</td>
+        <td>in_transit</td>
+        <td></td>
+        <td></td>
+        <td>Liitetään SSCC:hen</td>
+    </tr>
+    <tr>
+        <td>Kuljetus</td>
+        <td>Saapunut työmaalle</td>
+        <td>Kuorman saapumisaika. Voidaan verrata tilattuun. </td>
+        <td>arriving</td>
+        <td>available </td>
+        <td>arriving, receiving*, accepting,transporting</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Liitetään SSCC:hen</td>
+    </tr>
+    <tr>
+        <td>Kuljetus</td>
+        <td>Purku aloitettu</td>
+        <td>Purun aloitus. Nähdään onko myöhää, ja kirjauksilla käsiksi venttojen syihin. </td>
+        <td>unloading</td>
+        <td>in_progress</td>
+        <td>unloading</td>
+        <td>in_progress</td>
+        <td></td>
+        <td></td>
+        <td>Liitetään SSCC:hen</td>
+    </tr>
+    <tr>
+        <td>Kuljetus</td>
+        <td>Purku lopetettu</td>
+        <td>Purun kesto. </td>
+        <td>unloading</td>
+        <td>available</td>
+        <td>unloading</td>
+        <td>available</td>
+        <td></td>
+        <td>completed</td>
+        <td>Liitetään SSCC:hen</td>
+    </tr>
+</table>
+</html>
+
+ ---
+
+
+### 3.5 Työmaa
+
+<html>
+<table>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th COLSPAN ="2">EHDOTUS YHDISTELMÄKSI</th>
+        <th COLSPAN ="2">OLEMASSA OLEVAT MAHDOLLISET</th>
+        <th COLSPAN ="2">MAHDOLLISET LISÄYKSET EPCIS</th>
+    </tr>
+    <tr>
+        <td>Liiketoimintavaihe</td>
+        <td>Tapahtuma</td>
+        <td>Käyttötarkoitus</td>
+        <td>Business Step</td>
+        <td>Dispositio</td>
+        <td>CBV-Business Step</td>
+        <td>CBV-Disposition</td>
+        <td>Business</td>
+        <td>Disposition</td>
+        <td>Kommentti</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr
+<tr>
+        <td>Työmaa</td>
+        <td>Kuorma puutteellinen</td>
+        <td></td>
+        <td>void_shipping</td>
+        <td>mismatch_instance</td>
+        <td>void_shipping</td>
+        <td>mismatch_instance</td>
+        <td></td>
+        <td></td>
+        <td>Onko tarpeellinen, vai poikkeaman kautta. </td>
+    </tr>
+    <tr>
+        <td>Työmaa</td>
+        <td>Kuorma täydellinen</td>
+        <td></td>
+        <td>inspecting</td>
+        <td>completeness_verified</td>
+        <td>inspecting</td>
+        <td>completeness_verified</td>
+        <td></td>
+        <td></td>
+        <td>Onko tarpeellinen, vai vastanottotarkastuksesta. </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Työmaa</td>
+        <td>Vastaanotettu (vastaanottotarkastus)</td>
+        <td>Valmistajan laskutusperuste. </td>
+        <td>accepting</td>
+        <td>conformant</td>
+        <td>receiving, accepting</td>
+        <td>available</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Työmaa</td>
+        <td>Varastoitu ei käytettävissä</td>
+        <td>Seuraavan lohkon asennusedellytykset. </td>
+        <td>storing</td>
+        <td>unavailable</td>
+        <td>storing, stocking</td>
+        <td>unavailable, (sellable_not_accessible)</td>
+        <td></td>
+        <td></td>
+        <td>Tarvitseeko erikseen? Poikkeaman alalaji.</td>
+    </tr>
+    <tr>
+        <td>Työmaa</td>
+        <td>Varastoitu käytettävissä</td>
+        <td></td>
+        <td>storing </td>
+        <td>available</td>
+        <td>storing, stocking</td>
+        <td>available, sellable_accessible</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Työmaa</td>
+        <td>Asennus aloitettu</td>
+        <td>Asennuksen kesto.</td>
+        <td>installing</td>
+        <td>in_progress</td>
+        <td>installing</td>
+        <td>in_progress</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Työmaa</td>
+        <td>Asennus lopetettu</td>
+        <td>Asennuksen kesto.</td>
+        <td>installing</td>
+        <td>available</td>
+        <td>installing</td>
+        <td>available</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Työmaa</td>
+        <td>Betonielementti valettu</td>
+        <td>Tieto suunnitteluun. Tönäreiden poisto ja muottien purku. </td>
+        <td>casting</td>
+        <td>available</td>
+        <td>(assembling)</td>
+        <td>available</td>
+        <td>casting</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Työmaa</td>
+        <td>Laatutarkastettu ja hyväksytty (työmaan asennustarkastus)</td>
+        <td></td>
+        <td>inspecting</td>
+        <td>conformant</td>
+        <td>inspecting</td>
+        <td>conformant</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</html>
+
+  ---
+
+
+### 3.6 Poikkeama
+
+<html>
+<table>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th COLSPAN ="2">EHDOTUS YHDISTELMÄKSI</th>
+        <th COLSPAN ="2">OLEMASSA OLEVAT MAHDOLLISET</th>
+        <th COLSPAN ="2">MAHDOLLISET LISÄYKSET EPCIS</th>
+    </tr>
+    <tr>
+        <td>Liiketoimintavaihe</td>
+        <td>Tapahtuma</td>
+        <td>Käyttötarkoitus</td>
+        <td>Business Step</td>
+        <td>Dispositio</td>
+        <td>CBV-Business Step</td>
+        <td>CBV-Disposition</td>
+        <td>Business</td>
+        <td>Disposition</td>
+        <td>Kommentti</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>POIKKEAMA</td>
+        <td>Poikkeama havaittu</td>
+        <td></td>
+        <td>inspecting, error</td>
+        <td>non_conformant</td>
+        <td>inspecting</td>
+        <td>non_conformant</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>POIKKEAMA</td>
+        <td>Poikkeama käsittelyssä</td>
+        <td>Toimenpiteitä vaaditaan. </td>
+        <td>error</td>
+        <td>in_progress</td>
+        <td></td>
+        <td>in_progress//non_conformant, unavailable</td>
+        <td>error</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>POIKKEAMA</td>
+        <td>Poikkeama valmis</td>
+        <td></td>
+        <td>error, inspecting</td>
+        <td>completed, available,conformant</td>
+        <td>0</td>
+        <td>available//conformant</td>
+        <td>error</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>POIKKEAMA</td>
+        <td>Eristetty jatkokäsittelyyn</td>
+        <td></td>
+        <td>error, holding</td>
+        <td>unavailable</td>
+        <td>holding</td>
+        <td>unavailable</td>
+        <td>error</td>
+        <td></td>
+        <td>onko tarve tälle erikseen</td>
+    </tr>
+    <tr>
+        <td>POIKKEAMA</td>
+        <td>Hylätty, poistettu käytöstä.</td>
+        <td></td>
+        <td>error, removing</td>
+        <td>disposed</td>
+        <td>0</td>
+        <td>need_replacement, disposed</td>
+        <td>error</td>
+        <td>scrapped</td>
+        <td>onko tarve erikseen. Nyt tuplana myös huolto. </td>
+    </tr>
+    <tr>
+        <td>POIKKEAMA</td>
+        <td>Vaurioitunut</td>
+        <td></td>
+        <td>error</td>
+        <td>damaged</td>
+        <td>inspecting</td>
+        <td>damaged</td>
+        <td></td>
+        <td></td>
+        <td>onko tälle tarve erikseen, vain yksi poikkeaman alalaji. Kuitenkin täytyy olla jokin toinen keino jakaa muu poikkeamatieto. </td>
+    </tr>
+    <tr>
+        <td>POIKKEAMA</td>
+        <td>Palautettu</td>
+        <td></td>
+        <td>error, receiving</td>
+        <td>returned</td>
+        <td>departing,receiving, shipping</td>
+        <td>returned</td>
+        <td>returned</td>
+        <td></td>
+        <td>onko tälle tarve erikseen, vain yksi poikkeaman alalaji. Kuitenkin täytyy olla jokin toinen keino jakaa muu poikkeamatieto.</td>
+    </tr>
+</table>
+</html>
+
+ ---
+
+
+### 3.7 Ylläpito & elinkaari
+
+<html>
+<table>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th COLSPAN ="2">EHDOTUS YHDISTELMÄKSI</th>
+        <th COLSPAN ="2">OLEMASSA OLEVAT MAHDOLLISET</th>
+        <th COLSPAN ="2">MAHDOLLISET LISÄYKSET EPCIS</th>
+    </tr>
+    <tr>
+        <td>Liiketoimintavaihe</td>
+        <td>Tapahtuma</td>
+        <td>Käyttötarkoitus</td>
+        <td>Business Step</td>
+        <td>Dispositio</td>
+        <td>CBV-Business Step</td>
+        <td>CBV-Disposition</td>
+        <td>Business</td>
+        <td>Disposition</td>
+        <td>Kommentti</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr
+  <tr>
+        <td>Käytönaikaiset</td>
+        <td>Odottaa lähtötietoja ennen huoltotoimenpiteitä.</td>
+        <td></td>
+        <td>repairing</td>
+        <td>awaiting_information</td>
+        <td>holding</td>
+        <td>in_progress</td>
+        <td>maintenance, communication</td>
+        <td>awaiting_information</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Käytönaikaiset</td>
+        <td>Huoltoaikataulutettu.</td>
+        <td></td>
+        <td>repairing</td>
+        <td>scheduled</td>
+        <td>0</td>
+        <td>0</td>
+        <td>maintenance, scheduling</td>
+        <td>scheduled</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Käytönaikaiset</td>
+        <td>Huolto käynnissä</td>
+        <td></td>
+        <td>repairing</td>
+        <td>in_progress</td>
+        <td>repairing</td>
+        <td>unavailable</td>
+        <td>maintenance</td>
+        <td>in_progress</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Käytönaikaiset</td>
+        <td>Tuote korjattu</td>
+        <td></td>
+        <td>repairing</td>
+        <td>conformant</td>
+        <td>0</td>
+        <td>available, conformant</td>
+        <td>maintenance</td>
+        <td>operational</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Käytönaikaiset</td>
+        <td>Tuote vaatii korjausta</td>
+        <td></td>
+        <td>repairing, inspecting</td>
+        <td>non_conformant</td>
+        <td>repairing</td>
+        <td>non_conformant</td>
+        <td>maintenance</td>
+        <td>requires_repair</td>
+        <td>Olisiko poikkeaman kautta?</td>
+    </tr>
+    <tr>
+        <td>Elinkaaren loppu</td>
+        <td>Poistetaan käytöstä.</td>
+        <td></td>
+        <td>removing</td>
+        <td>disposed</td>
+        <td>removing</td>
+        <td>disposed</td>
+        <td></td>
+        <td>end_of_life</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Elinkaaren loppu</td>
+        <td>Purettu kokonaisena</td>
+        <td></td>
+        <td>removing, disassembling</td>
+        <td>available</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Elinkaaren loppu</td>
+        <td>Kierrätetty uudelleenkäyttöön. </td>
+        <td></td>
+        <td>collecting</td>
+        <td>re_used</td>
+        <td></td>
+        <td>conformant</td>
+        <td></td>
+        <td>re_used</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Elinkaaren loppu</td>
+        <td>Kierrätetty materiaalina. </td>
+        <td></td>
+        <td>collecting</td>
+        <td>recycled</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>recycled</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Elinkaaren loppu</td>
+        <td>Hävitetty</td>
+        <td></td>
+        <td>destroying</td>
+        <td>destroyed</td>
+        <td>destroying</td>
+        <td>destroyed</td>
+        <td></td>
+        <td>disposed</td>
+        <td></td>
+    </tr>
+</table>
+</html>
 
 ---
 
