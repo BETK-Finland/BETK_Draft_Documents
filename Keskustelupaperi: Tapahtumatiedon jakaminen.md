@@ -169,10 +169,10 @@ GS1 CBV standardi ei nykyhetkellä sisällä vakioitua tietosisältöä suunnitt
 
 <table>
     <tr>
-        <td>Business step</td>
-        <td>Definition</td>
-        <td>Example of use</td>
-        <td>Comment</td>
+        <td><b>Business step</b></td>
+        <td><b>Definition</b></td>
+        <td><b>Example of use</b></td>
+        <td><b>Comment</b></td>
     </tr>
     <tr>
         <td></td>
@@ -239,6 +239,12 @@ GS1 CBV standardi ei nykyhetkellä sisällä vakioitua tietosisältöä suunnitt
  <table>
    <tr>
         <td><b>Disposition</b></td>
+        <td><b>Definition</b></td>
+        <td><b>Example of use</b></td>
+        <td><b>Comment</b></td>
+    </tr>
+     <tr>
+        <td><b></b></td>
         <td><b></b></td>
         <td><b></b></td>
         <td><b></b></td>
