@@ -86,24 +86,52 @@ Rakennus- ja rakennustuoteteollisuudessa on tunnistettu, että GLN-tunnusten sys
 
 ## 3. Pohdintaa CBV-standardin soveltamisesta tilauksesta suunniteltavien rakennustuotteiden toimitusketjussa
 
-Rakennusteollisuuden alla toimivassa BETK-työryhmässä on tutkittu CBV-tietokenttiä ja pyrkinyt tunnistamaan sekä mäppäämään olemassa olevia CBV Business step ja disposition tietosisältöjä toimitusketjun tarpeita varten. Rakennus- ja rakennustuoteteollisuuden prosesseissa hyödynnetään jonkin verran vakioimattomia statustieto sisältöjä, mm suunnittelu- ja tuotantovaiheessa kuvaamaan prosessin vaiheita tuotekeskeisestä näkökulmasta. 
+Rakennusteollisuuden alla toimivassa BETK-työryhmässä on tutkittu CBV-tietokenttiä ja pyrkinyt tunnistamaan sekä mäppäämään olemassa olevia CBV Business step ja disposition tietosisältöjä tilauksesta suunniteltavien rakennustuotteiden (mm. betonielementtit) toimitusketjun tarpeita varten. Rakennus- ja rakennustuoteteollisuuden prosesseissa hyödynnetään jonkin verran vakioimattomia statustieto sisältöjä, mm suunnittelu- ja tuotantovaiheessa kuvaamaan prosessin vaiheita tuotekeskeisestä näkökulmasta. 
 
 ### 3.1 Suunnitteluvaihe
 
 GS1 CBV standardi ei nykyhetkellä sisällä vakioitua tietosisältöä suunnitteluvaiheen tapahtumista (statustieto), mitä hyödynnetään ja välitetään rakennusalalla tuotannonohjauksessa. Tunnistettuja vakiointi tarpeita CBV tietokenttien osalta on tunnistettu alla olevassa taulukossa.
 
-<img height="400" alt="EPCIS_vaihe_kuva1" src="https://github.com/user-attachments/assets/76e8572e-8050-4993-acf6-d83ac73c5cab" />
-
+<html>
 <table>
- <td> </td>
-  <td> </td>
-  <td> </td>
-  <td> </td>
-  <td> </td>
-  <td> </td>
-  <td> </td>
- 
+    <tbody>
+        <tr>            
+          <th rowspan="7"><img height="400" alt="EPCIS_vaihe_kuva1" src="https://github.com/user-attachments/assets/76e8572e-8050-4993-acf6-d83ac73c5cab" />
+            </th>   
+         <th><b> Business Step</b></th>
+         <th><b> Disposition</b></th>
+         <th><b> Selite</b></th>
+        </tr>
+        <tr>
+            <td>design</td>
+            <td></td>
+            <td></td>
+        </tr><tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr><tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr><tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr><tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr><tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
 </table>
+</html>
+
+---
 
 
 
