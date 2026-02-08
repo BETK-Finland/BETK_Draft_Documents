@@ -252,9 +252,7 @@ GS1 CBV standardi ei nykyhetkellä sisällä vakioitua tietosisältöä suunnitt
 ---
 
 
-### 3.2 uotevalmistus
-
-
+### 3.2 Tuotevalmistus
 
 
 <html>
@@ -461,10 +459,13 @@ GS1 CBV standardi ei nykyhetkellä sisällä vakioitua tietosisältöä suunnitt
     </tr>
 </table>
 
+---
 
 
 
-## Rakennusalan erityistarpeisiin kohdistuvat CBV-statuslisäykset
+---
+
+## 4. Rakennusalan erityistarpeisiin kohdistuvat CBV-statuslisäykset
 
 <table>
     <tr>
