@@ -234,35 +234,14 @@ GS1 CBV standardi ei nykyhetkellä sisällä vakioitua tietosisältöä suunnitt
         <td>Faulty product is due to repair, but is waiting guide/plan.</td>
         <td>Optional also expressable via new CBV dispositions (dispositions being the preferred way). </td>
     </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Disposition</td>
-        <td></td>
-        <td></td>
-        <td></td>
+ </table>
+
+ <table>
+   <tr>
+        <td><b>Disposition</b></td>
+        <td><b></b></td>
+        <td><b></b></td>
+        <td><b></b></td>
     </tr>
     <tr>
         <td>awaiting_information</td>
