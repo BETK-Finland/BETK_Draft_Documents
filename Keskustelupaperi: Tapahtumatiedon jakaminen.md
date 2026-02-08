@@ -36,10 +36,22 @@
 
  </details>
 
- 
 ## Sisällysluettelo
-1. [Dokumentin tarkoitus](#dokumentin-tarkoitus)<br>
-1. 
+
+1. [Johdanto](#1-johdanto)<br>
+2. [Miksi edistää tapahtumatiedon jakamisen käyttöönottoa?](#2-miksi-edistää-tapahtumatiedon-jakamisen-käyttöönottoa)<br>
+   2.1. [GS1 EPCIS](#21-gs1-epcis)<br>
+   2.2. [Toimintaympäristön tunnistetut haasteet tapahtumatiedon jakamisen osalta](#22-toimintaympäristön-tunnistetut-haasteet-tapahtumatiedon-jakamisen-osalta)<br>
+3. [Pohdintaa CBV-standardin soveltamisesta tilauksesta suunniteltavien rakennustuotteiden toimitusketjussa](#3-pohdintaa-cbv-standardin-soveltamisesta-tilauksesta-suunniteltavien-rakennustuotteiden-toimitusketjussa)<br>
+  3.1. [Suunnitteluvaihe](#31-suunnitteluvaihe)<br>
+  3.2. [Tuotevalmistus](#32-tuotevalmistus)<br>
+  3.3. [Tiedonkantaja](#33-tiedonkantaja)<br>
+  3.4. [Kuljetus](#34-kuljetus)<br>
+  3.5. [Työmaa](#35-työmaa)<br>
+  3.6. [Poikkeama](#36-poikkeama)<br>
+  3.7. [Ylläpito ja elinkaari](#37-ylläpito--elinkaari)<br>
+4. [Rakennusalan erityistarpeisiin kohdistuvat CBV-statuslisäykset](#4-rakennusalan-erityistarpeisiin-kohdistuvat-cbv-statuslisäykset)<br>
+
 ---
 
 ## 1. Johdanto
