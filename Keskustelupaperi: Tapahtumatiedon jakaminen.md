@@ -2,7 +2,7 @@
 
 
 >Julkaisija: Rakennusteollisuus ry\
->Luonnos: 06.02.2026
+>Luonnos: 08.02.2026
 
 <details>
 <summary>Asiakirjan tiedot </summary>
@@ -10,7 +10,7 @@
 | Selite                | Arvo                                                                |
 |-----------------------|---------------------------------------------------------------------|
 | Asiakirjan nimi       | BETK keskustelupaperi: Tapahtumatiedon jakaminen toimitusketjussa |
-| Asiakirjan päivämäärä | 06.02.2026                                                         |
+| Asiakirjan päivämäärä | 08.02.2026                                                         |
 | Asiakirjan versio     | 0.0.1                                                                 |
 | Asiakirjan status     | Luonnos                                                             |
 
@@ -32,7 +32,7 @@
 
 | Versio  | Päivämäärä  | Tekijä  | Muutoskuvaus               |
 |---------|-------------|---------|----------------------------|
-| 0.0.1   | 6.2.2026    | TAla    | Luonnos vaihe              |
+| 0.0.1   | 8.2.2026    | TAla    | Luonnos vaihe              |
 
  </details>
 
