@@ -88,79 +88,378 @@ Rakennus- ja rakennustuoteteollisuudessa on tunnistettu, että GLN-tunnusten sys
 
 Rakennusteollisuuden alla toimivassa BETK-työryhmässä on tutkittu CBV-tietokenttiä ja pyrkinyt tunnistamaan sekä mäppäämään olemassa olevia CBV Business step ja disposition tietosisältöjä tilauksesta suunniteltavien rakennustuotteiden (mm. betonielementtit) toimitusketjun tarpeita varten. Rakennus- ja rakennustuoteteollisuuden prosesseissa hyödynnetään jonkin verran vakioimattomia statustieto sisältöjä, mm suunnittelu- ja tuotantovaiheessa kuvaamaan prosessin vaiheita tuotekeskeisestä näkökulmasta. 
 
+<img height="400" alt="EPCIS_vaihe_kuva1" src="https://github.com/user-attachments/assets/76e8572e-8050-4993-acf6-d83ac73c5cab" />
+<img height="400" alt="EPCIS_vaihe_kuva2" src="https://github.com/user-attachments/assets/bd2aa069-c152-45fe-842f-afe1f222a9ee" />
+<img height="400" alt="EPCIS_vaihe_kuva3" src="https://github.com/user-attachments/assets/0b2bb02b-0ca7-4e92-b8f6-e9207cc142b5" />
+<img height="400" alt="EPCIS_vaihe_kuva4" src="https://github.com/user-attachments/assets/df209a45-f4a6-497a-bf6b-3b62ba7d42c3" />
+<img height="400" alt="EPCIS_vaihe_kuva5" src="https://github.com/user-attachments/assets/3d0f2429-6206-4e29-b700-1982857dcb58" />
+<img height="400" alt="EPCIS_vaihe_kuva6" src="https://github.com/user-attachments/assets/7c1d495e-c1d5-4e96-9c73-1afefa449a05" />
+<img height="400" alt="EPCIS_vaihe_kuva7" src="https://github.com/user-attachments/assets/45a3d722-37ab-4d05-a19b-5e4e0ec69194" />
+<img height="400" alt="EPCIS_vaihe_kuva8" src="https://github.com/user-attachments/assets/ac006553-80e2-4625-8870-7223103eddc7" />
+<img height="400" alt="EPCIS_vaihe_kuva9" src="https://github.com/user-attachments/assets/e8b47ac9-02c8-432b-847d-fe27ae0f16d0" />
+
 ### 3.1 Suunnitteluvaihe
 
 GS1 CBV standardi ei nykyhetkellä sisällä vakioitua tietosisältöä suunnitteluvaiheen tapahtumista (statustieto), mitä hyödynnetään ja välitetään rakennusalalla tuotannonohjauksessa. Tunnistettuja vakiointi tarpeita CBV tietokenttien osalta on tunnistettu alla olevassa taulukossa.
 
 <html>
 <table>
-    <tbody>
-        <tr>            
-          <th rowspan="7"><img height="400" alt="EPCIS_vaihe_kuva1" src="https://github.com/user-attachments/assets/76e8572e-8050-4993-acf6-d83ac73c5cab" />
-            </th>   
-         <th><b> Business Step</b></th>
-         <th><b> Disposition</b></th>
-         <th><b> Selite</b></th>
-        </tr>
-        <tr>
-            <td>design</td>
-            <td></td>
-            <td></td>
-        </tr><tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr><tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr><tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr><tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr><tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </tbody>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th COLSPAN ="2">EHDOTUS YHDISTELMÄKSI</th>
+        <th COLSPAN ="2">OLEMASSA OLEVAT MAHDOLLISET</th>
+        <th COLSPAN ="2">MAHDOLLISET LISÄYKSET EPCIS</th>
+    </tr>
+    <tr>
+        <td>Liiketoimintavaihe</td>
+        <td>Tapahtuma</td>
+        <td>Käyttötarkoitus</td>
+        <td>Business Step</td>
+        <td>Dispositio</td>
+        <td>CBV-Business Step</td>
+        <td>CBV-Disposition</td>
+        <td>Business</td>
+        <td>Disposition</td>
+        <td>Kommentti</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Suunnittelu</td>
+        <td>Odottaa lähtötietoja</td>
+        <td>Pääurakoitsijalle tieto, että suunnittelijalta puuttuu jotain. </td>
+        <td>designing</td>
+        <td>awaiting_information</td>
+        <td></td>
+        <td>0</td>
+        <td>communication, designing</td>
+        <td>awaiting_information</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Suunnittelu</td>
+        <td>Lähtötiedot vastaanotettu</td>
+        <td>Pääurakoitsijalle tieto, että suunnittelijalla kaikki ok.</td>
+        <td>designing</td>
+        <td>information_received</td>
+        <td>0</td>
+        <td>0</td>
+        <td>communication, designing</td>
+        <td>information_received</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Suunnittelu</td>
+        <td>Suunnittelu käynnissä</td>
+        <td>Tilannekuva.</td>
+        <td>designing</td>
+        <td>in_progress</td>
+        <td>0</td>
+        <td>in_progress</td>
+        <td>designing</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Suunnittelu</td>
+        <td>Suunnitteluvaihe valmis </td>
+        <td>Tieto muille suunnittelualoille, että työn voi aloittaa. Tilannekuva. </td>
+        <td>designing</td>
+        <td>available</td>
+        <td>0</td>
+        <td></td>
+        <td>designing</td>
+        <td>approved</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Suunnittelu</td>
+        <td>Suunnitelma valmis</td>
+        <td>Tilannekuva. </td>
+        <td>designing</td>
+        <td>completed</td>
+        <td>staging_outbound</td>
+        <td>active,available</td>
+        <td>designing</td>
+        <td>completed</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Suunnittelu</td>
+        <td>Suunnitelma tarkastettu ja julkaistu</td>
+        <td>Tilannekuva. </td>
+        <td>designing</td>
+        <td>conformant</td>
+        <td>departing</td>
+        <td>available</td>
+        <td>designing</td>
+        <td>completed</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Suunnittelu</td>
+        <td>Suunnitelma muutos käsittelyssä</td>
+        <td>Tilannekuva. </td>
+        <td>design_change</td>
+        <td>in_progress</td>
+        <td>holding</td>
+        <td>in_progress</td>
+        <td>designing_change</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Suunnittelu</td>
+        <td>Suunnitelma muutos valmis</td>
+        <td>Tilannekuva. </td>
+        <td>design_change</td>
+        <td>completed</td>
+        <td>0</td>
+        <td>conformant</td>
+        <td>designing_change</td>
+        <td>completed</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Suunnittelu/Tuotevalmistus</td>
+        <td>Elementin GUID tai SGTIN poistetaan</td>
+        <td>Oleellinen tieto järjestelmien toiminnalle. Tieto, että täytyy luoda uusi ja välittää se. </td>
+        <td>decommissioning</td>
+        <td>inactive</td>
+        <td>decommissioning</td>
+        <td>inactive</td>
+        <td></td>
+        <td></td>
+        <td>Ei välttämättä pakollinen</td>
+    </tr>
 </table>
 </html>
+
+
 
 ---
 
 
+### 3.2 uotevalmistus
 
 
 
-<img height="400" alt="EPCIS_vaihe_kuva2" src="https://github.com/user-attachments/assets/bd2aa069-c152-45fe-842f-afe1f222a9ee" />
 
-
-<img height="400" alt="EPCIS_vaihe_kuva3" src="https://github.com/user-attachments/assets/0b2bb02b-0ca7-4e92-b8f6-e9207cc142b5" />
-
-
-<img height="400" alt="EPCIS_vaihe_kuva4" src="https://github.com/user-attachments/assets/df209a45-f4a6-497a-bf6b-3b62ba7d42c3" />
-
-
-<img height="400" alt="EPCIS_vaihe_kuva5" src="https://github.com/user-attachments/assets/3d0f2429-6206-4e29-b700-1982857dcb58" />
-
-
-<img height="400" alt="EPCIS_vaihe_kuva6" src="https://github.com/user-attachments/assets/7c1d495e-c1d5-4e96-9c73-1afefa449a05" />
-
-
-<img height="400" alt="EPCIS_vaihe_kuva7" src="https://github.com/user-attachments/assets/45a3d722-37ab-4d05-a19b-5e4e0ec69194" />
-
-
-<img height="400" alt="EPCIS_vaihe_kuva8" src="https://github.com/user-attachments/assets/ac006553-80e2-4625-8870-7223103eddc7" />
-
-
-<img height="400" alt="EPCIS_vaihe_kuva9" src="https://github.com/user-attachments/assets/e8b47ac9-02c8-432b-847d-fe27ae0f16d0" />
-
-
+<html>
+<table>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th COLSPAN ="2">EHDOTUS YHDISTELMÄKSI</th>
+        <th COLSPAN ="2">OLEMASSA OLEVAT MAHDOLLISET</th>
+        <th COLSPAN ="2">MAHDOLLISET LISÄYKSET EPCIS</th>
+    </tr>
+    <tr>
+        <td>Liiketoimintavaihe</td>
+        <td>Tapahtuma</td>
+        <td>Käyttötarkoitus</td>
+        <td>Business Step</td>
+        <td>Dispositio</td>
+        <td>CBV-Business Step</td>
+        <td>CBV-Disposition</td>
+        <td>Business</td>
+        <td>Disposition</td>
+        <td>Kommentti</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Odottaa suunnitelmia (lähtötietoja)</td>
+        <td>Tieto suunnittelijalle, että suunnitelmat eivät ole saapuneet. Tilannekuva. </td>
+        <td>producing</td>
+        <td>awaiting_information</td>
+        <td></td>
+        <td>0</td>
+        <td>communication</td>
+        <td>awaiting_information</td>
+        <td>Yhdistelmät katsottava järkevästi, tietty biz-step toimii vain tietyn disposition kanssa.</td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Suunnitelmat vastaanotettu</td>
+        <td>Tilannekuva. Suunnittelijan aikataulussa pysyminen. </td>
+        <td>producing</td>
+        <td>information_received</td>
+        <td>arriving, (receiving)</td>
+        <td>available</td>
+        <td>communication</td>
+        <td>information_received</td>
+        <td>Yhdistelmät katsottava järkevästi, tietty biz-step toimii vain tietyn disposition kanssa.</td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Suunnitelmat hylätty</td>
+        <td>Tieto suunnittelijalle ja pääurakoitsijalle, että muutoksia tarvitaan. </td>
+        <td> producing</td>
+        <td>information_rejected</td>
+        <td>arriving</td>
+        <td>returned</td>
+        <td></td>
+        <td>rejected</td>
+        <td>Yhdistelmät katsottava järkevästi, tietty biz-step toimii vain tietyn disposition kanssa.</td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Suunnitelma lukittu, elementti ohjelmoitu valuun.</td>
+        <td>Tieto pääurakoitsijalle, että toimituspäivä vahvistettu. </td>
+        <td>accepting</td>
+        <td>information_received</td>
+        <td>accepting, (receiving)</td>
+        <td>conformant</td>
+        <td></td>
+        <td></td>
+        <td>Yhdistelmät katsottava järkevästi, tietty biz-step toimii vain tietyn disposition kanssa.</td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Elementti saanut SGTINin yksilöivän tunnuksen</td>
+        <td>Tilannekuva.</td>
+        <td>commissioning</td>
+        <td>active</td>
+        <td>commissioning, (creating_class_instance)</td>
+        <td>active</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Valmistuskiellossa</td>
+        <td>Tilannekuva. Häiriötieto.</td>
+        <td>holding, error</td>
+        <td>unavailable</td>
+        <td>holding</td>
+        <td>unavailable, (recalled)</td>
+        <td></td>
+        <td></td>
+        <td>Tämä erikseen vai poikkeama eristyksen  kautta?</td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Valmistus aloitettu</td>
+        <td>Tieto pääurakoitsijalle, että työ etenee.</td>
+        <td>producing</td>
+        <td>in_progress</td>
+        <td>0</td>
+        <td>in_progress</td>
+        <td>producing</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Valmistettu</td>
+        <td>Tilannekuva. Valmistajan laskutusperuste. </td>
+        <td>producing</td>
+        <td>available</td>
+        <td>0</td>
+        <td>available</td>
+        <td>producing</td>
+        <td>completed</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Laatutarkastettu ja hyväksytty (tehtaan laatutarkastus)</td>
+        <td>Tilannekuva. </td>
+        <td>inspecting</td>
+        <td>conformant</td>
+        <td>inspecting</td>
+        <td>conformant, (available, active)</td>
+        <td></td>
+        <td>under_quality_control</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Valmis toimitettavaksi</td>
+        <td></td>
+        <td>staging_outbound</td>
+        <td>available</td>
+        <td>dispensing, staging_outbound, stocking</td>
+        <td>available</td>
+        <td></td>
+        <td>ready_for shipping</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Kotiinkutsuttu työmaalle</td>
+        <td></td>
+        <td>shipping</td>
+        <td>requested</td>
+        <td>other</td>
+        <td>0</td>
+        <td>ordering, scheduling</td>
+        <td>requested</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Kuormatunnus (SSCC) luotu</td>
+        <td></td>
+        <td>creating_class_instance</td>
+        <td>active</td>
+        <td>creating_class_instance</td>
+        <td>active</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Toimituspäivä vahvistettu</td>
+        <td></td>
+        <td>shipping</td>
+        <td>scheduled</td>
+        <td>schedule, other</td>
+        <td>0</td>
+        <td>ordering, scheduling</td>
+        <td>confirmed</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Tuotevalmistus</td>
+        <td>Lähetetty</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>departing</td>
+        <td>in_transit</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 
 
 
