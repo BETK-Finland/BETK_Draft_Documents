@@ -1291,9 +1291,12 @@ GS1 CBV standardi ei nykyhetkellä sisällä vakioitua tietosisältöä suunnitt
 # 🇫🇮 Tapahtumatiedon jakaminen GS1 EPCIS toimitusketjuhallinta standardin mukaan 
 :building_construction::articulated_lorry:
 Lähdeaineistot:
-1. [EPCIS Sandbox](https://epcis-sandbox.gs1.org/)
-2. [EPCIS Standard](https://ref.gs1.org/standards/epcis/)
-3. [EPCIS and CBV Implementation Guideline](https://www.gs1.org/docs/epc/EPCIS_Guideline.pdf)
-4. [Core Business Vocabulary (CBV) Standard](https://ref.gs1.org/standards/cbv/)
-5. [Launch](https://www.gs1.org/docs/epcis/epcis_2-0_launch.pdf)
+1. [BETK: Tuoteyksilöinnin ja -tunnistamisen soveltamisohje](https://github.com/BETK-Finland/BETK_Documents_FI/blob/main/02_soveltamisohjeet/Tuoteyksil%C3%B6innin%20ja%20-tunnistamisen%20yhteentoimivuuden%20soveltamisohje.md)
+2. [GS1](https://ref.gs1.org/standards/genspecs/)
+3. [GS1 general Specifications](https://www.gs1.org/standards/barcodes-epcrfid-id-keys/gs1-general-specifications)
+4. [EPCIS Sandbox](https://epcis-sandbox.gs1.org/)
+5. [EPCIS Standard](https://ref.gs1.org/standards/epcis/)
+6. [EPCIS and CBV Implementation Guideline](https://www.gs1.org/docs/epc/EPCIS_Guideline.pdf)
+7. [Core Business Vocabulary (CBV) Standard](https://ref.gs1.org/standards/cbv/)
+8. [Launch](https://www.gs1.org/docs/epcis/epcis_2-0_launch.pdf)
 
